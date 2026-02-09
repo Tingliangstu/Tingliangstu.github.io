@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications | Ting Liang</title>
+  <meta name="description" content="Publication list for Ting Liang.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Source+Serif+4:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script defer src="../assets/js/main.js"></script>
+</head>
+<body data-page="publications">
+  <div class="background-orb orb-a"></div>
+  <div class="background-orb orb-b"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="../index.html">Ting Liang</a>
+      <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+      <nav class="site-nav" id="site-nav">
+        <a href="../index.html#about">About</a>
+        <a href="../index.html#research">Research</a>
+        <a href="../index.html#news">News</a>
+        <a href="./index.html">Publications</a>
+        <a href="../index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section reveal">
+      <p class="eyebrow">Research Output</p>
+      <h1 class="page-title">Publications</h1>
+      <p class="page-subtitle">
+        This list is generated from <code>data/publications.json</code> and grouped by year.
+        Use the filters below to view all records or only selected publications.
+      </p>
+    </section>
+
+    <section class="section reveal">
+      <div class="filter-panel">
+        <label for="year-filter">Year</label>
+        <select id="year-filter">
+          <option value="all">All years</option>
+        </select>
+        <label class="checkbox">
+          <input id="selected-only" type="checkbox">
+          <span>Selected only</span>
+        </label>
+        <span id="publication-count" class="meta">0 entries</span>
+      </div>
+      <div id="publications-list" class="publication-list publication-list-full"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>&copy; <span id="current-year"></span> Ting Liang. All rights reserved.</p>
+      <p><a href="../index.html">Back to home</a></p>
+    </div>
+  </footer>
+</body>
+</html>

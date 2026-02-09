@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">Ting Liang avatar placeholder</title>
+  <desc id="desc">A placeholder avatar tile with the initials TL.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#68b58d" />
+      <stop offset="100%" stop-color="#0c7c59" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="640" rx="42" fill="url(#bg)" />
+  <g opacity="0.22">
+    <circle cx="530" cy="130" r="95" fill="#ffffff" />
+    <circle cx="130" cy="530" r="120" fill="#ffffff" />
+  </g>
+  <text x="50%" y="52%" text-anchor="middle" font-size="230" font-weight="700" font-family="Georgia, 'Times New Roman', serif" fill="#ffffff">TL</text>
+</svg>
