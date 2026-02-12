@@ -62,7 +62,7 @@
       "summary": "Please add one concise sentence describing the key methodological and scientific contribution.",
       "selected": true,
       "role": "first-author",
-      "icon": "assets/img/works/fa-vdw-limit.png",
+      "icon": "assets/img/works/Gr-hBN.png",
       "links": {
         "journal": "https://doi.org/10.1038/s41524-025-01885-y",
         "doi": "https://doi.org/10.1038/s41524-025-01885-y"
@@ -77,7 +77,7 @@
       "summary": "Please add one concise sentence describing the key methodological and scientific contribution.",
       "selected": true,
       "role": "first-author",
-      "icon": "assets/img/works/fa-pysed.png",
+      "icon": "assets/img/works/pysed.png",
       "links": {
         "journal": "https://doi.org/10.1063/5.0278798",
         "doi": "https://doi.org/10.1063/5.0278798",
@@ -93,7 +93,7 @@
       "summary": "Please add one concise sentence describing the key methodological and scientific contribution.",
       "selected": true,
       "role": "first-author",
-      "icon": "assets/img/works/fa-silica.png",
+      "icon": "assets/img/works/a-Sio2.png",
       "links": {
         "journal": "https://doi.org/10.1103/PhysRevB.108.184203",
         "doi": "https://doi.org/10.1103/PhysRevB.108.184203"
