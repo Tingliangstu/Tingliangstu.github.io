@@ -34,8 +34,8 @@
       <p class="eyebrow">Research Output</p>
       <h1 class="page-title">Publications</h1>
       <p class="page-subtitle">
-        This list is generated from <code>data/publications.json</code> and grouped by year.
-        Use the filters below to view all records or only selected publications.
+        This page lists first-author, co-first, corresponding-author, and co-author papers from the CV dataset.
+        Click each title to open the journal page or preprint link directly.
       </p>
     </section>
 
@@ -44,6 +44,14 @@
         <label for="year-filter">Year</label>
         <select id="year-filter">
           <option value="all">All years</option>
+        </select>
+        <label for="role-filter">Role</label>
+        <select id="role-filter">
+          <option value="all">All roles</option>
+          <option value="first-author">First Author</option>
+          <option value="co-first-author">Co-first Author</option>
+          <option value="corresponding-author">Corresponding Author</option>
+          <option value="co-author">Co-author</option>
         </select>
         <label class="checkbox">
           <input id="selected-only" type="checkbox">
