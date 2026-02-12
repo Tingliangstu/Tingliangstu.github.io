@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ting Liang | Academic Homepage</title>
-  <meta name="description" content="Academic homepage of Ting Liang: research interests, representative works, first-author publications, and CV.">
+  <meta name="description" content="Academic homepage of Ting Liang: research interests, representative publications, software, and CV.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Source+Serif+4:wght@500;600;700&display=swap" rel="stylesheet">
@@ -22,8 +22,10 @@
       <nav class="site-nav" id="site-nav">
         <a href="#about">About</a>
         <a href="#research">Research</a>
-        <a href="#representative">Representative Works</a>
-        <a href="#first-author">First-author Works</a>
+        <a href="#news">News</a>
+        <a href="#representative">Publications</a>
+        <a href="#software">Software</a>
+        <a href="#peer-reviews">Peer Reviews</a>
         <a href="#contact">Contact</a>
         <a class="nav-link-strong" href="publications/index.html">All Publications</a>
       </nav>
@@ -37,22 +39,22 @@
         <h1>Ting Liang</h1>
         <p class="hero-subtitle">Computational Materials Physics and Chemistry</p>
         <p class="hero-description">
-          I am a PhD researcher at the Chinese University of Hong Kong. My research focuses on thermal transport,
-          atomistic simulations, and machine-learning interatomic potentials. This website is designed in an
-          al-folio-inspired style and serves as the central hub for my publications and research projects.
+          I am a doctoral researcher at the Chinese University of Hong Kong. My work combines molecular dynamics,
+          DFT-informed modeling, and AI4Science methods to study phonon transport in low-dimensional and complex materials.
+          This website hosts representative publications, software releases, and research updates.
         </p>
         <div class="hero-links">
           <a id="scholar-link" class="button" href="https://scholar.google.com/citations?hl=en&user=4ei1O30AAAAJ" target="_blank" rel="noreferrer">Google Scholar</a>
           <a id="github-link" class="button button-secondary" href="https://github.com/Tingliangstu" target="_blank" rel="noreferrer">GitHub</a>
+          <a id="orcid-link" class="button button-secondary" href="https://orcid.org/my-orcid?orcid=0000-0002-3116-365X" target="_blank" rel="noreferrer">ORCID</a>
           <a id="cv-link" class="button button-secondary" href="assets/cv/Ting_Liang_CV.pdf" download>Download CV</a>
-          <a class="button button-secondary" href="publications/index.html">All Publications</a>
         </div>
       </div>
       <aside class="profile-card">
         <img src="assets/img/ting-liang.jpg" alt="Profile photo of Ting Liang">
-        <p><strong>Affiliation:</strong> <span id="affiliation-text">Chinese University of Hong Kong</span></p>
+        <p><strong>Affiliation:</strong> <span id="affiliation-text">Department of Electronic Engineering, The Chinese University of Hong Kong</span></p>
         <p><strong>Email:</strong> <span id="email-text">tingliang@link.cuhk.edu.hk</span></p>
-        <p><strong>Verified domain:</strong> <span id="email-domain-text">link.cuhk.edu.hk</span></p>
+        <p><strong>Backup Email:</strong> <span id="backup-email-text">liangting.zj@gmail.com</span></p>
         <div class="profile-stats">
           <div class="stat-box">
             <span class="stat-value" id="stat-publications">0</span>
@@ -77,9 +79,10 @@
     <section id="about" class="section container reveal">
       <h2>About</h2>
       <p>
-        Born in Guangxi, China. Doctoral researcher in Electronic Engineering at CUHK, supervised by Prof. Jianbin Xu.
-        My work combines molecular dynamics, DFT-informed modeling, and AI4Science methods to understand and control
-        phonon transport in low-dimensional and complex material systems.
+        Born in Guangxi, China. PhD candidate in Electronic Engineering at CUHK, supervised by
+        <a href="https://scholar.google.com/citations?user=bdqiHxIAAAAJ&hl=en" target="_blank" rel="noreferrer">Prof. Jianbin Xu</a>.
+        My research focuses on thermal transport, machine-learning interatomic potentials, and data-driven methodologies
+        for functional materials. I actively work on open-source tools for atomistic simulations and reproducible workflows.
       </p>
     </section>
 
@@ -88,35 +91,50 @@
       <div id="research-keywords" class="chip-list">
         <span class="chip">Thermal transport and advanced computational methodologies</span>
         <span class="chip">Molecular dynamics and DFT calculations of phononic properties</span>
-        <span class="chip">Machine-learning interatomic potentials and foundation models</span>
-        <span class="chip">AI for Science in multifunctional material systems</span>
+        <span class="chip">Machine-learning interatomic potentials and foundational models</span>
+        <span class="chip">AI for Science in multi-functional material systems</span>
       </div>
+    </section>
+
+    <section id="news" class="section container reveal">
+      <h2>News</h2>
+      <ul id="news-list" class="news-list"></ul>
     </section>
 
     <section id="representative" class="section container reveal">
       <div class="section-heading">
-        <h2>Five Representative Works</h2>
-        <a class="text-link" href="publications/index.html">View all publications</a>
+        <h2>Five Representative Publications</h2>
+        <a class="text-link" href="publications/index.html">View full publication list</a>
       </div>
+      <p class="meta author-note"># co-first author, * corresponding author</p>
       <div id="representative-works-list" class="work-grid"></div>
     </section>
 
-    <section id="first-author" class="section container reveal">
+    <section id="software" class="section container reveal">
       <div class="section-heading">
-        <h2>First-author Works</h2>
-        <span class="meta">Each card includes icon placeholder, one-line summary space, and code link.</span>
+        <h2>Software</h2>
       </div>
-      <div id="first-author-works-list" class="project-stack"></div>
+      <div id="software-list" class="software-grid"></div>
+    </section>
+
+    <section id="peer-reviews" class="section container reveal">
+      <div class="section-heading">
+        <h2>Peer Reviews</h2>
+        <a id="peer-orcid-link" class="text-link" href="https://orcid.org/my-orcid?orcid=0000-0002-3116-365X" target="_blank" rel="noreferrer">Source: ORCID</a>
+      </div>
+      <ul id="peer-reviews-list" class="peer-review-list"></ul>
     </section>
 
     <section id="contact" class="section container reveal">
       <h2>Contact</h2>
       <p>Department of Electronic Engineering, The Chinese University of Hong Kong, Hong Kong SAR</p>
-      <p>Email: <a href="mailto:tingliang@link.cuhk.edu.hk">tingliang@link.cuhk.edu.hk</a></p>
+      <p>Primary email: <a href="mailto:tingliang@link.cuhk.edu.hk">tingliang@link.cuhk.edu.hk</a></p>
+      <p>Backup email: <a href="mailto:liangting.zj@gmail.com">liangting.zj@gmail.com</a></p>
       <p>
         Links:
         <a id="contact-scholar-link" href="https://scholar.google.com/citations?hl=en&user=4ei1O30AAAAJ" target="_blank" rel="noreferrer">Google Scholar</a> |
         <a id="contact-github-link" href="https://github.com/Tingliangstu" target="_blank" rel="noreferrer">GitHub</a> |
+        <a id="contact-orcid-link" href="https://orcid.org/my-orcid?orcid=0000-0002-3116-365X" target="_blank" rel="noreferrer">ORCID</a> |
         <a id="contact-cv-link" href="assets/cv/Ting_Liang_CV.pdf" download>CV PDF</a>
       </p>
     </section>

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Publications | Ting Liang</title>
-  <meta name="description" content="Publication list for Ting Liang.">
+  <meta name="description" content="Publication list of Ting Liang with role annotations and direct journal links.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Source+Serif+4:wght@500;600;700&display=swap" rel="stylesheet">
@@ -23,7 +23,8 @@
         <a href="../index.html#about">About</a>
         <a href="../index.html#research">Research</a>
         <a href="../index.html#news">News</a>
-        <a href="./index.html">Publications</a>
+        <a href="../index.html#representative">Publications</a>
+        <a href="../index.html#software">Software</a>
         <a href="../index.html#contact">Contact</a>
       </nav>
     </div>
@@ -31,12 +32,12 @@
 
   <main class="container">
     <section class="section reveal">
-      <p class="eyebrow">Research Output</p>
-      <h1 class="page-title">Publications</h1>
+      <p class="eyebrow">Publications</p>
+      <h1 class="page-title">Selected and Full Publication List</h1>
       <p class="page-subtitle">
-        This page lists first-author, co-first, corresponding-author, and co-author papers from the CV dataset.
-        Click each title to open the journal page or preprint link directly.
+        Style inspired by academic bibliography pages. Click each title to open the corresponding journal/preprint page.
       </p>
+      <p class="meta author-note">Notation: <strong>#</strong> co-first author; <strong>*</strong> corresponding author.</p>
     </section>
 
     <section class="section reveal">
@@ -48,14 +49,14 @@
         <label for="role-filter">Role</label>
         <select id="role-filter">
           <option value="all">All roles</option>
-          <option value="first-author">First Author</option>
-          <option value="co-first-author">Co-first Author</option>
-          <option value="corresponding-author">Corresponding Author</option>
+          <option value="first-author">First author</option>
+          <option value="co-first-author">Co-first author</option>
+          <option value="corresponding-author">Corresponding author</option>
           <option value="co-author">Co-author</option>
         </select>
         <label class="checkbox">
           <input id="selected-only" type="checkbox">
-          <span>Selected only</span>
+          <span>Representative only</span>
         </label>
         <span id="publication-count" class="meta">0 entries</span>
       </div>

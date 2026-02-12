@@ -3,16 +3,17 @@
     "name": "Ting Liang",
     "affiliation": "Department of Electronic Engineering, The Chinese University of Hong Kong",
     "email": "tingliang@link.cuhk.edu.hk",
-    "verified_email_domain": "link.cuhk.edu.hk",
+    "backup_email": "liangting.zj@gmail.com",
     "scholar_user": "4ei1O30AAAAJ",
     "scholar_url": "https://scholar.google.com/citations?hl=en&user=4ei1O30AAAAJ",
     "github_url": "https://github.com/Tingliangstu",
+    "orcid_url": "https://orcid.org/my-orcid?orcid=0000-0002-3116-365X",
     "cv_url": "assets/cv/Ting_Liang_CV.pdf",
     "research_interests": [
       "Thermal transport and development of advanced computational methodologies",
       "Molecular dynamics and DFT calculations of phononic properties",
-      "Machine-learning interatomic potentials and development of foundation models",
-      "AI for Science applications in multifunctional material systems"
+      "Machine-learning interatomic potentials and development of foundational models",
+      "AI for Science applications in multi-functional material systems"
     ],
     "stats": {
       "publications": 61,
@@ -21,16 +22,46 @@
       "i10_index": 39
     }
   },
+  "news": [
+    {
+      "date": "2026-02",
+      "text": "Personal website refactored with CV download, software, peer reviews, and publication role annotations (# co-first, * corresponding)."
+    },
+    {
+      "date": "2025-06",
+      "text": "Invited talk on NEP89 at The 1st GPUMD Developers Conference and Frontier Seminar on AI Molecular Dynamics, Ningbo."
+    },
+    {
+      "date": "2024-10",
+      "text": "Invited talk on machine-learning potentials for thermal transport at the International Joint Seminar on Mechanical Engineering 2024."
+    }
+  ],
   "representative_works": [
+    {
+      "id": "rep-nep89-2026",
+      "title": "NEP89: Universal neuroevolution potential for inorganic and organic materials across 89 elements",
+      "authors": "<strong>T. Liang</strong>, K. Xu, E. Lindgren, Z. Chen, R. Zhao, J. Liu, E. Berger, B. Tang, and others",
+      "venue": "Nature Computational Science (revision submitted)",
+      "year": 2026,
+      "summary": "Please add one concise sentence describing the key methodological and scientific contribution.",
+      "selected": true,
+      "role": "first-author",
+      "icon": "assets/img/works/fa-nep89.png",
+      "links": {
+        "journal": "https://arxiv.org/abs/2504.21286",
+        "code": "https://github.com/Tingliangstu/GPUMD"
+      }
+    },
     {
       "id": "rep-vdw-limit-2026",
       "title": "Probing the ideal limit of interfacial thermal conductance in two-dimensional van der Waals heterostructures",
-      "authors": "T. Liang, K. Xu, P. Ying, W. Jiang, M. Han, X. Wu, W. Ouyang, Y. Yao, X. Zeng, Z. Ye, Z. Fan, and J. Xu",
+      "authors": "<strong>T. Liang</strong>, K. Xu, P. Ying, W. Jiang, M. Han, X. Wu, W. Ouyang, Y. Yao, X. Zeng, Z. Ye, Z. Fan, and J. Xu",
       "venue": "npj Computational Materials 12, 11",
       "year": 2026,
-      "summary": "Please add one concise sentence to describe the scientific novelty of this work.",
+      "summary": "Please add one concise sentence describing the key methodological and scientific contribution.",
       "selected": true,
       "role": "first-author",
+      "icon": "assets/img/works/fa-vdw-limit.png",
       "links": {
         "journal": "https://doi.org/10.1038/s41524-025-01885-y",
         "doi": "https://doi.org/10.1038/s41524-025-01885-y"
@@ -39,12 +70,13 @@
     {
       "id": "rep-pysed-2025",
       "title": "PYSED: A tool for extracting kinetic-energy-weighted phonon dispersion and lifetime from molecular dynamics simulations",
-      "authors": "T. Liang, W. Jiang, K. Xu, H. Bu, Z. Fan, W. Ouyang, and J. Xu",
+      "authors": "<strong>T. Liang</strong>, W. Jiang, K. Xu, H. Bu, Z. Fan, W. Ouyang, and J. Xu",
       "venue": "Journal of Applied Physics 138, 075101",
       "year": 2025,
-      "summary": "Please add one concise sentence to describe the scientific novelty of this work.",
+      "summary": "Please add one concise sentence describing the key methodological and scientific contribution.",
       "selected": true,
       "role": "first-author",
+      "icon": "assets/img/works/fa-pysed.png",
       "links": {
         "journal": "https://doi.org/10.1063/5.0278798",
         "doi": "https://doi.org/10.1063/5.0278798",
@@ -52,166 +84,85 @@
       }
     },
     {
-      "id": "rep-amorphous-silica-2023",
+      "id": "rep-silica-2023",
       "title": "Mechanisms of temperature-dependent thermal transport in amorphous silica from machine-learning molecular dynamics",
-      "authors": "T. Liang, P. Ying, K. Xu, Z. Ye, C. Ling, Z. Fan, and J. Xu",
+      "authors": "<strong>T. Liang</strong>, P. Ying, K. Xu, Z. Ye, C. Ling, Z. Fan, and J. Xu",
       "venue": "Physical Review B 108, 184203",
       "year": 2023,
-      "summary": "Please add one concise sentence to describe the scientific novelty of this work.",
+      "summary": "Please add one concise sentence describing the key methodological and scientific contribution.",
       "selected": true,
       "role": "first-author",
+      "icon": "assets/img/works/fa-silica.png",
       "links": {
         "journal": "https://doi.org/10.1103/PhysRevB.108.184203",
         "doi": "https://doi.org/10.1103/PhysRevB.108.184203"
       }
     },
     {
-      "id": "rep-diamond-nw-2022",
+      "id": "rep-diamond-2022",
       "title": "Abnormally high thermal conductivity in fivefold twinned diamond nanowires",
-      "authors": "T. Liang, K. Xu, M. Han, Y. Yao, Z. Zhang, X. Zeng, J. Xu, and J. Wu",
+      "authors": "<strong>T. Liang</strong>, K. Xu, M. Han, Y. Yao, Z. Zhang, X. Zeng, J. Xu, and J. Wu",
       "venue": "Materials Today Physics 27, 100705",
       "year": 2022,
-      "summary": "Please add one concise sentence to describe the scientific novelty of this work.",
+      "summary": "Please add one concise sentence describing the key methodological and scientific contribution.",
       "selected": true,
       "role": "first-author",
+      "icon": "assets/img/works/fa-diamond.png",
       "links": {
         "journal": "https://doi.org/10.1016/j.mtphys.2022.100705",
         "doi": "https://doi.org/10.1016/j.mtphys.2022.100705"
       }
-    },
-    {
-      "id": "rep-graphene-hbn-2020",
-      "title": "Multilayer in-plane graphene/hexagonal boron nitride heterostructures: Insights into the interfacial thermal transport properties",
-      "authors": "T. Liang, M. Zhou, P. Zhang, P. Yuan, and D. Yang",
-      "venue": "International Journal of Heat and Mass Transfer 151, 119395",
-      "year": 2020,
-      "summary": "Please add one concise sentence to describe the scientific novelty of this work.",
-      "selected": true,
-      "role": "first-author",
-      "links": {
-        "journal": "https://doi.org/10.1016/j.ijheatmasstransfer.2019.119395",
-        "doi": "https://doi.org/10.1016/j.ijheatmasstransfer.2019.119395"
-      }
     }
   ],
-  "first_author_works": [
+  "software": [
     {
-      "id": "fa-nep89-2026",
-      "title": "NEP89: Universal neuroevolution potential for inorganic and organic materials across 89 elements",
-      "venue": "Nature Computational Science (revision submitted)",
-      "year": 2026,
-      "summary": "Add one sentence here to briefly explain this first-author work.",
-      "icon": "assets/img/works/fa-nep89.png",
-      "role": "first-author",
-      "links": {
-        "journal": "https://arxiv.org/abs/2504.21286",
-        "code": "https://github.com/Tingliangstu/GPUMD"
-      }
+      "id": "software-pysed",
+      "name": "pySED",
+      "tagline": "Python toolkit for extracting kinetic-energy-weighted phonon dispersion and lifetime from molecular dynamics.",
+      "description": "Open-source software maintained by Ting Liang and collaborators, with documentation, examples, and publication support for SED analysis workflows.",
+      "logo": "assets/img/pysed-logo.png",
+      "stars": 51,
+      "language": "Python",
+      "homepage": "https://pysed.readthedocs.io",
+      "repository": "https://github.com/Tingliangstu/pySED",
+      "paper": "https://doi.org/10.1063/5.0278798"
+    }
+  ],
+  "peer_reviews": [
+    {
+      "journal": "ACS Applied Materials & Interfaces",
+      "count": 2
     },
     {
-      "id": "fa-vdw-limit-2026",
-      "title": "Probing the ideal limit of interfacial thermal conductance in two-dimensional van der Waals heterostructures",
-      "venue": "npj Computational Materials 12, 11",
-      "year": 2026,
-      "summary": "Add one sentence here to briefly explain this first-author work.",
-      "icon": "assets/img/works/fa-vdw-limit.png",
-      "role": "first-author",
-      "links": {
-        "journal": "https://doi.org/10.1038/s41524-025-01885-y",
-        "doi": "https://doi.org/10.1038/s41524-025-01885-y",
-        "code": "#"
-      }
+      "journal": "Carbon Trends",
+      "count": 1
     },
     {
-      "id": "fa-pysed-2025",
-      "title": "PYSED: A tool for extracting kinetic-energy-weighted phonon dispersion and lifetime from molecular dynamics simulations",
-      "venue": "Journal of Applied Physics 138, 075101",
-      "year": 2025,
-      "summary": "Add one sentence here to briefly explain this first-author work.",
-      "icon": "assets/img/works/fa-pysed.png",
-      "role": "first-author",
-      "links": {
-        "journal": "https://doi.org/10.1063/5.0278798",
-        "doi": "https://doi.org/10.1063/5.0278798",
-        "code": "https://github.com/Tingliangstu/pySED"
-      }
+      "journal": "Diamond & Related Materials",
+      "count": 1
     },
     {
-      "id": "fa-amorphous-silica-2023",
-      "title": "Mechanisms of temperature-dependent thermal transport in amorphous silica from machine-learning molecular dynamics",
-      "venue": "Physical Review B 108, 184203",
-      "year": 2023,
-      "summary": "Add one sentence here to briefly explain this first-author work.",
-      "icon": "assets/img/works/fa-silica.png",
-      "role": "first-author",
-      "links": {
-        "journal": "https://doi.org/10.1103/PhysRevB.108.184203",
-        "doi": "https://doi.org/10.1103/PhysRevB.108.184203",
-        "code": "#"
-      }
+      "journal": "Friction",
+      "count": 1
     },
     {
-      "id": "fa-diamond-nw-2022",
-      "title": "Abnormally high thermal conductivity in fivefold twinned diamond nanowires",
-      "venue": "Materials Today Physics 27, 100705",
-      "year": 2022,
-      "summary": "Add one sentence here to briefly explain this first-author work.",
-      "icon": "assets/img/works/fa-diamond.png",
-      "role": "first-author",
-      "links": {
-        "journal": "https://doi.org/10.1016/j.mtphys.2022.100705",
-        "doi": "https://doi.org/10.1016/j.mtphys.2022.100705",
-        "code": "#"
-      }
+      "journal": "Journal of Applied Physics",
+      "count": 2
     },
     {
-      "id": "fa-graphene-hbn-2020",
-      "title": "Multilayer in-plane graphene/hexagonal boron nitride heterostructures: Insights into the interfacial thermal transport properties",
-      "venue": "International Journal of Heat and Mass Transfer 151, 119395",
-      "year": 2020,
-      "summary": "Add one sentence here to briefly explain this first-author work.",
-      "icon": "assets/img/works/fa-graphene-hbn.png",
-      "role": "first-author",
-      "links": {
-        "journal": "https://doi.org/10.1016/j.ijheatmasstransfer.2019.119395",
-        "doi": "https://doi.org/10.1016/j.ijheatmasstransfer.2019.119395",
-        "code": "#"
-      }
+      "journal": "npj Computational Materials",
+      "count": 2
     },
     {
-      "id": "fa-borophene-2019",
-      "title": "A molecular dynamics study on the thermal conductivities of single- and multi-layer two-dimensional borophene",
-      "venue": "Nano Futures 3, 015001",
-      "year": 2019,
-      "summary": "Add one sentence here to briefly explain this first-author work.",
-      "icon": "assets/img/works/fa-borophene.png",
-      "role": "first-author",
-      "links": {
-        "journal": "https://doi.org/10.1088/2399-1984/ab0454",
-        "doi": "https://doi.org/10.1088/2399-1984/ab0454",
-        "code": "#"
-      }
-    },
-    {
-      "id": "fa-bp-graphene-2018",
-      "title": "In-plane thermal transport in black phosphorene/graphene layered heterostructures: a molecular dynamics study",
-      "venue": "Physical Chemistry Chemical Physics 20, 21151-21162",
-      "year": 2018,
-      "summary": "Add one sentence here to briefly explain this first-author work.",
-      "icon": "assets/img/works/fa-bp-graphene.png",
-      "role": "first-author",
-      "links": {
-        "journal": "https://doi.org/10.1039/C8CP03353G",
-        "doi": "https://doi.org/10.1039/C8CP03353G",
-        "code": "#"
-      }
+      "journal": "Physica Scripta",
+      "count": 1
     }
   ],
   "publications": [
     {
       "id": "pub-nep89-2026",
       "title": "NEP89: Universal neuroevolution potential for inorganic and organic materials across 89 elements",
-      "authors": "T. Liang, K. Xu, E. Lindgren, Z. Chen, R. Zhao, J. Liu, E. Berger, B. Tang, and others",
+      "authors": "<strong>T. Liang</strong>, K. Xu, E. Lindgren, Z. Chen, R. Zhao, J. Liu, E. Berger, B. Tang, B. Zhang, Y. Wang, K. Song, P. Ying, N. Xu, H. Dong, S. Chen, P. Erhart, Z. Fan, T. Ala-Nissila, and J. Xu",
       "venue": "Nature Computational Science (revision submitted)",
       "year": 2026,
       "role": "first-author",
@@ -224,7 +175,7 @@
     {
       "id": "pub-vdw-limit-2026",
       "title": "Probing the ideal limit of interfacial thermal conductance in two-dimensional van der Waals heterostructures",
-      "authors": "T. Liang, K. Xu, P. Ying, W. Jiang, M. Han, X. Wu, W. Ouyang, Y. Yao, X. Zeng, Z. Ye, Z. Fan, and J. Xu",
+      "authors": "<strong>T. Liang</strong>, K. Xu, P. Ying, W. Jiang, M. Han, X. Wu, W. Ouyang, Y. Yao, X. Zeng, Z. Ye, Z. Fan, and J. Xu",
       "venue": "npj Computational Materials 12, 11",
       "year": 2026,
       "role": "first-author",
@@ -237,7 +188,7 @@
     {
       "id": "pub-pysed-2025",
       "title": "PYSED: A tool for extracting kinetic-energy-weighted phonon dispersion and lifetime from molecular dynamics simulations",
-      "authors": "T. Liang, W. Jiang, K. Xu, H. Bu, Z. Fan, W. Ouyang, and J. Xu",
+      "authors": "<strong>T. Liang</strong>, W. Jiang, K. Xu, H. Bu, Z. Fan, W. Ouyang, and J. Xu",
       "venue": "Journal of Applied Physics 138, 075101",
       "year": 2025,
       "role": "first-author",
@@ -251,7 +202,7 @@
     {
       "id": "pub-silica-2023",
       "title": "Mechanisms of temperature-dependent thermal transport in amorphous silica from machine-learning molecular dynamics",
-      "authors": "T. Liang, P. Ying, K. Xu, Z. Ye, C. Ling, Z. Fan, and J. Xu",
+      "authors": "<strong>T. Liang</strong>, P. Ying, K. Xu, Z. Ye, C. Ling, Z. Fan, and J. Xu",
       "venue": "Physical Review B 108, 184203",
       "year": 2023,
       "role": "first-author",
@@ -264,7 +215,7 @@
     {
       "id": "pub-diamond-2022",
       "title": "Abnormally high thermal conductivity in fivefold twinned diamond nanowires",
-      "authors": "T. Liang, K. Xu, M. Han, Y. Yao, Z. Zhang, X. Zeng, J. Xu, and J. Wu",
+      "authors": "<strong>T. Liang</strong>, K. Xu, M. Han, Y. Yao, Z. Zhang, X. Zeng, J. Xu, and J. Wu",
       "venue": "Materials Today Physics 27, 100705",
       "year": 2022,
       "role": "first-author",
@@ -275,9 +226,9 @@
       }
     },
     {
-      "id": "pub-graphene-hbn-2020",
+      "id": "pub-ijhmt-2020",
       "title": "Multilayer in-plane graphene/hexagonal boron nitride heterostructures: Insights into the interfacial thermal transport properties",
-      "authors": "T. Liang, M. Zhou, P. Zhang, P. Yuan, and D. Yang",
+      "authors": "<strong>T. Liang</strong>, M. Zhou, P. Zhang, P. Yuan, and D. Yang",
       "venue": "International Journal of Heat and Mass Transfer 151, 119395",
       "year": 2020,
       "role": "first-author",
@@ -290,7 +241,7 @@
     {
       "id": "pub-borophene-2019",
       "title": "A molecular dynamics study on the thermal conductivities of single- and multi-layer two-dimensional borophene",
-      "authors": "T. Liang, P. Zhang, P. Yuan, S. Zhai, and D. Yang",
+      "authors": "<strong>T. Liang</strong>, P. Zhang, P. Yuan, S. Zhai, and D. Yang",
       "venue": "Nano Futures 3, 015001",
       "year": 2019,
       "role": "first-author",
@@ -301,9 +252,9 @@
       }
     },
     {
-      "id": "pub-bp-graphene-2018",
+      "id": "pub-pccp-2018",
       "title": "In-plane thermal transport in black phosphorene/graphene layered heterostructures: a molecular dynamics study",
-      "authors": "T. Liang, P. Zhang, P. Yuan, and S. Zhai",
+      "authors": "<strong>T. Liang</strong>, P. Zhang, P. Yuan, and S. Zhai",
       "venue": "Physical Chemistry Chemical Physics 20, 21151-21162",
       "year": 2018,
       "role": "first-author",
@@ -314,9 +265,9 @@
       }
     },
     {
-      "id": "pub-exciton-2025",
+      "id": "pub-natcomm-2025",
       "title": "Observation of giant dipole moments of interlayer excitons via layer engineering",
-      "authors": "J. Zhu, T. Liang, F. Shen, Z. Chen, and J. Xu",
+      "authors": "J. Zhu<sup>#</sup>, T. Liang<sup>#</sup>, F. Shen<sup>#</sup>, Z. Chen, and J. Xu",
       "venue": "Nature Communications 16, 10661",
       "year": 2025,
       "role": "co-first-author",
@@ -326,9 +277,9 @@
       }
     },
     {
-      "id": "pub-mos2-strain-2025",
+      "id": "pub-acsami-2025-a",
       "title": "Strain-engineered anisotropic thermal transport in layered MoS2 structures",
-      "authors": "W. Jiang, T. Liang, J. Xu, and W. Ouyang",
+      "authors": "W. Jiang<sup>#</sup>, T. Liang<sup>#</sup>, J. Xu, and W. Ouyang",
       "venue": "ACS Applied Materials & Interfaces 17, 34833",
       "year": 2025,
       "role": "co-first-author",
@@ -339,9 +290,9 @@
       }
     },
     {
-      "id": "pub-registry-2025",
+      "id": "pub-arxiv-2025-a",
       "title": "Accurate modeling of interfacial thermal transport in van der Waals heterostructures via hybrid machine learning and registry-dependent potentials",
-      "authors": "W. Jiang, H. Bu, T. Liang, P. Ying, Z. Fan, J. Xu, and W. Ouyang",
+      "authors": "W. Jiang<sup>#</sup>, H. Bu<sup>#</sup>, T. Liang<sup>#</sup>, P. Ying, Z. Fan, J. Xu, and W. Ouyang",
       "venue": "arXiv preprint arXiv:2505.00376",
       "year": 2025,
       "role": "co-first-author",
@@ -351,9 +302,9 @@
       }
     },
     {
-      "id": "pub-youngs-modulus-2024",
+      "id": "pub-small-2024",
       "title": "Correlating Young's modulus with high thermal conductivity in organic conjugated small molecules",
-      "authors": "J. Zeng, T. Liang, J. Zhang, D. Liu, S. Li, X. Lu, M. Han, Y. Yao, J. Xu, R. Sun, and C.-P. Wong",
+      "authors": "J. Zeng<sup>#</sup>, T. Liang<sup>#</sup>, J. Zhang, D. Liu, S. Li, X. Lu, M. Han, Y. Yao, J. Xu, R. Sun, and C.-P. Wong",
       "venue": "Small 20, 2309338",
       "year": 2024,
       "role": "co-first-author",
@@ -364,9 +315,9 @@
       }
     },
     {
-      "id": "pub-interface-hbond-2024",
+      "id": "pub-nanoletters-2024",
       "title": "Design of soft/hard interface with high adhesion energy and low interfacial thermal resistance via regulation of interfacial hydrogen bonding interaction",
-      "authors": "X. Zeng, T. Liang, X. Cheng, J. Fan, Y. Pang, J. Xu, R. Sun, X. Xia, and X. Zeng",
+      "authors": "X. Zeng<sup>#</sup>, T. Liang<sup>#</sup>, X. Cheng, J. Fan, Y. Pang, J. Xu, R. Sun, X. Xia, and X. Zeng",
       "venue": "Nano Letters 24, 6386",
       "year": 2024,
       "role": "co-first-author",
@@ -377,9 +328,9 @@
       }
     },
     {
-      "id": "pub-poly-ionic-2024",
+      "id": "pub-acsami-2024-b",
       "title": "Poly(ionic liquid)s: A promising matrix for thermal interface materials",
-      "authors": "J. Zeng, T. Liang, B. Yang, T. Rao, M. Han, Y. Yao, J. Xu, L. Li, and R. Sun",
+      "authors": "J. Zeng<sup>#</sup>, T. Liang<sup>#</sup>, B. Yang, T. Rao, M. Han, Y. Yao, J. Xu, L. Li, and R. Sun",
       "venue": "ACS Applied Materials & Interfaces 16, 45563",
       "year": 2024,
       "role": "co-first-author",
@@ -390,9 +341,9 @@
       }
     },
     {
-      "id": "pub-twist-mos2-2023",
+      "id": "pub-ijhmt-2023-b",
       "title": "Twist-dependent anisotropic thermal conductivity in homogeneous MoS2 stacks",
-      "authors": "W. Jiang, T. Liang, J. Xu, and W. Ouyang",
+      "authors": "W. Jiang<sup>#</sup>, T. Liang<sup>#</sup>, J. Xu, and W. Ouyang",
       "venue": "International Journal of Heat and Mass Transfer 217, 124662",
       "year": 2023,
       "role": "co-first-author",
@@ -403,9 +354,9 @@
       }
     },
     {
-      "id": "pub-rtn-ga-2021",
+      "id": "pub-acsami-2021",
       "title": "Optimization of effective thermal conductivity of thermal interface materials based on the genetic algorithm-driven random thermal network model",
-      "authors": "Y. Su, Q. Ma, T. Liang, Y. Yao, Z. Jiao, M. Han, Y. Pang, L. Ren, X. Zeng, J. Xu, and R. Sun",
+      "authors": "Y. Su<sup>#</sup>, Q. Ma<sup>#</sup>, T. Liang<sup>#</sup>, Y. Yao, Z. Jiao, M. Han, Y. Pang, L. Ren, X. Zeng, J. Xu, and R. Sun",
       "venue": "ACS Applied Materials & Interfaces 13, 53239-53249",
       "year": 2021,
       "role": "co-first-author",
@@ -416,9 +367,9 @@
       }
     },
     {
-      "id": "pub-si-nw-2025",
+      "id": "pub-jpclett-2025",
       "title": "Critical size transitions in silicon nanowires: Amorphization, phonon hydrodynamics, and thermal conductivity",
-      "authors": "K. Xu, Y. Li, D. Ding, T. Liang, J. Wu, and J. Xu",
+      "authors": "K. Xu, Y. Li, D. Ding, T. Liang<sup>*</sup>, J. Wu<sup>*</sup>, and J. Xu<sup>*</sup>",
       "venue": "The Journal of Physical Chemistry Letters 16, 8580",
       "year": 2025,
       "role": "corresponding-author",
@@ -429,8 +380,8 @@
       }
     },
     {
-      "id": "pub-moire-acsnano-2025",
-      "title": "Moiré-driven interfacial thermal transport in twisted transition metal dichalcogenides",
+      "id": "pub-acsnano-2025",
+      "title": "Moire-driven interfacial thermal transport in twisted transition metal dichalcogenides",
       "authors": "W. Jiang, T. Liang, H. Bu, J. Xu, and W. Ouyang",
       "venue": "ACS Nano 19, 16287",
       "year": 2025,
@@ -442,8 +393,8 @@
       }
     },
     {
-      "id": "pub-nep-mb-pol-2025",
-      "title": "NEP-MB-pol: A unified machine-learned framework for fast and accurate prediction of water's thermodynamic and transport properties",
+      "id": "pub-npjcm-2025-b",
+      "title": "NEP-MB-pol: a unified machine-learned framework for fast and accurate prediction of water's thermodynamic and transport properties",
       "authors": "K. Xu, T. Liang, N. Xu, P. Ying, S. Chen, N. Wei, J. Xu, and Z. Fan",
       "venue": "npj Computational Materials 11, 275",
       "year": 2025,
@@ -455,7 +406,7 @@
       }
     },
     {
-      "id": "pub-superlattice-prb-2025",
+      "id": "pub-prb-2025",
       "title": "Phonon coherence and minimum thermal conductivity in disordered superlattices",
       "authors": "X. Wu, Z. Wu, T. Liang, Z. Fan, J. Xu, M. Nomura, and P. Ying",
       "venue": "Physical Review B 111, 085413",
@@ -468,7 +419,7 @@
       }
     },
     {
-      "id": "pub-liquid-metal-2025",
+      "id": "pub-compositesa-2025",
       "title": "Poly(ionic liquid) matrices embedded with liquid metal particles: A versatile solution for high-power density thermal management",
       "authors": "J. Zeng, T. Rao, T. Liang, Y. Yao, C. Wang, J. Xu, L. Li, and R. Sun",
       "venue": "Composites Part A: Applied Science and Manufacturing 199, 109221",
@@ -481,7 +432,7 @@
       }
     },
     {
-      "id": "pub-hidden-interface-2025",
+      "id": "pub-acsami-2025-c",
       "title": "Inhomogeneous interfacial layer: A hidden cause of high thermal contact resistance in polymer-based thermal interface materials with spherical fillers",
       "authors": "H. Shi, X. Li, T. Liang, Z. Wen, L. Ren, M. Han, Y. Yao, X. Zeng, J. Xu, and R. Sun",
       "venue": "ACS Applied Materials & Interfaces 17, 70984",
@@ -494,7 +445,7 @@
       }
     },
     {
-      "id": "pub-device-scale-2025",
+      "id": "pub-arxiv-2025-b",
       "title": "Device-scale atomistic simulations of heat transport in advanced field-effect transistors",
       "authors": "K. Xu, G. Wang, T. Liang, Y. Xiao, D. Ding, H. Guo, X. Gao, L. Tong, X. Wan, G. Zhang, and J. Xu",
       "venue": "arXiv preprint arXiv:2511.18915",
@@ -506,7 +457,7 @@
       }
     },
     {
-      "id": "pub-visco-elastomer-2024",
+      "id": "pub-jmca-2024",
       "title": "Deformable and highly adhesive poly(ionic liquid)/liquid metal visco-elastomers for thermal management",
       "authors": "B. Yang, J. Zeng, T. Liang, M. Han, C. Zhang, J. Xu, Y. Yao, and R. Sun",
       "venue": "Journal of Materials Chemistry A 12, 22233-22247",
@@ -519,7 +470,7 @@
       }
     },
     {
-      "id": "pub-phosphorene-nep-2023",
+      "id": "pub-ijhmt-2023-c",
       "title": "Variable thermal transport in black, blue, and violet phosphorene from extensive atomistic simulations with a neuroevolution potential",
       "authors": "P. Ying, T. Liang, K. Xu, J. Zhang, J. Xu, J. Wu, Z. Fan, T. Ala-Nissila, and Z. Zhong",
       "venue": "International Journal of Heat and Mass Transfer 202, 123681",
@@ -532,7 +483,7 @@
       }
     },
     {
-      "id": "pub-perovskite-aom-2023",
+      "id": "pub-adom-2023",
       "title": "Methoxy functionalization of phenethylammonium ligand for efficient perovskite light-emitting diodes",
       "authors": "X. Sun, T. Liang, K. H. Ngai, Z. Nie, K. Fan, S. Li, C. C. S. Chan, K. S. Wong, X. Lu, J. Xu, and M. Long",
       "venue": "Advanced Optical Materials 11, 2300464",
@@ -545,7 +496,7 @@
       }
     },
     {
-      "id": "pub-mof-phonon-2023",
+      "id": "pub-acsami-2023",
       "title": "Sub-micrometer phonon mean free paths in metal-organic frameworks revealed by machine-learning molecular dynamics simulations",
       "authors": "P. Ying, T. Liang, K. Xu, J. Zhang, J. Xu, Z. Zhong, and Z. Fan",
       "venue": "ACS Applied Materials & Interfaces 15, 40682",
@@ -558,7 +509,7 @@
       }
     },
     {
-      "id": "pub-water-nep-2023",
+      "id": "pub-jcp-2023",
       "title": "Accurate prediction of heat conductivity of water by a neuroevolution potential",
       "authors": "K. Xu, Y. Hao, T. Liang, P. Ying, J. Xu, J. Wu, and Z. Fan",
       "venue": "The Journal of Chemical Physics 158, 204114",
@@ -571,7 +522,7 @@
       }
     },
     {
-      "id": "pub-thermal-rectifier-2022",
+      "id": "pub-apl-2022",
       "title": "Gradient nano-grained graphene as 2D thermal rectifier: A molecular dynamics based machine learning study",
       "authors": "K. Xu, T. Liang, Y. Fu, Z. Wang, Z. Fan, N. Wei, J. Xu, Z. Zhang, and J. Wu",
       "venue": "Applied Physics Letters 121, 133501",
