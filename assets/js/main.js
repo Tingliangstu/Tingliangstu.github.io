@@ -133,12 +133,20 @@ function safeYear(value) {
 }
 
 function sortPublications(items) {
+  const rolePriority = {
+    "first-author": 0,
+    "co-first-author": 1,
+    "corresponding-author": 2,
+    "co-author": 3
+  };
+
   return [...items].sort((a, b) => {
     const yearDiff = safeYear(b.year) - safeYear(a.year);
     if (yearDiff !== 0) {
       return yearDiff;
     }
-    const roleDiff = (roleLabel(a.role) || "").localeCompare(roleLabel(b.role) || "");
+
+    const roleDiff = (rolePriority[a.role] ?? 99) - (rolePriority[b.role] ?? 99);
     if (roleDiff !== 0) {
       return roleDiff;
     }
