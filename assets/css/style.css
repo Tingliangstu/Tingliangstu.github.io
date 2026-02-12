@@ -175,6 +175,32 @@ a:hover {
   gap: 0.58rem;
 }
 
+.hero-mlp-tip {
+  margin: 1.15rem 0 0;
+  border: 1px solid #cddbef;
+  border-radius: 14px;
+  background: linear-gradient(160deg, #f8fbff, #eef5fe);
+  box-shadow: 0 10px 24px rgba(14, 79, 133, 0.12);
+  overflow: hidden;
+}
+
+.hero-mlp-tip img {
+  width: 100%;
+  aspect-ratio: 1600 / 578;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  background: #0a111a;
+}
+
+.hero-mlp-tip figcaption {
+  margin: 0;
+  padding: 0.68rem 0.85rem 0.72rem;
+  color: var(--accent-strong);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
 .button {
   display: inline-flex;
   align-items: center;
