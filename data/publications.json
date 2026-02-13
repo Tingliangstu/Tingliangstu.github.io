@@ -40,7 +40,7 @@
     {
       "id": "rep-nep89-2026",
       "title": "NEP89: Universal neuroevolution potential for inorganic and organic materials across 89 elements",
-      "authors": "T. Liang<sup>*</sup>, K. Xu, E. Lindgren, Z. Chen, R. Zhao, J. Liu, E. Berger, B. Tang, B. Zhang, Y. Wang, K. Song, P. Ying, N. Xu, H. Dong, S. Chen, P. Erhart, Z. Fan, T. Ala-Nissila, and J. Xu",
+      "authors": "T. Liang, K. Xu, E. Lindgren, Z. Chen, R. Zhao, J. Liu, E. Berger, B. Tang, B. Zhang, Y. Wang, K. Song, P. Ying, N. Xu, H. Dong, S. Chen, P. Erhart, Z. Fan, T. Ala-Nissila, and J. Xu",
       "venue": "Nature Computational Science (revision submitted)",
       "year": 2026,
       "summary": "Please add one concise sentence describing the key methodological and scientific contribution.",
@@ -56,7 +56,7 @@
     {
       "id": "rep-vdw-limit-2026",
       "title": "Probing the ideal limit of interfacial thermal conductance in two-dimensional van der Waals heterostructures",
-      "authors": "T. Liang<sup>*</sup>, K. Xu, P. Ying, W. Jiang, M. Han, X. Wu, W. Ouyang, Y. Yao, X. Zeng, Z. Ye, Z. Fan, and J. Xu",
+      "authors": "T. Liang, K. Xu, P. Ying, W. Jiang, M. Han, X. Wu, W. Ouyang, Y. Yao, X. Zeng, Z. Ye, Z. Fan, and J. Xu",
       "venue": "npj Computational Materials 12, 11",
       "year": 2026,
       "summary": "Please add one concise sentence describing the key methodological and scientific contribution.",
@@ -87,7 +87,7 @@
     {
       "id": "rep-silica-2023",
       "title": "Mechanisms of temperature-dependent thermal transport in amorphous silica from machine-learning molecular dynamics",
-      "authors": "T. Liang<sup>*</sup>, P. Ying, K. Xu, Z. Ye, C. Ling, Z. Fan, and J. Xu",
+      "authors": "T. Liang, P. Ying, K. Xu, Z. Ye, C. Ling, Z. Fan, and J. Xu",
       "venue": "Physical Review B 108, 184203",
       "year": 2023,
       "summary": "Please add one concise sentence describing the key methodological and scientific contribution.",
@@ -206,7 +206,7 @@
     {
       "id": "pub-nep89-2026",
       "title": "NEP89: Universal neuroevolution potential for inorganic and organic materials across 89 elements",
-      "authors": "T. Liang<sup>*</sup>, K. Xu, E. Lindgren, Z. Chen, R. Zhao, J. Liu, E. Berger, B. Tang, B. Zhang, Y. Wang, K. Song, P. Ying, N. Xu, H. Dong, S. Chen, P. Erhart, Z. Fan, T. Ala-Nissila, and J. Xu",
+      "authors": "T. Liang, K. Xu, E. Lindgren, Z. Chen, R. Zhao, J. Liu, E. Berger, B. Tang, B. Zhang, Y. Wang, K. Song, P. Ying, N. Xu, H. Dong, S. Chen, P. Erhart, Z. Fan, T. Ala-Nissila, and J. Xu",
       "venue": "Nature Computational Science (revision submitted)",
       "year": 2026,
       "role": "first-author",
@@ -220,7 +220,7 @@
     {
       "id": "pub-vdw-limit-2026",
       "title": "Probing the ideal limit of interfacial thermal conductance in two-dimensional van der Waals heterostructures",
-      "authors": "T. Liang<sup>*</sup>, K. Xu, P. Ying, W. Jiang, M. Han, X. Wu, W. Ouyang, Y. Yao, X. Zeng, Z. Ye, Z. Fan, and J. Xu",
+      "authors": "T. Liang, K. Xu, P. Ying, W. Jiang, M. Han, X. Wu, W. Ouyang, Y. Yao, X. Zeng, Z. Ye, Z. Fan, and J. Xu",
       "venue": "npj Computational Materials 12, 11",
       "year": 2026,
       "role": "first-author",
@@ -247,7 +247,7 @@
     {
       "id": "pub-silica-2023",
       "title": "Mechanisms of temperature-dependent thermal transport in amorphous silica from machine-learning molecular dynamics",
-      "authors": "T. Liang<sup>*</sup>, P. Ying, K. Xu, Z. Ye, C. Ling, Z. Fan, and J. Xu",
+      "authors": "T. Liang, P. Ying, K. Xu, Z. Ye, C. Ling, Z. Fan, and J. Xu",
       "venue": "Physical Review B 108, 184203",
       "year": 2023,
       "role": "first-author",
