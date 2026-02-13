@@ -2,7 +2,7 @@ Place hero visual assets in this folder.
 
 Currently referenced by `index.html`:
 
-- `mlp-tip.png` (machine-learning potential tip image shown below hero links)
+- `mlp-tip.jpg` (machine-learning potential tip image shown below hero links)
 
 If the file is missing, the site falls back to:
 
