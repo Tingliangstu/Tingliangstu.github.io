@@ -187,7 +187,7 @@ a:hover {
 .hero-mlp-tip img {
   width: 100%;
   height: clamp(180px, 28vw, 340px);
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
   display: block;
   background: #0a111a;
