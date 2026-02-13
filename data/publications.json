@@ -339,7 +339,7 @@
     {
       "id": "pub-arxiv-2025-a",
       "title": "Accurate modeling of interfacial thermal transport in van der Waals heterostructures via hybrid machine learning and registry-dependent potentials",
-      "authors": "W. Jiang<sup>#</sup><sup>*</sup>, H. Bu<sup>#</sup>, T. Liang<sup>#</sup>, P. Ying, Z. Fan, J. Xu, and W. Ouyang",
+      "authors": "W. Jiang<sup>#*</sup>, H. Bu<sup>#</sup>, T. Liang<sup>#</sup>, P. Ying, Z. Fan, J. Xu, and W. Ouyang",
       "venue": "arXiv preprint arXiv:2505.00376",
       "year": 2025,
       "role": "co-first-author",
@@ -365,7 +365,7 @@
     {
       "id": "pub-nanoletters-2024",
       "title": "Design of soft/hard interface with high adhesion energy and low interfacial thermal resistance via regulation of interfacial hydrogen bonding interaction",
-      "authors": "X. Zeng<sup>#</sup>, T. Liang<sup>#</sup><sup>*</sup>, X. Cheng, J. Fan, Y. Pang, J. Xu, R. Sun, X. Xia, and X. Zeng<sup>*</sup>",
+      "authors": "X. Zeng<sup>#</sup>, T. Liang<sup>#*</sup>, X. Cheng, J. Fan, Y. Pang, J. Xu, R. Sun, X. Xia, and X. Zeng<sup>*</sup>",
       "venue": "Nano Letters 24, 6386",
       "year": 2024,
       "role": "co-first-author",
