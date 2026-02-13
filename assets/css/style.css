@@ -186,7 +186,7 @@ a:hover {
 
 .hero-mlp-tip img {
   width: 100%;
-  aspect-ratio: 1600 / 578;
+  height: clamp(180px, 28vw, 340px);
   object-fit: contain;
   object-position: center;
   display: block;
@@ -353,7 +353,7 @@ a:hover {
 
 .work-thumb {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  height: clamp(180px, 24vw, 280px);
   object-fit: contain;
   border-radius: 10px;
   border: 1px solid var(--line);
