@@ -222,6 +222,7 @@ function renderSoftware(software) {
       ${item.repository ? `<a href="${item.repository}" target="_blank" rel="noreferrer">GitHub</a>` : ""}
       ${item.homepage ? `<a href="${item.homepage}" target="_blank" rel="noreferrer">Docs</a>` : ""}
       ${item.paper ? `<a href="${item.paper}" target="_blank" rel="noreferrer">Paper</a>` : ""}
+      ${item.publications ? `<a href="${item.publications}" target="_blank" rel="noreferrer">Publications</a>` : ""}
     </div>
   </div>
 </article>
