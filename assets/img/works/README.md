@@ -6,7 +6,8 @@ Currently referenced by `data/publications.json`:
 - `Gr-hBN.png` (for vdW heterostructure work)
 - `pysed.png` (for PYSED work)
 - `a-Sio2.png` (for amorphous silica work)
-- `fa-diamond.png`
+- `nanowire-hydrodynamic.jpg` (for diamond nanowire work)
+- `ppr_plot_defect.svg` (for multilayer graphene/h-BN work)
 
 If a file is missing, the site automatically falls back to:
 
