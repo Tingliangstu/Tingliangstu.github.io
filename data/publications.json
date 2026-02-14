@@ -108,7 +108,7 @@
       "summary": "Please add one concise sentence describing the key methodological and scientific contribution.",
       "selected": true,
       "role": "first-author",
-      "icon": "assets/img/works/fa-diamond.png",
+      "icon": "assets/img/works/nanowire-hydrodynamic.jpg",
       "links": {
         "journal": "https://doi.org/10.1016/j.mtphys.2022.100705",
         "doi": "https://doi.org/10.1016/j.mtphys.2022.100705"
@@ -123,7 +123,7 @@
       "summary": "Please add one concise sentence describing the key methodological and scientific contribution.",
       "selected": true,
       "role": "first-author",
-      "icon": "assets/img/works/fa-ijhmt-2020.png",
+      "icon": "assets/img/works/ppr_plot_defect.svg",
       "links": {
         "journal": "https://doi.org/10.1016/j.ijheatmasstransfer.2020.119395",
         "doi": "https://doi.org/10.1016/j.ijheatmasstransfer.2020.119395"
