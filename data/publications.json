@@ -16,10 +16,10 @@
       "AI for Science applications in multi-functional material systems"
     ],
     "stats": {
-      "publications": 61,
-      "cited_by": 1802,
-      "h_index": 25,
-      "i10_index": 39
+      "publications": 64,
+      "cited_by": 2048,
+      "h_index": 27,
+      "i10_index": 43
     }
   },
   "news": [
@@ -147,60 +147,64 @@
   ],
   "peer_reviews": [
     {
-      "journal": "Additive manufacturing",
-      "count": 1
+      "journal": "International Communications in Heat and Mass Transfer",
+      "count": 6
     },
     {
-      "journal": "Applied thermal engineering",
+      "journal": "Computational Materials Science",
       "count": 3
     },
     {
-      "journal": "Chemical engineering journal",
-      "count": 1
-    },
-    {
-      "journal": "Computational materials science",
-      "count": 1
-    },
-    {
-      "journal": "Diamond and related materials",
-      "count": 1
-    },
-    {
-      "journal": "International communications in heat and mass transfer",
-      "count": 5
+      "journal": "Thin-Walled Structures",
+      "count": 3
     },
     {
       "journal": "International Journal of Heat and Mass Transfer",
       "count": 3
     },
     {
-      "journal": "International journal of mechanical sciences",
-      "count": 1
-    },
-    {
-      "journal": "International journal of thermal sciences",
-      "count": 3
-    },
-    {
-      "journal": "Journal of applied physics",
-      "count": 2
-    },
-    {
-      "journal": "Materials science in semiconductor processing",
-      "count": 2
-    },
-    {
       "journal": "Measurement",
       "count": 3
     },
     {
-      "journal": "Surfaces and interfaces",
+      "journal": "Applied Thermal Engineering",
+      "count": 3
+    },
+    {
+      "journal": "International Journal of Thermal Sciences",
+      "count": 3
+    },
+    {
+      "journal": "Journal of Applied Physics",
       "count": 2
     },
     {
-      "journal": "Thin-walled structures",
-      "count": 3
+      "journal": "Materials Science in Semiconductor Processing",
+      "count": 2
+    },
+    {
+      "journal": "Surfaces and Interfaces",
+      "count": 2
+    },
+    {
+      "journal": "Additive Manufacturing",
+      "count": 1
+    },
+    {
+      "journal": "Sustainable Energy Technologies and Assessments",
+      "count": 1
+    },
+    {
+      "journal": "International Journal of Mechanical Sciences",
+      "count": 1
+    },
+    {
+      "journal": "Diamond and Related Materials",
+      "count": 1
+    },
+    {
+      "journal": "Chemical Engineering Journal",
+      "count": 1
     }
   ],
   "publications": [
