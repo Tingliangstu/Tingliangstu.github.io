@@ -7,7 +7,9 @@
     "scholar_user": "4ei1O30AAAAJ",
     "scholar_url": "https://scholar.google.com/citations?hl=en&user=4ei1O30AAAAJ",
     "github_url": "https://github.com/Tingliangstu",
+    "researchgate_url": "https://www.researchgate.net/scientific-contributions/Ting-Liang-70602597",
     "orcid_url": "https://orcid.org/0000-0002-3116-365X",
+    "advisor_url": "https://www.ee.cuhk.edu.hk/~jbxu/",
     "cv_url": "assets/cv/Ting_Liang_CV.pdf",
     "research_interests": [
       "Thermal Transport",
@@ -53,7 +55,8 @@
     },
     "source_notes": [
       "Citation metrics and research keywords follow the public Google Scholar profile checked in June 2026.",
-      "Employment and peer-review totals follow the public ORCID record; private ORCID dashboard-only fields are not published here."
+      "Employment and peer-review totals follow the public ORCID record; private ORCID dashboard-only fields are not published here.",
+      "2026 publication metadata is cross-checked against ORCID, DOI records, and arXiv where available."
     ]
   },
   "news": [
@@ -177,6 +180,17 @@
       "repository": "https://github.com/Tingliangstu/pySED",
       "paper": "https://doi.org/10.1063/5.0278798",
       "publications": "https://github.com/Tingliangstu/pySED/tree/main/publications"
+    },
+    {
+      "id": "software-pesmaker",
+      "name": "PESMaker",
+      "tagline": "Foundation-potential-assisted workflow for application-oriented machine-learning potential dataset generation.",
+      "description": "A Python workflow for building targeted machine-learning potential datasets, connecting reusable foundation potentials with application-specific PES generation.",
+      "logo": "assets/img/pesmaker-logo.svg",
+      "stars": 3,
+      "language": "Python",
+      "homepage": "https://tingliangstu.github.io/PESMaker/",
+      "repository": "https://github.com/Tingliangstu/PESMaker"
     }
   ],
   "peer_reviews": [
@@ -249,6 +263,9 @@
       "venue": "Nature Computational Science (revision submitted)",
       "year": 2026,
       "role": "first-author",
+      "roles": [
+        "first-author"
+      ],
       "selected": true,
       "citations": 57,
       "source": "Google Scholar / ORCID",
@@ -265,10 +282,64 @@
       "venue": "npj Computational Materials 12, 11",
       "year": 2026,
       "role": "first-author",
+      "roles": [
+        "first-author"
+      ],
       "selected": true,
       "links": {
         "journal": "https://doi.org/10.1038/s41524-025-01885-y",
         "doi": "https://doi.org/10.1038/s41524-025-01885-y"
+      }
+    },
+    {
+      "id": "pub-jmps-vdw-2026",
+      "title": "Modular hybrid machine learning and physics-based potentials for scalable modeling of Van der Waals heterostructures",
+      "authors": "H. Bu, W. Jiang, P. Ying, <strong>T. Liang</strong>, Z. Fan, and W. Ouyang",
+      "venue": "Journal of the Mechanics and Physics of Solids",
+      "year": 2026,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "source": "ORCID / DOI",
+      "links": {
+        "journal": "https://doi.org/10.1016/j.jmps.2026.106540",
+        "doi": "https://doi.org/10.1016/j.jmps.2026.106540"
+      }
+    },
+    {
+      "id": "pub-mof-phonon-gas-2026",
+      "title": "Structurally triggered breakdown of the phonon gas model in crystalline metal-organic frameworks",
+      "authors": "P. Ying, <strong>T. Liang</strong>, Y. Chen, Y. Chen, S. Xiong, Z. Fan, J. Xu, and Y. Liu",
+      "venue": "arXiv preprint arXiv:2604.03783",
+      "year": 2026,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "source": "ORCID / arXiv",
+      "links": {
+        "journal": "https://arxiv.org/abs/2604.03783",
+        "doi": "https://doi.org/10.48550/arXiv.2604.03783"
+      }
+    },
+    {
+      "id": "pub-solar-thermal-2026",
+      "title": "Self-adaptive solar-thermal system with moss-like surface for efficient energy utilization",
+      "authors": "H. Liang, D. Ding, H. Wang, <strong>T. Liang</strong>, C. Wong, P. Zhang, W. Liang, L. Ji, Q. Zhang, C. Song, T. Deng, R. Sun, J. Xu, and Y. Chen",
+      "venue": "Advanced Materials",
+      "year": 2026,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "source": "ORCID / DOI",
+      "links": {
+        "journal": "https://doi.org/10.1002/adma.73376",
+        "doi": "https://doi.org/10.1002/adma.73376"
       }
     },
     {
@@ -278,6 +349,10 @@
       "venue": "Journal of Applied Physics 138, 075101",
       "year": 2025,
       "role": "first-author",
+      "roles": [
+        "first-author",
+        "corresponding-author"
+      ],
       "selected": true,
       "links": {
         "journal": "https://doi.org/10.1063/5.0278798",
@@ -363,6 +438,9 @@
       "venue": "Nature Communications 16, 10661",
       "year": 2025,
       "role": "co-first-author",
+      "roles": [
+        "co-first-author"
+      ],
       "selected": false,
       "links": {
         "journal": "https://www.nature.com/articles/s41467-025-65683-2",
@@ -376,6 +454,9 @@
       "venue": "ACS Applied Materials & Interfaces 17, 34833",
       "year": 2025,
       "role": "co-first-author",
+      "roles": [
+        "co-first-author"
+      ],
       "selected": false,
       "links": {
         "journal": "https://doi.org/10.1021/acsami.5c06264",
@@ -383,16 +464,20 @@
       }
     },
     {
-      "id": "pub-arxiv-2025-a",
+      "id": "pub-jctc-2026-vdw",
       "title": "Accurate modeling of interfacial thermal transport in van der Waals heterostructures via hybrid machine learning and registry-dependent potentials",
       "authors": "W. Jiang<sup>#*</sup>, H. Bu<sup>#</sup>, <strong>T. Liang</strong><sup>#</sup>, P. Ying, Z. Fan, J. Xu, and W. Ouyang",
-      "venue": "arXiv preprint arXiv:2505.00376",
-      "year": 2025,
+      "venue": "Journal of Chemical Theory and Computation",
+      "year": 2026,
       "role": "co-first-author",
+      "roles": [
+        "co-first-author"
+      ],
       "selected": false,
+      "source": "ORCID / DOI",
       "links": {
-        "journal": "https://arxiv.org/abs/2505.00376",
-        "doi": "https://doi.org/10.48550/arXiv.2505.00376"
+        "journal": "https://doi.org/10.1021/acs.jctc.5c01950",
+        "doi": "https://doi.org/10.1021/acs.jctc.5c01950"
       }
     },
     {
@@ -415,6 +500,10 @@
       "venue": "Nano Letters 24, 6386",
       "year": 2024,
       "role": "co-first-author",
+      "roles": [
+        "co-first-author",
+        "corresponding-author"
+      ],
       "selected": false,
       "links": {
         "journal": "https://doi.org/10.1021/acs.nanolett.4c01409",

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">PESMaker logo</title>
+  <desc id="desc">A compact scientific workflow mark for PESMaker.</desc>
+  <rect width="240" height="240" rx="20" fill="#f8fbfc"/>
+  <path d="M50 170 L92 96 L132 128 L184 62" fill="none" stroke="#075c75" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="50" cy="170" r="18" fill="#0f8fb3"/>
+  <circle cx="92" cy="96" r="18" fill="#12a474"/>
+  <circle cx="132" cy="128" r="18" fill="#c57a12"/>
+  <circle cx="184" cy="62" r="18" fill="#13202b"/>
+  <path d="M48 194 H190" stroke="#d9e4ea" stroke-width="8" stroke-linecap="round"/>
+  <text x="120" y="218" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#13202b">PESMaker</text>
+</svg>
