@@ -3,153 +3,172 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ting Liang | Academic Homepage</title>
-  <meta name="description" content="Academic homepage of Ting Liang: research interests, representative publications, software, and CV.">
+  <title>Ting Liang | Computational Materials Physics</title>
+  <meta name="description" content="Academic homepage of Ting Liang, focused on thermal transport, molecular dynamics, DFT, AI4X, and machine-learning potentials.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Source+Serif+4:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
   <script defer src="assets/js/main.js"></script>
 </head>
-<body data-page="home">
-  <div class="background-orb orb-a"></div>
-  <div class="background-orb orb-b"></div>
-
+<body data-page="home" data-base-path=".">
   <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="./">Ting Liang</a>
-      <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
-      <nav class="site-nav" id="site-nav">
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#news">News</a>
-        <a href="#representative">Publications</a>
-        <a href="#software">Software</a>
-        <a href="#peer-reviews">Peer Reviews</a>
-        <a href="#contact">Contact</a>
-        <a class="nav-link-strong" href="publications/index.html">All Publications</a>
+    <div class="container nav-shell">
+      <a class="brand" href="index.html" aria-label="Ting Liang home">
+        <span class="brand-mark">TL</span>
+        <span>Ting Liang</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="research/index.html">Research</a>
+        <a href="publications/index.html">Publications</a>
+        <a href="software/index.html">Software</a>
+        <a href="contact/index.html">CV / Contact</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="hero container reveal">
-      <div class="hero-content">
-        <p class="eyebrow">Curriculum Vitae / Research Homepage</p>
-        <h1>Ting Liang</h1>
-        <p class="hero-subtitle">Computational Materials Physics and Chemistry</p>
-        <p class="hero-description">
-          I am a postdoctoral researcher at the Chinese University of Hong Kong. My work combines molecular dynamics,
-          DFT-informed modeling, and AI4Science methods to study phonon transport in low-dimensional and complex materials.
-          This website hosts representative publications, software releases, and research updates.
-        </p>
-        <div class="hero-links">
-          <a id="scholar-link" class="button" href="https://scholar.google.com/citations?hl=en&user=4ei1O30AAAAJ" target="_blank" rel="noreferrer">Google Scholar</a>
-          <a id="github-link" class="button button-secondary" href="https://github.com/Tingliangstu" target="_blank" rel="noreferrer">GitHub</a>
-          <a id="orcid-link" class="button button-secondary" href="https://orcid.org/0000-0002-3116-365X" target="_blank" rel="noreferrer">ORCID</a>
-          <a id="cv-link" class="button button-secondary" href="assets/cv/Ting_Liang_CV.pdf" download>Download CV</a>
-        </div>
-        <figure class="hero-mlp-tip">
-          <img src="assets/img/hero/mlp-tip.jpg" alt="Machine-learning potential workflow from DFT to large-scale MD simulation" onerror="this.src='assets/img/work-placeholder.svg'">
-          <figcaption>
-            <strong>Machine learning potentials: overcoming the accuracy-efficiency dilemma</strong>
-          </figcaption>
-        </figure>
-      </div>
-      <aside class="profile-card">
-        <img src="assets/img/ting-liang.jpg" alt="Profile photo of Ting Liang">
-        <p><strong>Affiliation:</strong> <span id="affiliation-text">Department of Electronic Engineering, The Chinese University of Hong Kong</span></p>
-        <p><strong>Email:</strong> <span id="email-text">tingliang@link.cuhk.edu.hk</span></p>
-        <p><strong>Backup Email:</strong> <span id="backup-email-text">liangting.zj@gmail.com</span></p>
-        <div class="profile-stats">
-          <div class="stat-box">
-            <span class="stat-value" id="stat-publications">0</span>
-            <span class="stat-label">Publications</span>
+    <section class="hero-section">
+      <div class="hero-grid container">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Computational Materials Physics / AI Molecular Dynamics</p>
+          <h1>Ting Liang</h1>
+          <p class="hero-lede">
+            I study thermal transport and atomistic simulation methods for complex materials, combining molecular dynamics,
+            DFT-informed modeling, and machine-learning interatomic potentials.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="research/index.html">Research</a>
+            <a class="button button-secondary" href="publications/index.html">Publications</a>
+            <a id="hero-cv-link" class="button button-secondary" href="assets/cv/Ting_Liang_CV.pdf" download>CV</a>
           </div>
-          <div class="stat-box">
-            <span class="stat-value" id="stat-citations">0</span>
-            <span class="stat-label">Google Citations</span>
-          </div>
-          <div class="stat-box">
-            <span class="stat-value" id="stat-hindex">0</span>
-            <span class="stat-label">h-index</span>
-          </div>
-          <div class="stat-box">
-            <span class="stat-value" id="stat-i10">0</span>
-            <span class="stat-label">i10-index</span>
+          <div class="terminal-card" aria-label="Research workflow">
+            <div class="terminal-top">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="terminal-body">
+              <p class="terminal-line type-line-1">$ gpumd --nep89 --thermal-transport</p>
+              <p class="terminal-line type-line-2">loading DFT-informed training data...</p>
+              <p class="terminal-line type-line-3">running MLP-driven molecular dynamics</p>
+              <p class="terminal-line type-line-4">output: phonon transport / lifetime / conductivity</p>
+            </div>
           </div>
         </div>
-      </aside>
+
+        <div class="hero-visual reveal" aria-label="Animated research visual">
+          <div class="visual-frame">
+            <img class="visual-main" src="assets/img/hero/mlp-tip.jpg" alt="Machine-learning potential workflow from DFT to large-scale molecular dynamics">
+            <img class="visual-chip visual-chip-a" src="assets/img/works/fa-nep89.png" alt="NEP89 representation">
+            <img class="visual-chip visual-chip-b" src="assets/img/works/pysed.png" alt="pySED phonon analysis">
+            <div class="visual-stat">
+              <strong id="hero-citations">2,188</strong>
+              <span>Scholar citations</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#overview" aria-label="Scroll to overview">
+        <span></span>
+      </a>
     </section>
 
-    <section id="about" class="section container reveal">
-      <h2>About</h2>
-      <p>
-        Postdoctoral researcher in Electronic Engineering at CUHK, supervised by
-        <a href="https://scholar.google.com/citations?user=bdqiHxIAAAAJ&hl=en" target="_blank" rel="noreferrer">Prof. Jianbin Xu</a>.
-        My research focuses on thermal transport, machine-learning interatomic potentials, and data-driven methodologies
-        for functional materials. I actively work on open-source tools for atomistic simulations and reproducible workflows.
-      </p>
-    </section>
-
-    <section id="research" class="section container reveal">
-      <h2>Research Interests</h2>
-      <div id="research-keywords" class="chip-list">
-        <span class="chip">Thermal transport and advanced computational methodologies</span>
-        <span class="chip">Molecular dynamics and DFT calculations of phononic properties</span>
-        <span class="chip">Machine-learning interatomic potentials and foundational models</span>
-        <span class="chip">AI for Science in multi-functional material systems</span>
+    <section id="overview" class="section section-muted">
+      <div class="container">
+        <div class="stats-strip" id="home-stats"></div>
       </div>
     </section>
 
-    <section id="news" class="section container reveal">
-      <h2>News</h2>
-      <ul id="news-list" class="news-list"></ul>
-    </section>
-
-    <section id="representative" class="section container reveal">
-      <div class="section-heading">
-        <h2>Representative Publications</h2>
-        <a class="text-link" href="publications/index.html">View full publication list</a>
+    <section class="section">
+      <div class="container two-column">
+        <div class="section-copy reveal">
+          <p class="eyebrow">About</p>
+          <h2>Thermal transport, atomistic simulation, and AI4X workflows.</h2>
+          <p>
+            I am a postdoctoral researcher in Electronic Engineering at The Chinese University of Hong Kong. My work
+            focuses on scalable simulations, machine-learning potentials, and reproducible computational tools for
+            functional materials.
+          </p>
+          <a class="text-link" href="contact/index.html">View CV and contact details</a>
+        </div>
+        <div class="timeline-panel reveal" id="home-timeline"></div>
       </div>
-      <p class="meta author-note"># co-first author, * corresponding author</p>
-      <div id="representative-works-list" class="work-grid"></div>
     </section>
 
-    <section id="software" class="section container reveal">
-      <div class="section-heading">
-        <h2>Software</h2>
+    <section class="section section-muted">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Research</p>
+            <h2>Focused research directions</h2>
+          </div>
+          <a class="text-link" href="research/index.html">Explore research</a>
+        </div>
+        <div id="research-preview-list" class="feature-grid"></div>
       </div>
-      <div id="software-list" class="software-grid"></div>
     </section>
 
-    <section id="peer-reviews" class="section container reveal">
-      <div class="section-heading">
-        <h2>Peer Reviews (31 reviews: 14 journals)</h2>
-        <a id="peer-orcid-link" class="text-link" href="https://orcid.org/0000-0002-3116-365X" target="_blank" rel="noreferrer">Source: ORCID</a>
+    <section class="section">
+      <div class="container split-layout">
+        <div class="reveal">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">News</p>
+              <h2>Recent updates</h2>
+            </div>
+          </div>
+          <ul id="news-list" class="news-list"></ul>
+        </div>
+        <div class="reveal">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Software</p>
+              <h2>Open tools</h2>
+            </div>
+            <a class="text-link" href="software/index.html">All software</a>
+          </div>
+          <div id="software-preview" class="software-stack"></div>
+        </div>
       </div>
-      <ul id="peer-reviews-list" class="peer-review-list"></ul>
     </section>
 
-    <section id="contact" class="section container reveal">
-      <h2>Contact</h2>
-      <p>Department of Electronic Engineering, The Chinese University of Hong Kong, Hong Kong SAR</p>
-      <p>Primary email: <a href="mailto:tingliang@link.cuhk.edu.hk">tingliang@link.cuhk.edu.hk</a></p>
-      <p>Backup email: <a href="mailto:liangting.zj@gmail.com">liangting.zj@gmail.com</a></p>
-      <p>
-        Links:
-        <a id="contact-scholar-link" href="https://scholar.google.com/citations?hl=en&user=4ei1O30AAAAJ" target="_blank" rel="noreferrer">Google Scholar</a> |
-        <a id="contact-github-link" href="https://github.com/Tingliangstu" target="_blank" rel="noreferrer">GitHub</a> |
-        <a id="contact-orcid-link" href="https://orcid.org/0000-0002-3116-365X" target="_blank" rel="noreferrer">ORCID</a> |
-        <a id="contact-cv-link" href="assets/cv/Ting_Liang_CV.pdf" download>CV PDF</a>
-      </p>
+    <section class="section section-muted">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Selected publications</p>
+            <h2>Representative works</h2>
+          </div>
+          <a class="text-link" href="publications/index.html">Open publication library</a>
+        </div>
+        <p class="meta author-note"># co-first author, * corresponding author. Citation metrics follow public Google Scholar where available.</p>
+        <div id="representative-works-list" class="work-grid"></div>
+      </div>
+    </section>
+
+    <section class="section cta-section">
+      <div class="container cta-panel reveal">
+        <div>
+          <p class="eyebrow">Connect</p>
+          <h2>Research profile, CV, and contact links</h2>
+          <p>Find my CV, public ORCID record, Google Scholar profile, GitHub projects, and email contact in one place.</p>
+        </div>
+        <a class="button button-primary" href="contact/index.html">CV / Contact</a>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-wrap">
-      <p>&copy; <span id="current-year"></span> Ting Liang. All rights reserved.</p>
-      <p>Last updated: <span id="last-updated">2026-02-12</span></p>
+      <p>&copy; <span id="current-year"></span> Ting Liang</p>
+      <p>Data sources: Google Scholar and public ORCID record</p>
     </div>
   </footer>
 </body>

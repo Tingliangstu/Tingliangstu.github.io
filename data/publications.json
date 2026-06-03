@@ -10,17 +10,51 @@
     "orcid_url": "https://orcid.org/0000-0002-3116-365X",
     "cv_url": "assets/cv/Ting_Liang_CV.pdf",
     "research_interests": [
-      "Thermal transport and development of advanced computational methodologies",
+      "Thermal Transport",
+      "MD/DFT/AI4X",
+      "Machine Learning Potentials",
+      "Computational Physics"
+    ],
+    "research_focus": [
+      "Thermal transport and advanced computational methodology development",
       "Molecular dynamics and DFT calculations of phononic properties",
-      "Machine-learning interatomic potentials and development of foundational models",
-      "AI for Science applications in multi-functional material systems"
+      "Machine-learning interatomic potentials for atomistic simulations",
+      "AI for Science workflows for functional and complex material systems"
     ],
     "stats": {
-      "publications": 61,
-      "cited_by": 1802,
-      "h_index": 25,
-      "i10_index": 39
-    }
+      "publications": 67,
+      "cited_by": 2188,
+      "h_index": 28,
+      "i10_index": 43
+    },
+    "employment": [
+      {
+        "organization": "Chinese University of Hong Kong",
+        "location": "Hong Kong, HK",
+        "role": "Postdoctoral Researcher",
+        "area": "Electronic Engineering",
+        "start": "2026-04-01",
+        "end": "2027-04-01"
+      },
+      {
+        "organization": "Shenzhen Institute of Advanced Electronic Materials, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences",
+        "location": "Shenzhen, CN",
+        "role": "Assistant Engineer",
+        "area": "Thermal management materials",
+        "start": "2020-06-30",
+        "end": "2021-07-06"
+      }
+    ],
+    "education": [],
+    "peer_review_summary": {
+      "reviews": 35,
+      "items": 15,
+      "source": "ORCID public record"
+    },
+    "source_notes": [
+      "Citation metrics and research keywords follow the public Google Scholar profile checked in June 2026.",
+      "Employment and peer-review totals follow the public ORCID record; private ORCID dashboard-only fields are not published here."
+    ]
   },
   "news": [
     {
@@ -212,6 +246,8 @@
       "year": 2026,
       "role": "first-author",
       "selected": true,
+      "citations": 57,
+      "source": "Google Scholar / ORCID",
       "links": {
         "journal": "https://arxiv.org/abs/2504.21286",
         "code": "https://github.com/Tingliangstu/GPUMD",
@@ -253,6 +289,8 @@
       "year": 2023,
       "role": "first-author",
       "selected": true,
+      "citations": 54,
+      "source": "Google Scholar / ORCID",
       "links": {
         "journal": "https://doi.org/10.1103/PhysRevB.108.184203",
         "doi": "https://doi.org/10.1103/PhysRevB.108.184203"
@@ -279,6 +317,8 @@
       "year": 2020,
       "role": "first-author",
       "selected": true,
+      "citations": 228,
+      "source": "Google Scholar / ORCID",
       "links": {
         "journal": "https://doi.org/10.1016/j.ijheatmasstransfer.2020.119395",
         "doi": "https://doi.org/10.1016/j.ijheatmasstransfer.2020.119395"
@@ -305,6 +345,8 @@
       "year": 2018,
       "role": "first-author",
       "selected": false,
+      "citations": 60,
+      "source": "Google Scholar",
       "links": {
         "journal": "https://doi.org/10.1039/c8cp02831a",
         "doi": "https://doi.org/10.1039/c8cp02831a"
@@ -396,6 +438,8 @@
       "year": 2023,
       "role": "co-first-author",
       "selected": false,
+      "citations": 45,
+      "source": "Google Scholar",
       "links": {
         "journal": "https://doi.org/10.1016/j.ijheatmasstransfer.2023.124662",
         "doi": "https://doi.org/10.1016/j.ijheatmasstransfer.2023.124662"
@@ -409,6 +453,8 @@
       "year": 2021,
       "role": "co-first-author",
       "selected": false,
+      "citations": 40,
+      "source": "Google Scholar",
       "links": {
         "journal": "https://doi.org/10.1021/acsami.1c11963",
         "doi": "https://doi.org/10.1021/acsami.1c11963"
@@ -552,6 +598,8 @@
       "year": 2023,
       "role": "co-author",
       "selected": false,
+      "citations": 63,
+      "source": "Google Scholar / ORCID",
       "links": {
         "journal": "https://doi.org/10.1021/acsami.3c07770",
         "doi": "https://doi.org/10.1021/acsami.3c07770"
@@ -565,6 +613,8 @@
       "year": 2023,
       "role": "co-author",
       "selected": false,
+      "citations": 69,
+      "source": "Google Scholar",
       "links": {
         "journal": "https://doi.org/10.1063/5.0147039",
         "doi": "https://doi.org/10.1063/5.0147039"

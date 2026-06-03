@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Software | Ting Liang</title>
+  <meta name="description" content="Open-source software and computational tools from Ting Liang, including pySED.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script defer src="../assets/js/main.js"></script>
+</head>
+<body data-page="software" data-base-path="..">
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="../index.html" aria-label="Ting Liang home">
+        <span class="brand-mark">TL</span>
+        <span>Ting Liang</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="../index.html">Home</a>
+        <a href="../research/index.html">Research</a>
+        <a href="../publications/index.html">Publications</a>
+        <a href="../software/index.html" aria-current="page">Software</a>
+        <a href="../contact/index.html">CV / Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero-grid">
+        <div class="reveal">
+          <p class="eyebrow">Software</p>
+          <h1>Open computational tools for atomistic simulation analysis</h1>
+          <p>
+            Software projects are maintained as reproducible research infrastructure, with documentation, examples,
+            publication support, and direct links to source repositories.
+          </p>
+        </div>
+        <div class="page-hero-card logo-card reveal">
+          <img src="../assets/img/pysed-logo.png" alt="pySED logo">
+          <span>Phonon dispersion and lifetime analysis from molecular dynamics.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Projects</p>
+            <h2>Maintained software</h2>
+          </div>
+        </div>
+        <div id="software-list" class="software-grid"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Workflow</p>
+            <h2>How the tools fit into the research pipeline</h2>
+          </div>
+        </div>
+        <div class="pipeline-grid reveal">
+          <div class="pipeline-step">
+            <span>01</span>
+            <strong>MD trajectories</strong>
+            <p>Run atomistic simulations with classical, hybrid, or machine-learning potentials.</p>
+          </div>
+          <div class="pipeline-step">
+            <span>02</span>
+            <strong>SED analysis</strong>
+            <p>Extract kinetic-energy-weighted phonon dispersion and lifetime information.</p>
+          </div>
+          <div class="pipeline-step">
+            <span>03</span>
+            <strong>Transport insight</strong>
+            <p>Connect phonon-level observables to thermal transport mechanisms.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>&copy; <span id="current-year"></span> Ting Liang</p>
+      <p><a href="../index.html">Back to home</a></p>
+    </div>
+  </footer>
+</body>
+</html>
