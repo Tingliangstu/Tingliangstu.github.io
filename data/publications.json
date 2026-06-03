@@ -66,7 +66,8 @@
       "Citation metrics and research keywords follow the public Google Scholar profile checked in June 2026.",
       "Employment and peer-review totals follow the public ORCID record; private ORCID dashboard-only fields are not published here.",
       "2026 publication metadata is cross-checked against ORCID, DOI records, and arXiv where available.",
-      "Per-paper citation counts on the Publications page follow the public Google Scholar profile checked on June 3, 2026."
+      "Per-paper citation counts on the Publications page follow the public Google Scholar profile checked on June 3, 2026.",
+      "Corresponding-author marks were audited against public publisher, DOI, and arXiv source records in June 2026; * marks corresponding authors and # marks co-first authors."
     ]
   },
   "news": [
@@ -184,7 +185,7 @@
       "tagline": "Python toolkit for extracting kinetic-energy-weighted phonon dispersion and lifetime from molecular dynamics.",
       "description": "Open-source software maintained by Ting Liang and collaborators, with documentation, examples, and publication support for SED analysis workflows.",
       "logo": "assets/img/pysed-logo.png",
-      "stars": 51,
+      "stars": 57,
       "language": "Python",
       "homepage": "https://pysed.readthedocs.io",
       "repository": "https://github.com/Tingliangstu/pySED",
@@ -305,7 +306,7 @@
     {
       "id": "pub-mof-phonon-gas-2026",
       "title": "Structurally triggered breakdown of the phonon gas model in crystalline metal-organic frameworks",
-      "authors": "P. Ying, <strong>T. Liang</strong>, Y. Chen, Y. Chen, S. Xiong, Z. Fan, J. Xu, and Y. Liu",
+      "authors": "P. Ying<sup>*</sup>, <strong>T. Liang</strong>, Yun Chen<sup>*</sup>, Yan Chen, S. Xiong, Z. Fan, J. Xu, and Y. Liu<sup>*</sup>",
       "venue": "arXiv preprint arXiv:2604.03783",
       "year": 2026,
       "role": "co-author",
@@ -323,7 +324,7 @@
     {
       "id": "pub-afm-phase-change-2026",
       "title": "A phase-change-enabled thermal interface material with the competitive thermal resistance of 0.03 degrees C cm2 W-1 for electronic devices thermal management in AI era",
-      "authors": "G. Lv, Y. Pang, <strong>T. Liang</strong>, Y. Qiao, J. B. Xu, R. Sun, and X. Zeng",
+      "authors": "G. Lv, Y. Pang, <strong>T. Liang</strong>, Y. Qiao, J. B. Xu, R. Sun<sup>*</sup>, and X. Zeng<sup>*</sup>",
       "venue": "Advanced Functional Materials, e00063",
       "year": 2026,
       "role": "co-author",
@@ -332,13 +333,16 @@
       ],
       "selected": false,
       "citations": 0,
-      "source": "Google Scholar",
-      "links": {}
+      "source": "Google Scholar / DOI",
+      "links": {
+        "journal": "https://doi.org/10.1002/adfm.202600063",
+        "doi": "https://doi.org/10.1002/adfm.202600063"
+      }
     },
     {
       "id": "pub-solar-thermal-2026",
       "title": "Self-adaptive solar-thermal system with moss-like surface for efficient energy utilization",
-      "authors": "H. Liang, D. Ding, H. Wang, <strong>T. Liang</strong>, C. Wong, P. Zhang, W. Liang, L. Ji, Q. Zhang, C. Song, T. Deng, R. Sun, J. Xu, and Y. Chen",
+      "authors": "H. Liang, D. Ding, H. Wang, <strong>T. Liang</strong>, C. Wong, P. Zhang, W. Liang, L. Ji, Q. Zhang, C. Song, T. Deng, R. Sun, J. Xu, and Y. Chen<sup>*</sup>",
       "venue": "Advanced Materials",
       "year": 2026,
       "role": "co-author",
@@ -448,7 +452,7 @@
     {
       "id": "pub-natcomm-2025",
       "title": "Observation of giant dipole moments of interlayer excitons via layer engineering",
-      "authors": "J. Zhu<sup>#</sup>, <strong>T. Liang</strong><sup>#</sup>, F. Shen<sup>#</sup>, Z. Chen, and J. Xu<sup>*</sup>",
+      "authors": "J. Zhu<sup>#</sup>, <strong>T. Liang</strong><sup>#</sup>, F. Shen<sup>#*</sup>, Z. Chen<sup>*</sup>, and J. Xu<sup>*</sup>",
       "venue": "Nature Communications 16, 10661",
       "year": 2025,
       "role": "co-first-author",
@@ -482,7 +486,7 @@
     {
       "id": "pub-jctc-2026-vdw",
       "title": "Accurate modeling of interfacial thermal transport in van der Waals heterostructures via hybrid machine learning and registry-dependent potentials",
-      "authors": "W. Jiang<sup>#*</sup>, H. Bu<sup>#</sup>, <strong>T. Liang</strong><sup>#</sup>, P. Ying, Z. Fan, J. Xu, and W. Ouyang",
+      "authors": "W. Jiang<sup>#</sup>, H. Bu<sup>#</sup>, <strong>T. Liang</strong><sup>#</sup>, P. Ying, Z. Fan, J. Xu, and W. Ouyang<sup>*</sup>",
       "venue": "Journal of Chemical Theory and Computation",
       "year": 2026,
       "role": "co-first-author",
@@ -604,7 +608,7 @@
     {
       "id": "pub-npjcm-2025-b",
       "title": "NEP-MB-pol: a unified machine-learned framework for fast and accurate prediction of water's thermodynamic and transport properties",
-      "authors": "K. Xu<sup>*</sup>, <strong>T. Liang</strong>, N. Xu, P. Ying, S. Chen, N. Wei, J. Xu, and Z. Fan",
+      "authors": "K. Xu, <strong>T. Liang</strong>, N. Xu, P. Ying, S. Chen<sup>*</sup>, N. Wei, J. Xu<sup>*</sup>, and Z. Fan<sup>*</sup>",
       "venue": "npj Computational Materials 11, 275",
       "year": 2025,
       "role": "co-author",
@@ -618,7 +622,7 @@
     {
       "id": "pub-prb-2025",
       "title": "Phonon coherence and minimum thermal conductivity in disordered superlattices",
-      "authors": "X. Wu<sup>*</sup>, Z. Wu, <strong>T. Liang</strong>, Z. Fan, J. Xu, M. Nomura, and P. Ying",
+      "authors": "X. Wu, Z. Wu, <strong>T. Liang</strong>, Z. Fan<sup>*</sup>, J. Xu, M. Nomura<sup>*</sup>, and P. Ying<sup>*</sup>",
       "venue": "Physical Review B 111, 085413",
       "year": 2025,
       "role": "co-author",
