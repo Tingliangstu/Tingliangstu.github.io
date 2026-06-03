@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV and Contact | Ting Liang</title>
+  <meta name="description" content="CV, contact information, public profiles, employment, and ORCID activity summary for Ting Liang.">
+  <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+  <link rel="shortcut icon" href="../favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script defer src="../assets/js/main.js"></script>
+</head>
+<body data-page="contact" data-base-path="..">
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="../index.html" aria-label="Ting Liang home">
+        <span class="brand-mark">TL</span>
+        <span>Ting Liang</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="../index.html">Home</a>
+        <a href="../research/index.html">Research</a>
+        <a href="../publications/index.html">Publications</a>
+        <a href="../software/index.html">Software</a>
+        <a href="../contact/index.html" aria-current="page">CV / Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero-grid">
+        <div class="reveal">
+          <p class="eyebrow">CV / Contact</p>
+          <h1>Profile, public records, and contact details</h1>
+          <p>
+            This page collects public contact information, research profiles, CV download, employment records, and
+            ORCID activity summaries.
+          </p>
+          <div class="hero-actions">
+            <a id="contact-cv-link" class="button button-primary" href="../assets/cv/Ting_Liang_CV.pdf" download>Download CV</a>
+            <a id="contact-orcid-link" class="button button-secondary" href="https://orcid.org/0000-0002-3116-365X" target="_blank" rel="noreferrer">ORCID</a>
+          </div>
+        </div>
+        <aside class="profile-panel reveal">
+          <img src="../assets/img/ting-liang.jpg" alt="Profile photo of Ting Liang">
+          <div>
+            <strong id="contact-name">Ting Liang</strong>
+            <span id="contact-affiliation">The Chinese University of Hong Kong</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="container contact-grid">
+        <div class="contact-card reveal">
+          <p class="eyebrow">Email</p>
+          <h2>Contact</h2>
+          <p>Primary: <a id="primary-email-link" href="mailto:tingliang@link.cuhk.edu.hk">tingliang@link.cuhk.edu.hk</a></p>
+          <p>Backup: <a id="backup-email-link" href="mailto:liangting.zj@gmail.com">liangting.zj@gmail.com</a></p>
+          <p id="contact-location">Department of Electronic Engineering, The Chinese University of Hong Kong, Hong Kong SAR</p>
+        </div>
+        <div class="contact-card reveal">
+          <p class="eyebrow">Profiles</p>
+          <h2>Public links</h2>
+          <div class="link-stack">
+            <a id="profile-scholar-link" href="https://scholar.google.com/citations?hl=en&user=4ei1O30AAAAJ" target="_blank" rel="noreferrer">Google Scholar</a>
+            <a id="profile-github-link" href="https://github.com/Tingliangstu" target="_blank" rel="noreferrer">GitHub</a>
+            <a id="profile-orcid-link" href="https://orcid.org/0000-0002-3116-365X" target="_blank" rel="noreferrer">ORCID public record</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container two-column">
+        <div class="reveal">
+          <p class="eyebrow">Employment</p>
+          <h2>Public ORCID record</h2>
+          <div id="employment-list" class="timeline-panel"></div>
+        </div>
+        <div class="reveal">
+          <p class="eyebrow">Activities</p>
+          <h2>Research service</h2>
+          <div id="peer-review-summary" class="activity-card"></div>
+          <div id="source-notes" class="source-notes"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>&copy; <span id="current-year"></span> Ting Liang</p>
+      <p><a href="../index.html">Back to home</a></p>
+    </div>
+  </footer>
+</body>
+</html>

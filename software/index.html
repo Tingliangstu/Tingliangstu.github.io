@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Publications | Ting Liang</title>
-  <meta name="description" content="Curated publication library of Ting Liang with filters, representative work markers, DOI links, and citation metadata where available.">
+  <title>Software | Ting Liang</title>
+  <meta name="description" content="Open-source software and computational tools from Ting Liang, including pySED.">
   <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon.png">
   <link rel="apple-touch-icon" href="../apple-touch-icon.png">
@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="../assets/css/style.css">
   <script defer src="../assets/js/main.js"></script>
 </head>
-<body data-page="publications" data-base-path="..">
+<body data-page="software" data-base-path="..">
   <header class="site-header">
     <div class="container nav-shell">
       <a class="brand" href="../index.html" aria-label="Ting Liang home">
@@ -30,8 +30,8 @@
       <nav class="site-nav" id="site-nav" aria-label="Main navigation">
         <a href="../index.html">Home</a>
         <a href="../research/index.html">Research</a>
-        <a href="../publications/index.html" aria-current="page">Publications</a>
-        <a href="../software/index.html">Software</a>
+        <a href="../publications/index.html">Publications</a>
+        <a href="../software/index.html" aria-current="page">Software</a>
         <a href="../contact/index.html">CV / Contact</a>
       </nav>
     </div>
@@ -41,49 +41,57 @@
     <section class="page-hero">
       <div class="container page-hero-grid">
         <div class="reveal">
-          <p class="eyebrow">Publication library</p>
-          <h1>Curated publication library</h1>
+          <p class="eyebrow">Software</p>
+          <h1>Open computational tools for atomistic simulation analysis</h1>
           <p>
-            A structured bibliography of locally maintained entries, with direct journal, DOI, preprint, and code links.
-            Scholar and ORCID totals are shown separately for the public profile record.
+            Software projects are maintained as reproducible research infrastructure, with documentation, examples,
+            publication support, and direct links to source repositories.
           </p>
         </div>
-        <div class="page-hero-card reveal">
-          <span class="card-label">Scholar profile</span>
-          <strong id="publication-hero-count">67</strong>
-          <span>works tracked through Scholar and ORCID records</span>
+        <div class="page-hero-card logo-card reveal">
+          <img src="../assets/img/pysed-logo.png" alt="pySED logo">
+          <span>Phonon dispersion and lifetime analysis from molecular dynamics.</span>
         </div>
       </div>
     </section>
 
     <section class="section section-muted">
       <div class="container">
-        <div class="filter-panel reveal">
-          <label for="year-filter">Year</label>
-          <select id="year-filter">
-            <option value="all">All years</option>
-          </select>
-          <label for="role-filter">Role</label>
-          <select id="role-filter">
-            <option value="all">All roles</option>
-            <option value="first-author">First author</option>
-            <option value="co-first-author">Co-first author</option>
-            <option value="corresponding-author">Corresponding author</option>
-            <option value="co-author">Co-author</option>
-          </select>
-          <label class="checkbox">
-            <input id="selected-only" type="checkbox">
-            <span>Representative only</span>
-          </label>
-          <span id="publication-count" class="meta">0 entries</span>
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Projects</p>
+            <h2>Maintained software</h2>
+          </div>
         </div>
+        <div id="software-list" class="software-grid"></div>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
-        <p class="meta author-note">Notation: <strong>#</strong> co-first author; <strong>*</strong> corresponding author.</p>
-        <div id="publications-list" class="publication-list publication-list-full"></div>
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Workflow</p>
+            <h2>How the tools fit into the research pipeline</h2>
+          </div>
+        </div>
+        <div class="pipeline-grid reveal">
+          <div class="pipeline-step">
+            <span>01</span>
+            <strong>MD trajectories</strong>
+            <p>Run atomistic simulations with classical, hybrid, or machine-learning potentials.</p>
+          </div>
+          <div class="pipeline-step">
+            <span>02</span>
+            <strong>SED analysis</strong>
+            <p>Extract kinetic-energy-weighted phonon dispersion and lifetime information.</p>
+          </div>
+          <div class="pipeline-step">
+            <span>03</span>
+            <strong>Transport insight</strong>
+            <p>Connect phonon-level observables to thermal transport mechanisms.</p>
+          </div>
+        </div>
       </div>
     </section>
   </main>

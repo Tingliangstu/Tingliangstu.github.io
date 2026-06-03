@@ -1,3 +1,26 @@
+const PAGE = document.body.dataset.page || "home";
+const BASE_PATH = document.body.dataset.basePath || ".";
+
+function withBase(path) {
+  if (!path) {
+    return "";
+  }
+  if (/^(https?:|mailto:|#)/.test(path) || path.startsWith("../")) {
+    return path;
+  }
+  const prefix = BASE_PATH === "." ? "" : `${BASE_PATH}/`;
+  return `${prefix}${path.replace(/^\.\//, "")}`;
+}
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
 function initMobileNav() {
   const toggle = document.querySelector(".menu-toggle");
   const nav = document.querySelector("#site-nav");
@@ -7,13 +30,27 @@ function initMobileNav() {
 
   toggle.addEventListener("click", () => {
     const isOpen = nav.classList.toggle("open");
+    document.body.classList.toggle("menu-open", isOpen);
     toggle.setAttribute("aria-expanded", String(isOpen));
+  });
+
+  nav.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      nav.classList.remove("open");
+      document.body.classList.remove("menu-open");
+      toggle.setAttribute("aria-expanded", "false");
+    });
   });
 }
 
 function initReveal() {
   const elements = document.querySelectorAll(".reveal");
   if (!elements.length) {
+    return;
+  }
+
+  if (!("IntersectionObserver" in window)) {
+    elements.forEach((el) => el.classList.add("visible"));
     return;
   }
 
@@ -26,17 +63,32 @@ function initReveal() {
         }
       });
     },
-    { threshold: 0.1 }
+    { threshold: 0.12 }
   );
 
   elements.forEach((el) => observer.observe(el));
 }
 
 function formatNumber(value) {
-  if (!Number.isFinite(value)) {
+  const number = Number(value);
+  if (!Number.isFinite(number)) {
     return "0";
   }
-  return value.toLocaleString("en-US");
+  return number.toLocaleString("en-US");
+}
+
+function formatDate(value) {
+  if (!value || value === "present") {
+    return "Present";
+  }
+  const [year, month] = String(value).split("-");
+  return month ? `${year}.${month}` : year;
+}
+
+function formatRange(item = {}) {
+  const start = formatDate(item.start);
+  const end = item.end ? formatDate(item.end) : "Present";
+  return `${start} - ${end}`;
 }
 
 function setText(id, value) {
@@ -49,16 +101,37 @@ function setText(id, value) {
 function setHref(id, value) {
   const el = document.querySelector(`#${id}`);
   if (el && value) {
-    el.setAttribute("href", value);
+    el.setAttribute("href", withBase(value));
   }
 }
 
-function updateKeywords(keywords) {
-  const host = document.querySelector("#research-keywords");
-  if (!host || !Array.isArray(keywords)) {
-    return;
+function setMail(id, email) {
+  const el = document.querySelector(`#${id}`);
+  if (el && email) {
+    el.textContent = email;
+    el.setAttribute("href", `mailto:${email}`);
   }
-  host.innerHTML = keywords.map((item) => `<span class="chip">${item}</span>`).join("");
+}
+
+function hydrateProfile(profile = {}) {
+  setHref("hero-cv-link", profile.cv_url);
+  setHref("contact-cv-link", profile.cv_url);
+  setHref("contact-scholar-link", profile.scholar_url);
+  setHref("contact-github-link", profile.github_url);
+  setHref("contact-orcid-link", profile.orcid_url);
+  setHref("profile-scholar-link", profile.scholar_url);
+  setHref("profile-github-link", profile.github_url);
+  setHref("profile-orcid-link", profile.orcid_url);
+
+  setText("contact-name", profile.name);
+  setText("contact-affiliation", profile.affiliation);
+  setText("contact-location", profile.affiliation);
+  setMail("primary-email-link", profile.email);
+  setMail("backup-email-link", profile.backup_email);
+
+  const stats = profile.stats || {};
+  setText("hero-citations", formatNumber(stats.cited_by));
+  setText("publication-hero-count", formatNumber(stats.publications));
 }
 
 function roleLabel(role) {
@@ -71,40 +144,17 @@ function roleLabel(role) {
   return map[role] || role || "";
 }
 
-function hydrateHomeProfile(profile = {}) {
-  setHref("scholar-link", profile.scholar_url);
-  setHref("github-link", profile.github_url);
-  setHref("orcid-link", profile.orcid_url);
-  setHref("cv-link", profile.cv_url);
-  setHref("contact-scholar-link", profile.scholar_url);
-  setHref("contact-github-link", profile.github_url);
-  setHref("contact-orcid-link", profile.orcid_url);
-  setHref("contact-cv-link", profile.cv_url);
-  setHref("peer-orcid-link", profile.orcid_url);
-
-  setText("affiliation-text", profile.affiliation);
-  setText("email-text", profile.email);
-  setText("backup-email-text", profile.backup_email);
-
-  const stats = profile.stats || {};
-  setText("stat-publications", formatNumber(stats.publications));
-  setText("stat-citations", formatNumber(stats.cited_by));
-  setText("stat-hindex", formatNumber(stats.h_index));
-  setText("stat-i10", formatNumber(stats.i10_index));
-
-  updateKeywords(profile.research_interests || []);
-}
-
 function resolvePrimaryLink(item = {}) {
   const links = item.links || {};
-  return links.journal || links.doi || links.scholar || "";
+  return links.journal || links.doi || links.scholar || links.code || "";
 }
 
 function renderTitle(title, href, cls = "publication-title") {
+  const safeTitle = title || "Untitled";
   if (!href) {
-    return `<h3 class="${cls}">${title}</h3>`;
+    return `<h3 class="${cls}">${safeTitle}</h3>`;
   }
-  return `<h3 class="${cls}"><a class="paper-title-link" href="${href}" target="_blank" rel="noreferrer">${title}</a></h3>`;
+  return `<h3 class="${cls}"><a class="paper-title-link" href="${href}" target="_blank" rel="noreferrer">${safeTitle}</a></h3>`;
 }
 
 function renderLinks(item = {}) {
@@ -128,6 +178,167 @@ function renderLinks(item = {}) {
   return rows.join("");
 }
 
+function renderStats(profile = {}) {
+  const host = document.querySelector("#home-stats");
+  if (!host) {
+    return;
+  }
+  const stats = profile.stats || {};
+  const rows = [
+    ["Works", stats.publications],
+    ["Scholar citations", stats.cited_by],
+    ["h-index", stats.h_index],
+    ["i10-index", stats.i10_index]
+  ];
+  host.innerHTML = rows
+    .map(([label, value]) => `
+<div class="stat-box">
+  <span class="stat-value">${formatNumber(value)}</span>
+  <span class="stat-label">${label}</span>
+</div>`)
+    .join("");
+}
+
+function renderTimeline(hostId, items = []) {
+  const host = document.querySelector(`#${hostId}`);
+  if (!host) {
+    return;
+  }
+  if (!items.length) {
+    host.innerHTML = `<p class="meta">No public records available.</p>`;
+    return;
+  }
+  host.innerHTML = items
+    .map((item) => `
+<div class="timeline-item">
+  <span class="timeline-date">${formatRange(item)}</span>
+  <span class="timeline-title">${escapeHtml(item.role || "")}</span>
+  <span class="timeline-meta">${escapeHtml(item.organization || "")}</span>
+  ${item.area ? `<span class="timeline-meta">${escapeHtml(item.area)}</span>` : ""}
+  ${item.location ? `<span class="timeline-meta">${escapeHtml(item.location)}</span>` : ""}
+</div>`)
+    .join("");
+}
+
+function researchCardData(profile = {}) {
+  const tags = profile.research_interests || [];
+  const focus = profile.research_focus || [];
+  return tags.map((title, index) => ({
+    title,
+    body: focus[index] || title
+  }));
+}
+
+function renderResearchCards(hostId, profile = {}) {
+  const host = document.querySelector(`#${hostId}`);
+  if (!host) {
+    return;
+  }
+  const items = researchCardData(profile);
+  host.innerHTML = items
+    .map((item, index) => `
+<article class="feature-card reveal">
+  <span>0${index + 1}</span>
+  <h3>${escapeHtml(item.title)}</h3>
+  <p>${escapeHtml(item.body)}</p>
+</article>`)
+    .join("");
+  initReveal();
+}
+
+function renderKeywordChips(hostId, keywords = []) {
+  const host = document.querySelector(`#${hostId}`);
+  if (!host) {
+    return;
+  }
+  host.innerHTML = keywords.map((item) => `<span class="chip">${escapeHtml(item)}</span>`).join("");
+}
+
+function renderNews(news, limit = news.length) {
+  const host = document.querySelector("#news-list");
+  if (!host) {
+    return;
+  }
+  const items = Array.isArray(news) ? news.slice(0, limit) : [];
+  if (!items.length) {
+    host.innerHTML = "<li>No news items yet.</li>";
+    return;
+  }
+  host.innerHTML = items
+    .map((item) => `<li><time>${escapeHtml(item.date || "")}</time>${escapeHtml(item.text || "")}</li>`)
+    .join("");
+}
+
+function summaryHtml(summary) {
+  if (!summary || /^Please add/i.test(summary)) {
+    return "";
+  }
+  return `<p class="work-summary">${summary}</p>`;
+}
+
+function renderWorkCard(item = {}) {
+  const titleLink = resolvePrimaryLink(item);
+  const icon = withBase(item.icon || "assets/img/work-placeholder.svg");
+  return `
+<article class="work-card reveal">
+  <img class="work-thumb" src="${icon}" alt="Representative work visual" onerror="this.src='${withBase("assets/img/work-placeholder.svg")}'">
+  ${renderTitle(item.title, titleLink, "work-title")}
+  <p class="work-meta">${item.authors || ""}</p>
+  <p class="work-meta">${item.venue || ""} (${item.year || "n.d."})</p>
+  ${summaryHtml(item.summary)}
+  <div class="publication-links">${renderLinks(item)}</div>
+</article>`;
+}
+
+function renderRepresentativeWorks(works, limit = 6) {
+  const host = document.querySelector("#representative-works-list");
+  if (!host) {
+    return;
+  }
+  const items = Array.isArray(works) ? works.slice(0, limit) : [];
+  if (!items.length) {
+    host.innerHTML = "<p>Representative works will appear here.</p>";
+    return;
+  }
+  host.innerHTML = items.map(renderWorkCard).join("");
+  initReveal();
+}
+
+function renderSoftwareCard(item = {}) {
+  const starText = Number.isFinite(item.stars) ? `${item.stars} stars` : "";
+  const logo = withBase(item.logo || "assets/img/work-placeholder.svg");
+  return `
+<article class="software-card reveal">
+  <img class="software-logo" src="${logo}" alt="${escapeHtml(item.name || "Software")} logo" onerror="this.src='${withBase("assets/img/work-placeholder.svg")}'">
+  <div class="software-content">
+    <h3 class="software-title">${escapeHtml(item.name || "")}</h3>
+    <p class="software-tagline">${escapeHtml(item.tagline || "")}</p>
+    <p class="software-description">${escapeHtml(item.description || "")}</p>
+    <p class="software-meta">${escapeHtml(item.language || "")}${item.language && starText ? " / " : ""}${starText}</p>
+    <div class="publication-links">
+      ${item.repository ? `<a href="${item.repository}" target="_blank" rel="noreferrer">GitHub</a>` : ""}
+      ${item.homepage ? `<a href="${item.homepage}" target="_blank" rel="noreferrer">Docs</a>` : ""}
+      ${item.paper ? `<a href="${item.paper}" target="_blank" rel="noreferrer">Paper</a>` : ""}
+      ${item.publications ? `<a href="${item.publications}" target="_blank" rel="noreferrer">Publications</a>` : ""}
+    </div>
+  </div>
+</article>`;
+}
+
+function renderSoftware(software, hostId, limit = software.length) {
+  const host = document.querySelector(`#${hostId}`);
+  if (!host) {
+    return;
+  }
+  const items = Array.isArray(software) ? software.slice(0, limit) : [];
+  if (!items.length) {
+    host.innerHTML = "<p>No software entries yet.</p>";
+    return;
+  }
+  host.innerHTML = items.map(renderSoftwareCard).join("");
+  initReveal();
+}
+
 function safeYear(value) {
   return Number.isFinite(value) ? value : 0;
 }
@@ -145,125 +356,12 @@ function sortPublications(items) {
     if (yearDiff !== 0) {
       return yearDiff;
     }
-
     const roleDiff = (rolePriority[a.role] ?? 99) - (rolePriority[b.role] ?? 99);
     if (roleDiff !== 0) {
       return roleDiff;
     }
     return (a.title || "").localeCompare(b.title || "");
   });
-}
-
-function renderNews(news) {
-  const host = document.querySelector("#news-list");
-  if (!host) {
-    return;
-  }
-  if (!Array.isArray(news) || !news.length) {
-    host.innerHTML = "<li>No news items yet.</li>";
-    return;
-  }
-
-  host.innerHTML = news
-    .map((item) => `<li><time>${item.date || ""}</time> ${item.text || ""}</li>`)
-    .join("");
-}
-
-function renderRepresentativeWorks(works) {
-  const host = document.querySelector("#representative-works-list");
-  if (!host) {
-    return;
-  }
-  if (!Array.isArray(works) || !works.length) {
-    host.innerHTML = "<p>Representative works will appear here.</p>";
-    return;
-  }
-
-  host.innerHTML = works
-    .map((item) => {
-      const titleLink = resolvePrimaryLink(item);
-      const icon = item.icon || "assets/img/work-placeholder.svg";
-      return `
-<article class="work-card">
-  <img class="work-thumb" src="${icon}" alt="Representative work icon" onerror="this.src='assets/img/work-placeholder.svg'">
-  ${renderTitle(item.title, titleLink, "work-title")}
-  <p class="work-meta">${item.authors || ""}</p>
-  <p class="work-meta">${item.venue || ""} (${item.year || "n.d."})</p>
-  <p class="work-summary">${item.summary || ""}</p>
-  <div class="publication-links">${renderLinks(item)}</div>
-</article>
-`;
-    })
-    .join("");
-}
-
-function renderSoftware(software) {
-  const host = document.querySelector("#software-list");
-  if (!host) {
-    return;
-  }
-  if (!Array.isArray(software) || !software.length) {
-    host.innerHTML = "<p>No software entries yet.</p>";
-    return;
-  }
-
-  host.innerHTML = software
-    .map((item) => {
-      const starText = Number.isFinite(item.stars) ? `${item.stars} stars` : "";
-      return `
-<article class="software-card">
-  <img class="software-logo" src="${item.logo || "assets/img/work-placeholder.svg"}" alt="${item.name || "Software"} logo" onerror="this.src='assets/img/work-placeholder.svg'">
-  <div class="software-content">
-    <h3 class="software-title">${item.name || ""}</h3>
-    <p class="software-tagline">${item.tagline || ""}</p>
-    <p class="software-description">${item.description || ""}</p>
-    <p class="software-meta">${item.language || ""}${item.language && starText ? " | " : ""}${starText}</p>
-    <div class="publication-links">
-      ${item.repository ? `<a href="${item.repository}" target="_blank" rel="noreferrer">GitHub</a>` : ""}
-      ${item.homepage ? `<a href="${item.homepage}" target="_blank" rel="noreferrer">Docs</a>` : ""}
-      ${item.paper ? `<a href="${item.paper}" target="_blank" rel="noreferrer">Paper</a>` : ""}
-      ${item.publications ? `<a href="${item.publications}" target="_blank" rel="noreferrer">Publications</a>` : ""}
-    </div>
-  </div>
-</article>
-`;
-    })
-    .join("");
-}
-
-function renderPeerReviews(reviews) {
-  const host = document.querySelector("#peer-reviews-list");
-  if (!host) {
-    return;
-  }
-  if (!Array.isArray(reviews) || !reviews.length) {
-    host.innerHTML = "<li>No peer-review records available.</li>";
-    return;
-  }
-
-  host.innerHTML = reviews
-    .map((item) => `<li><span>${item.journal}</span><strong>${item.count}</strong></li>`)
-    .join("");
-}
-
-function renderPublicationItem(item, index) {
-  const primaryLink = resolvePrimaryLink(item);
-  const year = item.year ? String(item.year) : "n.d.";
-  const role = roleLabel(item.role);
-  return `
-<article class="publication-item publication-item-biblio">
-  <div class="publication-index">[${index}]</div>
-  <div class="publication-body">
-    ${renderTitle(item.title, primaryLink, "publication-title")}
-    <p class="publication-authors">${item.authors || ""}</p>
-    <p class="publication-venue"><em>${item.venue || ""}</em> (${year})${role ? ` | ${role}` : ""}</p>
-    <div class="publication-links">
-      ${renderLinks(item)}
-      ${item.selected ? '<span class="publication-tag">Representative</span>' : ""}
-    </div>
-  </div>
-</article>
-`;
 }
 
 function groupByYear(items) {
@@ -275,6 +373,29 @@ function groupByYear(items) {
     map.set(key, arr);
   });
   return map;
+}
+
+function renderPublicationItem(item, index) {
+  const primaryLink = resolvePrimaryLink(item);
+  const year = item.year ? String(item.year) : "n.d.";
+  const role = roleLabel(item.role);
+  const citation = Number.isFinite(item.citations) ? `<span class="publication-tag">${formatNumber(item.citations)} citations</span>` : "";
+  const source = item.source ? `<span class="publication-tag">${escapeHtml(item.source)}</span>` : "";
+  return `
+<article class="publication-item publication-item-biblio">
+  <div class="publication-index">[${index}]</div>
+  <div class="publication-body">
+    ${renderTitle(item.title, primaryLink, "publication-title")}
+    <p class="publication-authors">${item.authors || ""}</p>
+    <p class="publication-venue"><em>${item.venue || ""}</em> (${year})${role ? ` / ${role}` : ""}</p>
+    <div class="publication-links">
+      ${renderLinks(item)}
+      ${item.selected ? '<span class="publication-tag">Representative</span>' : ""}
+      ${citation}
+      ${source}
+    </div>
+  </div>
+</article>`;
 }
 
 function renderAllPublications(items, filters = {}) {
@@ -298,7 +419,7 @@ function renderAllPublications(items, filters = {}) {
   );
 
   if (countHost) {
-    countHost.textContent = `${filtered.length} entries`;
+    countHost.textContent = `${filtered.length} entries shown`;
   }
 
   if (!filtered.length) {
@@ -326,7 +447,7 @@ function renderAllPublications(items, filters = {}) {
         counter += 1;
         return renderPublicationItem(entry, current);
       });
-      return `<h3 class="publication-year-block">${yearValue}</h3>${html.join("")}`;
+      return `<h2 class="publication-year-block">${yearValue}</h2>${html.join("")}`;
     })
     .join("");
 }
@@ -345,71 +466,128 @@ function fillYearFilter(items) {
   });
 }
 
-async function loadPublicationData() {
-  const page = document.body.dataset.page;
-  if (!["home", "publications"].includes(page)) {
+function initPublicationFilters(publications) {
+  fillYearFilter(publications);
+  const yearFilter = document.querySelector("#year-filter");
+  const roleFilter = document.querySelector("#role-filter");
+  const selectedOnly = document.querySelector("#selected-only");
+
+  const rerender = () => {
+    renderAllPublications(publications, {
+      year: yearFilter ? yearFilter.value : "all",
+      role: roleFilter ? roleFilter.value : "all",
+      selectedOnly: selectedOnly ? selectedOnly.checked : false
+    });
+  };
+
+  rerender();
+  yearFilter?.addEventListener("change", rerender);
+  roleFilter?.addEventListener("change", rerender);
+  selectedOnly?.addEventListener("change", rerender);
+}
+
+function renderPeerReviewSummary(profile = {}) {
+  const host = document.querySelector("#peer-review-summary");
+  if (!host) {
     return;
   }
+  const summary = profile.peer_review_summary || {};
+  host.innerHTML = `
+<strong>${formatNumber(summary.reviews || 0)}</strong>
+<span>reviews across ${formatNumber(summary.items || 0)} ORCID peer-review items.</span>
+${summary.source ? `<p class="meta">Source: ${escapeHtml(summary.source)}</p>` : ""}`;
+}
 
-  const dataPath = page === "publications" ? "../data/publications.json" : "data/publications.json";
+function renderSourceNotes(profile = {}) {
+  const host = document.querySelector("#source-notes");
+  if (!host) {
+    return;
+  }
+  const notes = profile.source_notes || [];
+  host.innerHTML = notes.map((note) => `<p>${escapeHtml(note)}</p>`).join("");
+}
+
+function renderHome(data = {}) {
+  const profile = data.profile || {};
+  renderStats(profile);
+  renderTimeline("home-timeline", profile.employment || []);
+  renderResearchCards("research-preview-list", profile);
+  renderNews(data.news || [], 3);
+  renderSoftware(data.software || [], "software-preview", 1);
+  renderRepresentativeWorks(data.representative_works || [], 6);
+}
+
+function renderResearch(data = {}) {
+  const profile = data.profile || {};
+  renderResearchCards("research-focus-list", profile);
+  renderKeywordChips("research-keywords", profile.research_interests || []);
+}
+
+function renderSoftwarePage(data = {}) {
+  renderSoftware(data.software || [], "software-list");
+}
+
+function renderContact(data = {}) {
+  const profile = data.profile || {};
+  renderTimeline("employment-list", profile.employment || []);
+  renderPeerReviewSummary(profile);
+  renderSourceNotes(profile);
+}
+
+function renderPublicationsPage(data = {}) {
+  const publications = Array.isArray(data.publications) ? data.publications : [];
+  initPublicationFilters(publications);
+}
+
+function fillCurrentYear() {
+  setText("current-year", String(new Date().getFullYear()));
+}
+
+function renderLoadError(message) {
+  const targets = [
+    "#home-stats",
+    "#home-timeline",
+    "#research-preview-list",
+    "#news-list",
+    "#software-preview",
+    "#representative-works-list",
+    "#research-focus-list",
+    "#software-list",
+    "#employment-list",
+    "#publications-list"
+  ];
+  targets.forEach((selector) => {
+    const host = document.querySelector(selector);
+    if (host) {
+      host.innerHTML = `<p class="meta">Could not load data (${escapeHtml(message)}).</p>`;
+    }
+  });
+}
+
+async function loadPublicationData() {
+  const dataPath = withBase("data/publications.json");
   try {
     const response = await fetch(dataPath);
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}`);
     }
     const data = await response.json();
-    const profile = data.profile || {};
-    const publications = Array.isArray(data.publications) ? data.publications : [];
+    hydrateProfile(data.profile || {});
 
-    if (page === "home") {
-      hydrateHomeProfile(profile);
-      renderNews(data.news || []);
-      renderRepresentativeWorks(data.representative_works || []);
-      renderSoftware(data.software || []);
-      renderPeerReviews(data.peer_reviews || []);
-      return;
-    }
-
-    fillYearFilter(publications);
-    const yearFilter = document.querySelector("#year-filter");
-    const roleFilter = document.querySelector("#role-filter");
-    const selectedOnly = document.querySelector("#selected-only");
-
-    const rerender = () => {
-      renderAllPublications(publications, {
-        year: yearFilter ? yearFilter.value : "all",
-        role: roleFilter ? roleFilter.value : "all",
-        selectedOnly: selectedOnly ? selectedOnly.checked : false
-      });
-    };
-
-    rerender();
-    if (yearFilter) {
-      yearFilter.addEventListener("change", rerender);
-    }
-    if (roleFilter) {
-      roleFilter.addEventListener("change", rerender);
-    }
-    if (selectedOnly) {
-      selectedOnly.addEventListener("change", rerender);
+    if (PAGE === "home") {
+      renderHome(data);
+    } else if (PAGE === "research") {
+      renderResearch(data);
+    } else if (PAGE === "software") {
+      renderSoftwarePage(data);
+    } else if (PAGE === "contact") {
+      renderContact(data);
+    } else if (PAGE === "publications") {
+      renderPublicationsPage(data);
     }
   } catch (error) {
-    const homeTargets = ["#news-list", "#representative-works-list", "#software-list", "#peer-reviews-list"];
-    homeTargets.forEach((selector) => {
-      const host = document.querySelector(selector);
-      if (host) {
-        host.innerHTML = `<li>Could not load data (${error.message}).</li>`;
-      }
-    });
-    const pubHost = document.querySelector("#publications-list");
-    if (pubHost) {
-      pubHost.innerHTML = `<p>Could not load publication data (${error.message}).</p>`;
-    }
+    renderLoadError(error.message);
   }
-}
-
-function fillCurrentYear() {
-  setText("current-year", String(new Date().getFullYear()));
 }
 
 document.addEventListener("DOMContentLoaded", () => {
