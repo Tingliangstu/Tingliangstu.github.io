@@ -128,6 +128,7 @@ function hydrateProfile(profile = {}) {
   setHref("profile-orcid-link", profile.orcid_url);
   setHref("software-github-link", profile.github_url);
   setHref("software-github-link-inline", profile.github_url);
+  setHref("publication-scholar-link", profile.scholar_url);
 
   setText("contact-name", profile.name);
   setText("contact-affiliation", profile.affiliation);
@@ -527,7 +528,10 @@ function renderSourceNotes(profile = {}) {
 
 function renderHome(data = {}) {
   const profile = data.profile || {};
-  renderTimeline("home-timeline", profile.employment || []);
+  const careerItems = [...(profile.employment || []), ...(profile.education || [])].sort((a, b) =>
+    String(b.start || "").localeCompare(String(a.start || ""))
+  );
+  renderTimeline("home-profile-timeline", careerItems);
   renderResearchCards("research-preview-list", profile);
   renderNews(data.news || [], 3);
   renderSoftware(data.software || [], "software-preview", 2);
@@ -564,7 +568,7 @@ function fillCurrentYear() {
 function renderLoadError(message) {
   const targets = [
     "#publication-stats",
-    "#home-timeline",
+    "#home-profile-timeline",
     "#research-preview-list",
     "#news-list",
     "#software-preview",

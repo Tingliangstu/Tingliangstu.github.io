@@ -47,7 +47,16 @@
         "end": "2021-07-06"
       }
     ],
-    "education": [],
+    "education": [
+      {
+        "organization": "Chinese University of Hong Kong",
+        "location": "Hong Kong, HK",
+        "role": "PhD",
+        "area": "Electronic Engineering",
+        "start": "2021-08-01",
+        "end": "2026-03-31"
+      }
+    ],
     "peer_review_summary": {
       "reviews": 35,
       "items": 15,
@@ -56,7 +65,8 @@
     "source_notes": [
       "Citation metrics and research keywords follow the public Google Scholar profile checked in June 2026.",
       "Employment and peer-review totals follow the public ORCID record; private ORCID dashboard-only fields are not published here.",
-      "2026 publication metadata is cross-checked against ORCID, DOI records, and arXiv where available."
+      "2026 publication metadata is cross-checked against ORCID, DOI records, and arXiv where available.",
+      "Per-paper citation counts on the Publications page follow the public Google Scholar profile checked on June 3, 2026."
     ]
   },
   "news": [
@@ -289,24 +299,8 @@
       "links": {
         "journal": "https://doi.org/10.1038/s41524-025-01885-y",
         "doi": "https://doi.org/10.1038/s41524-025-01885-y"
-      }
-    },
-    {
-      "id": "pub-jmps-vdw-2026",
-      "title": "Modular hybrid machine learning and physics-based potentials for scalable modeling of Van der Waals heterostructures",
-      "authors": "H. Bu, W. Jiang, P. Ying, <strong>T. Liang</strong>, Z. Fan, and W. Ouyang",
-      "venue": "Journal of the Mechanics and Physics of Solids",
-      "year": 2026,
-      "role": "co-author",
-      "roles": [
-        "co-author"
-      ],
-      "selected": false,
-      "source": "ORCID / DOI",
-      "links": {
-        "journal": "https://doi.org/10.1016/j.jmps.2026.106540",
-        "doi": "https://doi.org/10.1016/j.jmps.2026.106540"
-      }
+      },
+      "citations": 8
     },
     {
       "id": "pub-mof-phonon-gas-2026",
@@ -323,7 +317,23 @@
       "links": {
         "journal": "https://arxiv.org/abs/2604.03783",
         "doi": "https://doi.org/10.48550/arXiv.2604.03783"
-      }
+      },
+      "citations": 0
+    },
+    {
+      "id": "pub-afm-phase-change-2026",
+      "title": "A phase-change-enabled thermal interface material with the competitive thermal resistance of 0.03 degrees C cm2 W-1 for electronic devices thermal management in AI era",
+      "authors": "G. Lv, Y. Pang, <strong>T. Liang</strong>, Y. Qiao, J. B. Xu, R. Sun, and X. Zeng",
+      "venue": "Advanced Functional Materials, e00063",
+      "year": 2026,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 0,
+      "source": "Google Scholar",
+      "links": {}
     },
     {
       "id": "pub-solar-thermal-2026",
@@ -340,7 +350,8 @@
       "links": {
         "journal": "https://doi.org/10.1002/adma.73376",
         "doi": "https://doi.org/10.1002/adma.73376"
-      }
+      },
+      "citations": 0
     },
     {
       "id": "pub-pysed-2025",
@@ -358,7 +369,8 @@
         "journal": "https://doi.org/10.1063/5.0278798",
         "doi": "https://doi.org/10.1063/5.0278798",
         "code": "https://github.com/Tingliangstu/pySED"
-      }
+      },
+      "citations": 25
     },
     {
       "id": "pub-silica-2023",
@@ -386,7 +398,8 @@
       "links": {
         "journal": "https://doi.org/10.1016/j.mtphys.2022.100705",
         "doi": "https://doi.org/10.1016/j.mtphys.2022.100705"
-      }
+      },
+      "citations": 28
     },
     {
       "id": "pub-ijhmt-2020",
@@ -414,7 +427,8 @@
       "links": {
         "journal": "https://doi.org/10.1088/2399-1984/aafc8c",
         "doi": "https://doi.org/10.1088/2399-1984/aafc8c"
-      }
+      },
+      "citations": 37
     },
     {
       "id": "pub-pccp-2018",
@@ -445,7 +459,8 @@
       "links": {
         "journal": "https://www.nature.com/articles/s41467-025-65683-2",
         "doi": "https://doi.org/10.1038/s41467-025-65683-2"
-      }
+      },
+      "citations": 3
     },
     {
       "id": "pub-acsami-2025-a",
@@ -461,7 +476,8 @@
       "links": {
         "journal": "https://doi.org/10.1021/acsami.5c06264",
         "doi": "https://doi.org/10.1021/acsami.5c06264"
-      }
+      },
+      "citations": 13
     },
     {
       "id": "pub-jctc-2026-vdw",
@@ -478,7 +494,8 @@
       "links": {
         "journal": "https://doi.org/10.1021/acs.jctc.5c01950",
         "doi": "https://doi.org/10.1021/acs.jctc.5c01950"
-      }
+      },
+      "citations": 8
     },
     {
       "id": "pub-small-2024",
@@ -491,7 +508,8 @@
       "links": {
         "journal": "https://doi.org/10.1002/smll.202309338",
         "doi": "https://doi.org/10.1002/smll.202309338"
-      }
+      },
+      "citations": 16
     },
     {
       "id": "pub-nanoletters-2024",
@@ -508,7 +526,8 @@
       "links": {
         "journal": "https://doi.org/10.1021/acs.nanolett.4c01409",
         "doi": "https://doi.org/10.1021/acs.nanolett.4c01409"
-      }
+      },
+      "citations": 19
     },
     {
       "id": "pub-acsami-2024-b",
@@ -521,7 +540,8 @@
       "links": {
         "journal": "https://doi.org/10.1021/acsami.4c09914",
         "doi": "https://doi.org/10.1021/acsami.4c09914"
-      }
+      },
+      "citations": 12
     },
     {
       "id": "pub-ijhmt-2023-b",
@@ -564,7 +584,8 @@
       "links": {
         "journal": "https://doi.org/10.1021/acs.jpclett.5c01802",
         "doi": "https://doi.org/10.1021/acs.jpclett.5c01802"
-      }
+      },
+      "citations": 3
     },
     {
       "id": "pub-acsnano-2025",
@@ -577,7 +598,8 @@
       "links": {
         "journal": "https://doi.org/10.1021/acsnano.4c12148",
         "doi": "https://doi.org/10.1021/acsnano.4c12148"
-      }
+      },
+      "citations": 30
     },
     {
       "id": "pub-npjcm-2025-b",
@@ -590,7 +612,8 @@
       "links": {
         "journal": "https://doi.org/10.1038/s41524-025-01777-1",
         "doi": "https://doi.org/10.1038/s41524-025-01777-1"
-      }
+      },
+      "citations": 20
     },
     {
       "id": "pub-prb-2025",
@@ -603,7 +626,8 @@
       "links": {
         "journal": "https://doi.org/10.1103/PhysRevB.111.085413",
         "doi": "https://doi.org/10.1103/PhysRevB.111.085413"
-      }
+      },
+      "citations": 15
     },
     {
       "id": "pub-compositesa-2025",
@@ -616,7 +640,8 @@
       "links": {
         "journal": "https://doi.org/10.1016/j.compositesa.2025.109221",
         "doi": "https://doi.org/10.1016/j.compositesa.2025.109221"
-      }
+      },
+      "citations": 3
     },
     {
       "id": "pub-acsami-2025-c",
@@ -629,7 +654,8 @@
       "links": {
         "journal": "https://doi.org/10.1021/acsami.5c20168",
         "doi": "https://doi.org/10.1021/acsami.5c20168"
-      }
+      },
+      "citations": 2
     },
     {
       "id": "pub-arxiv-2025-b",
@@ -642,7 +668,8 @@
       "links": {
         "journal": "https://arxiv.org/abs/2511.18915",
         "doi": "https://doi.org/10.48550/arXiv.2511.18915"
-      }
+      },
+      "citations": 0
     },
     {
       "id": "pub-jmca-2024",
@@ -655,7 +682,8 @@
       "links": {
         "journal": "https://doi.org/10.1039/d4ta03473b",
         "doi": "https://doi.org/10.1039/d4ta03473b"
-      }
+      },
+      "citations": 9
     },
     {
       "id": "pub-ijhmt-2023-c",
@@ -668,7 +696,8 @@
       "links": {
         "journal": "https://doi.org/10.1016/j.ijheatmasstransfer.2022.123681",
         "doi": "https://doi.org/10.1016/j.ijheatmasstransfer.2022.123681"
-      }
+      },
+      "citations": 21
     },
     {
       "id": "pub-adom-2023",
@@ -681,7 +710,8 @@
       "links": {
         "journal": "https://doi.org/10.1002/adom.202300464",
         "doi": "https://doi.org/10.1002/adom.202300464"
-      }
+      },
+      "citations": 6
     },
     {
       "id": "pub-acsami-2023",
@@ -724,7 +754,8 @@
       "links": {
         "journal": "https://doi.org/10.1063/5.0108746",
         "doi": "https://doi.org/10.1063/5.0108746"
-      }
+      },
+      "citations": 12
     }
   ]
 }
