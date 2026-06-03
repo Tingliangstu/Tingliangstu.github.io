@@ -119,9 +119,15 @@ function hydrateProfile(profile = {}) {
   setHref("contact-scholar-link", profile.scholar_url);
   setHref("contact-github-link", profile.github_url);
   setHref("contact-orcid-link", profile.orcid_url);
+  setHref("home-scholar-link", profile.scholar_url);
+  setHref("home-github-link", profile.github_url);
+  setHref("home-researchgate-link", profile.researchgate_url);
   setHref("profile-scholar-link", profile.scholar_url);
   setHref("profile-github-link", profile.github_url);
+  setHref("profile-researchgate-link", profile.researchgate_url);
   setHref("profile-orcid-link", profile.orcid_url);
+  setHref("software-github-link", profile.github_url);
+  setHref("software-github-link-inline", profile.github_url);
 
   setText("contact-name", profile.name);
   setText("contact-affiliation", profile.affiliation);
@@ -130,7 +136,6 @@ function hydrateProfile(profile = {}) {
   setMail("backup-email-link", profile.backup_email);
 
   const stats = profile.stats || {};
-  setText("hero-citations", formatNumber(stats.cited_by));
   setText("publication-hero-count", formatNumber(stats.publications));
 }
 
@@ -142,6 +147,16 @@ function roleLabel(role) {
     "co-author": "Co-author"
   };
   return map[role] || role || "";
+}
+
+function roleLabels(item = {}) {
+  const roles = Array.isArray(item.roles) && item.roles.length ? item.roles : [item.role];
+  return roles.map(roleLabel).filter(Boolean);
+}
+
+function hasRole(item = {}, role) {
+  const roles = Array.isArray(item.roles) && item.roles.length ? item.roles : [item.role];
+  return roles.includes(role);
 }
 
 function resolvePrimaryLink(item = {}) {
@@ -179,7 +194,7 @@ function renderLinks(item = {}) {
 }
 
 function renderStats(profile = {}) {
-  const host = document.querySelector("#home-stats");
+  const host = document.querySelector("#publication-stats");
   if (!host) {
     return;
   }
@@ -378,7 +393,9 @@ function groupByYear(items) {
 function renderPublicationItem(item, index) {
   const primaryLink = resolvePrimaryLink(item);
   const year = item.year ? String(item.year) : "n.d.";
-  const role = roleLabel(item.role);
+  const roles = roleLabels(item);
+  const roleText = roles.length ? ` / ${roles.join(" / ")}` : "";
+  const roleTags = roles.map((role) => `<span class="publication-tag">${escapeHtml(role)}</span>`).join("");
   const citation = Number.isFinite(item.citations) ? `<span class="publication-tag">${formatNumber(item.citations)} citations</span>` : "";
   const source = item.source ? `<span class="publication-tag">${escapeHtml(item.source)}</span>` : "";
   return `
@@ -387,10 +404,11 @@ function renderPublicationItem(item, index) {
   <div class="publication-body">
     ${renderTitle(item.title, primaryLink, "publication-title")}
     <p class="publication-authors">${item.authors || ""}</p>
-    <p class="publication-venue"><em>${item.venue || ""}</em> (${year})${role ? ` / ${role}` : ""}</p>
+    <p class="publication-venue"><em>${item.venue || ""}</em> (${year})${roleText}</p>
     <div class="publication-links">
       ${renderLinks(item)}
       ${item.selected ? '<span class="publication-tag">Representative</span>' : ""}
+      ${roleTags}
       ${citation}
       ${source}
     </div>
@@ -412,7 +430,7 @@ function renderAllPublications(items, filters = {}) {
   const filtered = sortPublications(
     items.filter((item) => {
       const yearMatch = year === "all" || String(item.year) === year;
-      const roleMatch = role === "all" || item.role === role;
+      const roleMatch = role === "all" || hasRole(item, role);
       const selectedMatch = !selectedOnly || Boolean(item.selected);
       return yearMatch && roleMatch && selectedMatch;
     })
@@ -509,11 +527,10 @@ function renderSourceNotes(profile = {}) {
 
 function renderHome(data = {}) {
   const profile = data.profile || {};
-  renderStats(profile);
   renderTimeline("home-timeline", profile.employment || []);
   renderResearchCards("research-preview-list", profile);
   renderNews(data.news || [], 3);
-  renderSoftware(data.software || [], "software-preview", 1);
+  renderSoftware(data.software || [], "software-preview", 2);
   renderRepresentativeWorks(data.representative_works || [], 6);
 }
 
@@ -535,6 +552,7 @@ function renderContact(data = {}) {
 }
 
 function renderPublicationsPage(data = {}) {
+  renderStats(data.profile || {});
   const publications = Array.isArray(data.publications) ? data.publications : [];
   initPublicationFilters(publications);
 }
@@ -545,7 +563,7 @@ function fillCurrentYear() {
 
 function renderLoadError(message) {
   const targets = [
-    "#home-stats",
+    "#publication-stats",
     "#home-timeline",
     "#research-preview-list",
     "#news-list",

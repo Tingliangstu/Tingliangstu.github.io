@@ -131,12 +131,12 @@ p {
 .site-nav a {
   display: inline-flex;
   align-items: center;
-  min-height: 38px;
-  padding: 0 0.82rem;
+  min-height: 42px;
+  padding: 0 0.9rem;
   border-radius: 8px;
   color: #263547;
-  font-size: 0.94rem;
-  font-weight: 600;
+  font-size: 1.05rem;
+  font-weight: 700;
   transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 
@@ -221,6 +221,34 @@ p {
   flex-wrap: wrap;
   gap: 0.7rem;
   margin: 1.45rem 0 1.4rem;
+}
+
+.profile-link-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: -0.3rem 0 1.25rem;
+}
+
+.profile-link-row a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  border: 1px solid rgba(15, 143, 179, 0.24);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.78);
+  color: var(--brand-deep);
+  padding: 0 0.7rem;
+  font-size: 0.86rem;
+  font-weight: 800;
+  transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.profile-link-row a:hover {
+  background: #ffffff;
+  box-shadow: var(--soft-shadow);
+  text-decoration: none;
+  transform: translateY(-3px);
 }
 
 .button {
@@ -361,7 +389,7 @@ p {
 
 .visual-main {
   position: absolute;
-  top: 4.5rem;
+  top: 6.45rem;
   left: 7%;
   width: 86%;
   border: 1px solid var(--line);
@@ -369,6 +397,46 @@ p {
   background: #ffffff;
   box-shadow: var(--soft-shadow);
   animation: floatPanel 7s ease-in-out infinite;
+}
+
+.hero-portrait-chip {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: 54px minmax(0, 1fr);
+  gap: 0.7rem;
+  align-items: center;
+  max-width: min(330px, calc(100% - 2rem));
+  border: 1px solid rgba(15, 143, 179, 0.2);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.92);
+  padding: 0.55rem 0.7rem;
+  box-shadow: var(--soft-shadow);
+}
+
+.hero-portrait-chip img {
+  width: 54px;
+  height: 54px;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center 28%;
+}
+
+.hero-portrait-chip strong,
+.hero-portrait-chip small {
+  display: block;
+}
+
+.hero-portrait-chip strong {
+  color: var(--text);
+  line-height: 1.15;
+}
+
+.hero-portrait-chip small {
+  color: var(--muted);
+  font-size: 0.78rem;
 }
 
 .visual-chip {
@@ -395,32 +463,6 @@ p {
   width: 45%;
   max-height: 220px;
   animation: floatPanel 7.5s ease-in-out infinite;
-}
-
-.visual-stat {
-  position: absolute;
-  right: 1rem;
-  top: 1rem;
-  min-width: 150px;
-  border: 1px solid rgba(15, 143, 179, 0.24);
-  border-radius: 8px;
-  padding: 0.85rem 0.95rem;
-  background: rgba(255, 255, 255, 0.92);
-  box-shadow: var(--soft-shadow);
-}
-
-.visual-stat strong {
-  display: block;
-  font-size: 1.55rem;
-  line-height: 1;
-  color: var(--brand-deep);
-}
-
-.visual-stat span {
-  display: block;
-  margin-top: 0.35rem;
-  color: var(--muted);
-  font-size: 0.82rem;
 }
 
 .scroll-cue {
@@ -516,11 +558,44 @@ p {
 .work-card,
 .software-card,
 .visual-card,
-.pipeline-step {
+.pipeline-step,
+.home-portrait-card,
+.workflow-figure-wide,
+.github-panel {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--surface);
   box-shadow: var(--soft-shadow);
+}
+
+.feature-card,
+.work-card,
+.software-card,
+.visual-card,
+.pipeline-step,
+.contact-card,
+.page-hero-card,
+.profile-panel,
+.home-portrait-card,
+.workflow-figure-wide,
+.github-panel,
+.publication-item-biblio {
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease, background 0.22s ease;
+}
+
+.feature-card:hover,
+.software-card:hover,
+.visual-card:hover,
+.pipeline-step:hover,
+.contact-card:hover,
+.page-hero-card:hover,
+.profile-panel:hover,
+.home-portrait-card:hover,
+.workflow-figure-wide:hover,
+.github-panel:hover {
+  border-color: rgba(15, 143, 179, 0.34);
+  box-shadow: var(--shadow);
+  transform: translateY(-8px);
 }
 
 .timeline-panel {
@@ -620,6 +695,10 @@ p {
   gap: 1rem;
 }
 
+.software-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .software-card {
   display: grid;
   grid-template-columns: 112px minmax(0, 1fr);
@@ -688,11 +767,11 @@ p {
   flex-direction: column;
   min-height: 100%;
   padding: 1rem;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .work-card:hover {
-  transform: translateY(-3px);
+  border-color: rgba(15, 143, 179, 0.34);
+  transform: translateY(-10px);
   box-shadow: var(--shadow);
 }
 
@@ -773,6 +852,43 @@ p {
   color: var(--muted);
 }
 
+.home-profile-column {
+  display: grid;
+  gap: 1rem;
+}
+
+.home-portrait-card {
+  display: grid;
+  grid-template-columns: 168px minmax(0, 1fr);
+  gap: 1rem;
+  align-items: center;
+  margin: 0;
+  padding: 1rem;
+}
+
+.home-portrait-card img {
+  width: 168px;
+  height: 210px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  object-fit: cover;
+  object-position: center 28%;
+}
+
+.home-portrait-card figcaption {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.home-portrait-card strong {
+  color: var(--text);
+  font-size: 1.28rem;
+}
+
+.home-portrait-card span {
+  color: var(--muted);
+}
+
 .card-label {
   display: block;
   margin-bottom: 0.7rem;
@@ -791,6 +907,31 @@ p {
   display: block;
   width: 100%;
   border-radius: 8px;
+}
+
+.research-workflow-section {
+  padding-bottom: 1rem;
+}
+
+.workflow-figure-wide {
+  margin: 0;
+  overflow: hidden;
+  padding: clamp(0.8rem, 2vw, 1.25rem);
+}
+
+.workflow-figure-wide img {
+  display: block;
+  width: 100%;
+  min-height: clamp(240px, 33vw, 430px);
+  object-fit: contain;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.workflow-figure-wide figcaption {
+  margin-top: 0.8rem;
+  color: var(--muted);
+  font-size: 0.94rem;
 }
 
 .visual-grid {
@@ -827,7 +968,7 @@ p {
 
 .pipeline-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1rem;
 }
 
@@ -855,6 +996,19 @@ p {
 .logo-card img {
   width: 132px;
   border-radius: 8px;
+}
+
+.github-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  padding: clamp(1.1rem, 3vw, 1.6rem);
+}
+
+.github-panel p {
+  color: var(--muted);
+  max-width: 68ch;
 }
 
 .contact-grid {
@@ -993,8 +1147,16 @@ p {
   display: grid;
   grid-template-columns: 52px minmax(0, 1fr);
   gap: 0.75rem;
-  padding: 0.82rem 0;
+  padding: 0.9rem;
   border-bottom: 1px dashed var(--line);
+  border-radius: 8px;
+}
+
+.publication-item-biblio:hover {
+  border-color: rgba(15, 143, 179, 0.24);
+  background: #f8fbfc;
+  box-shadow: var(--soft-shadow);
+  transform: translateY(-5px);
 }
 
 .publication-index {
@@ -1021,6 +1183,10 @@ p {
   margin: 0.25rem 0 0;
   color: var(--muted);
   font-size: 0.92rem;
+}
+
+.publication-stats-strip {
+  margin-bottom: 1rem;
 }
 
 .site-footer {
@@ -1100,8 +1266,13 @@ p {
 
   .feature-grid,
   .work-grid,
-  .visual-grid {
+  .visual-grid,
+  .pipeline-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .software-grid {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -1150,7 +1321,7 @@ p {
   }
 
   .visual-main {
-    top: 3rem;
+    top: 5.5rem;
   }
 
   .visual-chip-a {
@@ -1165,6 +1336,7 @@ p {
   .stats-strip,
   .feature-grid,
   .work-grid,
+  .software-grid,
   .visual-grid,
   .pipeline-grid,
   .contact-grid {
@@ -1173,6 +1345,7 @@ p {
 
   .section-heading,
   .cta-panel,
+  .github-panel,
   .footer-wrap {
     align-items: flex-start;
     flex-direction: column;
@@ -1180,6 +1353,7 @@ p {
 
   .software-card,
   .profile-panel,
+  .home-portrait-card,
   .publication-item-biblio {
     grid-template-columns: 1fr;
   }
@@ -1188,6 +1362,11 @@ p {
   .profile-panel img {
     width: 96px;
     height: 96px;
+  }
+
+  .home-portrait-card img {
+    width: 140px;
+    height: 176px;
   }
 }
 
