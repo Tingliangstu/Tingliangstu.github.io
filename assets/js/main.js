@@ -225,14 +225,22 @@ function renderTimeline(hostId, items = []) {
     return;
   }
   host.innerHTML = items
-    .map((item) => `
+    .map((item) => {
+      const supervisor = item.supervisor
+        ? item.supervisor_url
+          ? `<span class="timeline-meta">Supervisor: <a href="${withBase(item.supervisor_url)}" target="_blank" rel="noreferrer">${escapeHtml(item.supervisor)}</a></span>`
+          : `<span class="timeline-meta">Supervisor: ${escapeHtml(item.supervisor)}</span>`
+        : "";
+      return `
 <div class="timeline-item">
   <span class="timeline-date">${formatRange(item)}</span>
   <span class="timeline-title">${escapeHtml(item.role || "")}</span>
   <span class="timeline-meta">${escapeHtml(item.organization || "")}</span>
   ${item.area ? `<span class="timeline-meta">${escapeHtml(item.area)}</span>` : ""}
   ${item.location ? `<span class="timeline-meta">${escapeHtml(item.location)}</span>` : ""}
-</div>`)
+  ${supervisor}
+</div>`;
+    })
     .join("");
 }
 
