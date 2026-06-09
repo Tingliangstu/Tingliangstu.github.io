@@ -53,6 +53,8 @@
         "location": "Hong Kong, HK",
         "role": "PhD",
         "area": "Electronic Engineering",
+        "supervisor": "Prof. Jianbin Xu",
+        "supervisor_url": "https://www.ee.cuhk.edu.hk/~jbxu/",
         "start": "2021-08-01",
         "end": "2026-03-31"
       }
@@ -89,7 +91,7 @@
       "id": "rep-nep89-2026",
       "title": "NEP89: Universal neuroevolution potential for inorganic and organic materials across 89 elements",
       "authors": "<strong>T. Liang</strong>, K. Xu, E. Lindgren, Z. Chen, R. Zhao, J. Liu, E. Berger, B. Tang, B. Zhang, Y. Wang, K. Song, P. Ying, N. Xu, H. Dong, S. Chen<sup>*</sup>, P. Erhart<sup>*</sup>, Z. Fan<sup>*</sup>, T. Ala-Nissila, and J. Xu<sup>*</sup>",
-      "venue": "Nature Computational Science (revision submitted)",
+      "venue": "Nature Computational Science (accepted)",
       "year": 2026,
       "summary": "Please add one concise sentence describing the key methodological and scientific contribution.",
       "selected": true,
@@ -271,7 +273,7 @@
       "id": "pub-nep89-2026",
       "title": "NEP89: Universal neuroevolution potential for inorganic and organic materials across 89 elements",
       "authors": "<strong>T. Liang</strong>, K. Xu, E. Lindgren, Z. Chen, R. Zhao, J. Liu, E. Berger, B. Tang, B. Zhang, Y. Wang, K. Song, P. Ying, N. Xu, H. Dong, S. Chen<sup>*</sup>, P. Erhart<sup>*</sup>, Z. Fan<sup>*</sup>, T. Ala-Nissila, and J. Xu<sup>*</sup>",
-      "venue": "Nature Computational Science (revision submitted)",
+      "venue": "Nature Computational Science (accepted)",
       "year": 2026,
       "role": "first-author",
       "roles": [
