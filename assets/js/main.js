@@ -597,7 +597,7 @@ function renderLoadError(message) {
 async function loadPublicationData() {
   const dataPath = withBase("data/publications.json");
   try {
-    const response = await fetch(dataPath);
+    const response = await fetch(dataPath, { cache: "no-store" });
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}`);
     }
