@@ -66,10 +66,10 @@
     },
     "source_notes": [
       "Citation metrics and research keywords follow the public Google Scholar profile checked on July 5, 2026.",
-      "The local publication library de-duplicates repeated Google Scholar records while retaining Google Scholar profile totals.",
+      "The local publication library de-duplicates repeated Google Scholar records and aggregates citations for repeated titles while retaining Google Scholar profile totals.",
       "Employment and peer-review totals follow the public ORCID record; private ORCID dashboard-only fields are not published here.",
       "2026 publication metadata is cross-checked against ORCID, DOI records, and arXiv where available.",
-      "Per-paper citation counts on the Publications page follow the public Google Scholar profile checked on July 5, 2026.",
+      "Per-paper citation counts on the Publications page follow the public Google Scholar profile checked on July 5, 2026; repeated Google Scholar records for the same title are shown once with aggregated citations.",
       "Corresponding-author marks were audited against public publisher, DOI, and arXiv source records in June 2026; * marks corresponding authors and # marks co-first authors."
     ]
   },
@@ -281,7 +281,7 @@
         "first-author"
       ],
       "selected": true,
-      "citations": 66,
+      "citations": 67,
       "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://arxiv.org/abs/2504.21286",
