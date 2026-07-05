@@ -331,7 +331,7 @@
     {
       "id": "pub-afm-phase-change-2026",
       "title": "A phase-change-enabled thermal interface material with the competitive thermal resistance of 0.03 degrees C cm2 W-1 for electronic devices thermal management in AI era",
-      "authors": "G. Lv, Y. Pang, <strong>T. Liang</strong>, Y. Qiao, J. B. Xu, R. Sun<sup>*</sup>, and X. Zeng<sup>*</sup>",
+      "authors": "G. Lv, Y. Pang<sup>*</sup>, <strong>T. Liang</strong>, Y. Qiao, J. B. Xu, R. Sun, and X. Zeng<sup>*</sup>",
       "venue": "Advanced Functional Materials, e00063",
       "year": 2026,
       "role": "co-author",
