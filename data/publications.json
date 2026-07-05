@@ -24,7 +24,7 @@
       "AI for Science workflows for functional and complex material systems"
     ],
     "stats": {
-      "publications": 67,
+      "publications": 65,
       "cited_by": 2294,
       "h_index": 28,
       "i10_index": 43
@@ -66,9 +66,10 @@
     },
     "source_notes": [
       "Citation metrics and research keywords follow the public Google Scholar profile checked on July 5, 2026.",
+      "The local publication library de-duplicates repeated Google Scholar records while retaining Google Scholar profile totals.",
       "Employment and peer-review totals follow the public ORCID record; private ORCID dashboard-only fields are not published here.",
       "2026 publication metadata is cross-checked against ORCID, DOI records, and arXiv where available.",
-      "Per-paper citation counts on the Publications page follow the public Google Scholar profile checked on June 3, 2026.",
+      "Per-paper citation counts on the Publications page follow the public Google Scholar profile checked on July 5, 2026.",
       "Corresponding-author marks were audited against public publisher, DOI, and arXiv source records in June 2026; * marks corresponding authors and # marks co-first authors."
     ]
   },
@@ -280,12 +281,13 @@
         "first-author"
       ],
       "selected": true,
-      "citations": 57,
-      "source": "Google Scholar / ORCID",
+      "citations": 66,
+      "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://arxiv.org/abs/2504.21286",
         "code": "https://github.com/Tingliangstu/GPUMD",
-        "doi": "https://doi.org/10.48550/arXiv.2504.21286"
+        "doi": "https://doi.org/10.48550/arXiv.2504.21286",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:a0OBvERweLwC"
       }
     },
     {
@@ -301,9 +303,11 @@
       "selected": true,
       "links": {
         "journal": "https://doi.org/10.1038/s41524-025-01885-y",
-        "doi": "https://doi.org/10.1038/s41524-025-01885-y"
+        "doi": "https://doi.org/10.1038/s41524-025-01885-y",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:u_35RYKgDlwC"
       },
-      "citations": 8
+      "citations": 9,
+      "source": "Google Scholar / DOI"
     },
     {
       "id": "pub-mof-phonon-gas-2026",
@@ -316,12 +320,13 @@
         "co-author"
       ],
       "selected": false,
-      "source": "ORCID / arXiv",
+      "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://arxiv.org/abs/2604.03783",
-        "doi": "https://doi.org/10.48550/arXiv.2604.03783"
+        "doi": "https://doi.org/10.48550/arXiv.2604.03783",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:738O_yMBCRsC"
       },
-      "citations": 0
+      "citations": 1
     },
     {
       "id": "pub-afm-phase-change-2026",
@@ -338,7 +343,8 @@
       "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1002/adfm.202600063",
-        "doi": "https://doi.org/10.1002/adfm.202600063"
+        "doi": "https://doi.org/10.1002/adfm.202600063",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:l7t_Zn2s7bgC"
       }
     },
     {
@@ -352,10 +358,11 @@
         "co-author"
       ],
       "selected": false,
-      "source": "ORCID / DOI",
+      "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1002/adma.73376",
-        "doi": "https://doi.org/10.1002/adma.73376"
+        "doi": "https://doi.org/10.1002/adma.73376",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:tOudhMTPpwUC"
       },
       "citations": 0
     },
@@ -374,9 +381,11 @@
       "links": {
         "journal": "https://doi.org/10.1063/5.0278798",
         "doi": "https://doi.org/10.1063/5.0278798",
-        "code": "https://github.com/Tingliangstu/pySED"
+        "code": "https://github.com/Tingliangstu/pySED",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:KxtntwgDAa4C"
       },
-      "citations": 25
+      "citations": 27,
+      "source": "Google Scholar / DOI"
     },
     {
       "id": "pub-silica-2023",
@@ -386,11 +395,12 @@
       "year": 2023,
       "role": "first-author",
       "selected": true,
-      "citations": 54,
-      "source": "Google Scholar / ORCID",
+      "citations": 58,
+      "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1103/PhysRevB.108.184203",
-        "doi": "https://doi.org/10.1103/PhysRevB.108.184203"
+        "doi": "https://doi.org/10.1103/PhysRevB.108.184203",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:nb7KW1ujOQ8C"
       }
     },
     {
@@ -403,9 +413,11 @@
       "selected": true,
       "links": {
         "journal": "https://doi.org/10.1016/j.mtphys.2022.100705",
-        "doi": "https://doi.org/10.1016/j.mtphys.2022.100705"
+        "doi": "https://doi.org/10.1016/j.mtphys.2022.100705",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:QIV2ME_5wuYC"
       },
-      "citations": 28
+      "citations": 28,
+      "source": "Google Scholar / DOI"
     },
     {
       "id": "pub-ijhmt-2020",
@@ -415,11 +427,12 @@
       "year": 2020,
       "role": "first-author",
       "selected": true,
-      "citations": 228,
-      "source": "Google Scholar / ORCID",
+      "citations": 229,
+      "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1016/j.ijheatmasstransfer.2020.119395",
-        "doi": "https://doi.org/10.1016/j.ijheatmasstransfer.2020.119395"
+        "doi": "https://doi.org/10.1016/j.ijheatmasstransfer.2020.119395",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:-f6ydRqryjwC"
       }
     },
     {
@@ -432,9 +445,11 @@
       "selected": false,
       "links": {
         "journal": "https://doi.org/10.1088/2399-1984/aafc8c",
-        "doi": "https://doi.org/10.1088/2399-1984/aafc8c"
+        "doi": "https://doi.org/10.1088/2399-1984/aafc8c",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:d1gkVwhDpl0C"
       },
-      "citations": 37
+      "citations": 37,
+      "source": "Google Scholar / DOI"
     },
     {
       "id": "pub-pccp-2018",
@@ -445,10 +460,11 @@
       "role": "first-author",
       "selected": false,
       "citations": 60,
-      "source": "Google Scholar",
+      "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1039/c8cp02831a",
-        "doi": "https://doi.org/10.1039/c8cp02831a"
+        "doi": "https://doi.org/10.1039/c8cp02831a",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:qjMakFHDy7sC"
       }
     },
     {
@@ -464,9 +480,11 @@
       "selected": false,
       "links": {
         "journal": "https://www.nature.com/articles/s41467-025-65683-2",
-        "doi": "https://doi.org/10.1038/s41467-025-65683-2"
+        "doi": "https://doi.org/10.1038/s41467-025-65683-2",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:UxriW0iASnsC"
       },
-      "citations": 3
+      "citations": 6,
+      "source": "Google Scholar / DOI"
     },
     {
       "id": "pub-acsami-2025-a",
@@ -481,9 +499,11 @@
       "selected": false,
       "links": {
         "journal": "https://doi.org/10.1021/acsami.5c06264",
-        "doi": "https://doi.org/10.1021/acsami.5c06264"
+        "doi": "https://doi.org/10.1021/acsami.5c06264",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:f2IySw72cVMC"
       },
-      "citations": 13
+      "citations": 14,
+      "source": "Google Scholar / DOI"
     },
     {
       "id": "pub-jctc-2026-vdw",
@@ -496,10 +516,11 @@
         "co-first-author"
       ],
       "selected": false,
-      "source": "ORCID / DOI",
+      "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1021/acs.jctc.5c01950",
-        "doi": "https://doi.org/10.1021/acs.jctc.5c01950"
+        "doi": "https://doi.org/10.1021/acs.jctc.5c01950",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:pyW8ca7W8N0C"
       },
       "citations": 8
     },
@@ -513,9 +534,11 @@
       "selected": false,
       "links": {
         "journal": "https://doi.org/10.1002/smll.202309338",
-        "doi": "https://doi.org/10.1002/smll.202309338"
+        "doi": "https://doi.org/10.1002/smll.202309338",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:k_IJM867U9cC"
       },
-      "citations": 16
+      "citations": 16,
+      "source": "Google Scholar / DOI"
     },
     {
       "id": "pub-nanoletters-2024",
@@ -531,9 +554,11 @@
       "selected": false,
       "links": {
         "journal": "https://doi.org/10.1021/acs.nanolett.4c01409",
-        "doi": "https://doi.org/10.1021/acs.nanolett.4c01409"
+        "doi": "https://doi.org/10.1021/acs.nanolett.4c01409",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:RGFaLdJalmkC"
       },
-      "citations": 19
+      "citations": 21,
+      "source": "Google Scholar / DOI"
     },
     {
       "id": "pub-acsami-2024-b",
@@ -545,9 +570,11 @@
       "selected": false,
       "links": {
         "journal": "https://doi.org/10.1021/acsami.4c09914",
-        "doi": "https://doi.org/10.1021/acsami.4c09914"
+        "doi": "https://doi.org/10.1021/acsami.4c09914",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:2P1L_qKh6hAC"
       },
-      "citations": 12
+      "citations": 12,
+      "source": "Google Scholar / DOI"
     },
     {
       "id": "pub-ijhmt-2023-b",
@@ -557,11 +584,12 @@
       "year": 2023,
       "role": "co-first-author",
       "selected": false,
-      "citations": 45,
-      "source": "Google Scholar",
+      "citations": 46,
+      "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1016/j.ijheatmasstransfer.2023.124662",
-        "doi": "https://doi.org/10.1016/j.ijheatmasstransfer.2023.124662"
+        "doi": "https://doi.org/10.1016/j.ijheatmasstransfer.2023.124662",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:RHpTSmoSYBkC"
       }
     },
     {
@@ -573,10 +601,11 @@
       "role": "co-first-author",
       "selected": false,
       "citations": 40,
-      "source": "Google Scholar",
+      "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1021/acsami.1c11963",
-        "doi": "https://doi.org/10.1021/acsami.1c11963"
+        "doi": "https://doi.org/10.1021/acsami.1c11963",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:W7OEmFMy1HYC"
       }
     },
     {
@@ -589,9 +618,11 @@
       "selected": false,
       "links": {
         "journal": "https://doi.org/10.1021/acs.jpclett.5c01802",
-        "doi": "https://doi.org/10.1021/acs.jpclett.5c01802"
+        "doi": "https://doi.org/10.1021/acs.jpclett.5c01802",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:NhqRSupF_l8C"
       },
-      "citations": 3
+      "citations": 3,
+      "source": "Google Scholar / DOI"
     },
     {
       "id": "pub-acsnano-2025",
@@ -603,9 +634,11 @@
       "selected": false,
       "links": {
         "journal": "https://doi.org/10.1021/acsnano.4c12148",
-        "doi": "https://doi.org/10.1021/acsnano.4c12148"
+        "doi": "https://doi.org/10.1021/acsnano.4c12148",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:fPk4N6BV_jEC"
       },
-      "citations": 30
+      "citations": 31,
+      "source": "Google Scholar / DOI"
     },
     {
       "id": "pub-npjcm-2025-b",
@@ -617,9 +650,11 @@
       "selected": false,
       "links": {
         "journal": "https://doi.org/10.1038/s41524-025-01777-1",
-        "doi": "https://doi.org/10.1038/s41524-025-01777-1"
+        "doi": "https://doi.org/10.1038/s41524-025-01777-1",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:3s1wT3WcHBgC"
       },
-      "citations": 20
+      "citations": 26,
+      "source": "Google Scholar / DOI"
     },
     {
       "id": "pub-prb-2025",
@@ -631,9 +666,11 @@
       "selected": false,
       "links": {
         "journal": "https://doi.org/10.1103/PhysRevB.111.085413",
-        "doi": "https://doi.org/10.1103/PhysRevB.111.085413"
+        "doi": "https://doi.org/10.1103/PhysRevB.111.085413",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:HoB7MX3m0LUC"
       },
-      "citations": 15
+      "citations": 16,
+      "source": "Google Scholar / DOI"
     },
     {
       "id": "pub-compositesa-2025",
@@ -645,9 +682,11 @@
       "selected": false,
       "links": {
         "journal": "https://doi.org/10.1016/j.compositesa.2025.109221",
-        "doi": "https://doi.org/10.1016/j.compositesa.2025.109221"
+        "doi": "https://doi.org/10.1016/j.compositesa.2025.109221",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:EUQCXRtRnyEC"
       },
-      "citations": 3
+      "citations": 4,
+      "source": "Google Scholar / DOI"
     },
     {
       "id": "pub-acsami-2025-c",
@@ -659,9 +698,11 @@
       "selected": false,
       "links": {
         "journal": "https://doi.org/10.1021/acsami.5c20168",
-        "doi": "https://doi.org/10.1021/acsami.5c20168"
+        "doi": "https://doi.org/10.1021/acsami.5c20168",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:OU6Ihb5iCvQC"
       },
-      "citations": 2
+      "citations": 3,
+      "source": "Google Scholar / DOI"
     },
     {
       "id": "pub-arxiv-2025-b",
@@ -673,9 +714,11 @@
       "selected": false,
       "links": {
         "journal": "https://arxiv.org/abs/2511.18915",
-        "doi": "https://doi.org/10.48550/arXiv.2511.18915"
+        "doi": "https://doi.org/10.48550/arXiv.2511.18915",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:dshw04ExmUIC"
       },
-      "citations": 0
+      "citations": 0,
+      "source": "Google Scholar / DOI"
     },
     {
       "id": "pub-jmca-2024",
@@ -687,9 +730,11 @@
       "selected": false,
       "links": {
         "journal": "https://doi.org/10.1039/d4ta03473b",
-        "doi": "https://doi.org/10.1039/d4ta03473b"
+        "doi": "https://doi.org/10.1039/d4ta03473b",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:70eg2SAEIzsC"
       },
-      "citations": 9
+      "citations": 9,
+      "source": "Google Scholar / DOI"
     },
     {
       "id": "pub-ijhmt-2023-c",
@@ -701,9 +746,11 @@
       "selected": false,
       "links": {
         "journal": "https://doi.org/10.1016/j.ijheatmasstransfer.2022.123681",
-        "doi": "https://doi.org/10.1016/j.ijheatmasstransfer.2022.123681"
+        "doi": "https://doi.org/10.1016/j.ijheatmasstransfer.2022.123681",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:7PzlFSSx8tAC"
       },
-      "citations": 21
+      "citations": 22,
+      "source": "Google Scholar / DOI"
     },
     {
       "id": "pub-adom-2023",
@@ -715,9 +762,11 @@
       "selected": false,
       "links": {
         "journal": "https://doi.org/10.1002/adom.202300464",
-        "doi": "https://doi.org/10.1002/adom.202300464"
+        "doi": "https://doi.org/10.1002/adom.202300464",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:R3hNpaxXUhUC"
       },
-      "citations": 6
+      "citations": 7,
+      "source": "Google Scholar / DOI"
     },
     {
       "id": "pub-acsami-2023",
@@ -727,11 +776,12 @@
       "year": 2023,
       "role": "co-author",
       "selected": false,
-      "citations": 63,
-      "source": "Google Scholar / ORCID",
+      "citations": 65,
+      "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1021/acsami.3c07770",
-        "doi": "https://doi.org/10.1021/acsami.3c07770"
+        "doi": "https://doi.org/10.1021/acsami.3c07770",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:_Qo2XoVZTnwC"
       }
     },
     {
@@ -742,11 +792,12 @@
       "year": 2023,
       "role": "co-author",
       "selected": false,
-      "citations": 69,
-      "source": "Google Scholar",
+      "citations": 72,
+      "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1063/5.0147039",
-        "doi": "https://doi.org/10.1063/5.0147039"
+        "doi": "https://doi.org/10.1063/5.0147039",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:TQgYirikUcIC"
       }
     },
     {
@@ -759,9 +810,560 @@
       "selected": false,
       "links": {
         "journal": "https://doi.org/10.1063/5.0108746",
-        "doi": "https://doi.org/10.1063/5.0108746"
+        "doi": "https://doi.org/10.1063/5.0108746",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:qUcmZB5y_30C"
       },
-      "citations": 12
+      "citations": 12,
+      "source": "Google Scholar / DOI"
+    },
+    {
+      "id": "pub-general-purpose-machine-learned-potential-16-elemental-metals-2024",
+      "title": "General-purpose machine-learned potential for 16 elemental metals and their alloys",
+      "authors": "Keke Song, Rui Zhao, Jiahui Liu, Yanzhou Wang, Eric Lindgren, Yong Wang, Shunda Chen, Ke Xu, <strong>Ting Liang</strong>, Penghua Ying, Nan Xu, Zhiqiang Zhao, Jiuyang Shi, Junjie Wang, Shuang Lyu, Zezhu Zeng, Shirong Liang, Haikuan Dong, Ligang Sun, Yue Chen, Zhuhua Zhang, Wanlin Guo, Ping Qian, Jian Sun, Paul Erhart, Tapio Ala-Nissila, Yanjing Su, Zheyong Fan",
+      "venue": "Nature Communications 15 (1), 10208",
+      "year": 2024,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 238,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:iH-uZ7U-co4C"
+      }
+    },
+    {
+      "id": "pub-gpumd-4-0-high-performance-molecular-dynamics-package-2025",
+      "title": "GPUMD 4.0: A high-performance molecular dynamics package for versatile materials simulations with machine-learned potentials",
+      "authors": "Ke Xu, Hekai Bu, Shuning Pan, Eric Lindgren, Yongchao Wu, Yong Wang, Jiahui Liu, Keke Song, Bin Xu, Yifan Li, Tobias Hainer, Lucas Svensson, Julia Wiktor, Rui Zhao, Hongfu Huang, Cheng Qian, Shuo Zhang, Zezhu Zeng, Bohan Zhang, Benrui Tang, Yang Xiao, Zihan Yan, Jiuyang Shi, Zhixin Liang, Junjie Wang, <strong>Ting Liang</strong>, Shuo Cao, Yanzhou Wang, Penghua Ying, Nan Xu, Chengbing Chen, Yuwen Zhang, Zherui Chen, Xin Wu, Wenwu Jiang, Esme Berger, Yanlong Li, Shunda Chen, Alexander J Gabourie, Haikuan Dong, Shiyun Xiong, Ning Wei, Yue Chen, Jianbin Xu, Feng Ding, Zhimei Sun, Tapio Ala-Nissila, Ari Harju, Jincheng Zheng, Pengfei Guan, Paul Erhart, Jian Sun, Wengen Ouyang, Yanjing Su, Zheyong Fan",
+      "venue": "Materials Genome Engineering Advances, e70028, 2025",
+      "year": 2025,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 132,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:abG-DnoFyZgC"
+      }
+    },
+    {
+      "id": "pub-molecular-dynamics-simulations-heat-transport-machine-learned-potentials-2024",
+      "title": "Molecular dynamics simulations of heat transport using machine-learned potentials: A mini review and tutorial on GPUMD with neuroevolution potentials",
+      "authors": "Haikuan Dong, Yongbo Shi, Penghua Ying, Ke Xu, <strong>Ting Liang</strong>, Yanzhou Wang, Zezhu Zeng, Xin Wu, Wenjiang Zhou, Shiyun Xiong, Shunda Chen, Zheyong Fan",
+      "venue": "J. Appl. Phys. 135, 161101",
+      "year": 2024,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 102,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:maZDTaKrznsC"
+      }
+    },
+    {
+      "id": "pub-synergetic-enhancement-heat-storage-density-heat-transport-ability-2022",
+      "title": "Synergetic enhancement of heat storage density and heat transport ability of phase change materials inlaid in 3D hierarchical ceramics",
+      "authors": "Qingyang Luo, Xianglei Liu, Haolei Wang, Qiao Xu, Yang Tian, <strong>Ting Liang</strong>, Qibin Liu, Zhan Liu, Xiaohu Yang, Yimin Xuan, Yongliang Li, Yulong Ding",
+      "venue": "Applied Energy 306, 117995",
+      "year": 2022,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 93,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:YsMSGLbcyi4C"
+      }
+    },
+    {
+      "id": "pub-thermal-interface-materials-both-high-through-plane-thermal-2021",
+      "title": "Thermal interface materials with both high through-plane thermal conductivity and excellent elastic compliance",
+      "authors": "Junwei Li, Yuexing Zhang, <strong>Ting Liang</strong>, Xue Bai, Yunsong Pang, Xiangliang Zeng, Qinghua Hu, Wendian Tu, Zhenqiang Ye, Guoping Du, Rong Sun, Xiaoliang Zeng",
+      "venue": "Chemistry of Materials 33 (22), 8926-8937",
+      "year": 2021,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 83,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:_FxGoFyzp5QC"
+      }
+    },
+    {
+      "id": "pub-atomistic-insights-into-mechanical-anisotropy-fragility-monolayer-fullerene-2023",
+      "title": "Atomistic insights into the mechanical anisotropy and fragility of monolayer fullerene networks using quantum mechanical calculations and machine-learning molecular dynamics simulations",
+      "authors": "P Ying, H Dong, <strong>T. Liang</strong>, Z Fan, Z Zhong, J Zhang",
+      "venue": "Extreme Mechanics Letters 58, 101929, 2023",
+      "year": 2023,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 79,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:IWHjjKOFINEC"
+      }
+    },
+    {
+      "id": "pub-thermal-transport-planar-sp2-hybridized-carbon-allotropes-comparative-2022",
+      "title": "Thermal transport in planar sp2-hybridized carbon allotropes: A comparative study of biphenylene network, pentaheptite and graphene",
+      "authors": "P Ying<sup>#</sup>, <strong>T. Liang</strong><sup>#</sup>, Y Du, J Zhang, X Zeng, Z Zhong",
+      "venue": "International Journal of Heat and Mass Transfer 183, 122060, 2022",
+      "year": 2022,
+      "role": "co-first-author",
+      "roles": [
+        "co-first-author"
+      ],
+      "selected": false,
+      "citations": 73,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:eQOLeE2rZwMC"
+      }
+    },
+    {
+      "id": "pub-effects-functionalization-energy-storage-properties-thermal-conductivity-graphene-2019",
+      "title": "Effects of functionalization on energy storage properties and thermal conductivity of graphene/ n -octadecane composite phase change materials",
+      "authors": "P Yuan, P Zhang, <strong>T. Liang</strong>, S Zhai, D Yang",
+      "venue": "Journal of Materials Science 54 (2), 1488-1501, 2019",
+      "year": 2019,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 61,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:UeHWp8X0CEIC"
+      }
+    },
+    {
+      "id": "pub-effects-surface-functionalization-thermal-mechanical-properties-graphene-polyethylene-2019",
+      "title": "Effects of surface functionalization on thermal and mechanical properties of graphene/polyethylene glycol composite phase change materials",
+      "authors": "P Yuan, P Zhang, <strong>T. Liang</strong>, S Zhai",
+      "venue": "Applied Surface Science 485, 402-412, 2019",
+      "year": 2019,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 53,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:2osOgNQ5qMEC"
+      }
+    },
+    {
+      "id": "pub-unveiling-role-filler-surface-energy-enhancing-thermal-conductivity-2022",
+      "title": "Unveiling the role of filler surface energy in enhancing thermal conductivity and mechanical properties of thermal interface materials",
+      "authors": "Qiangqiang Ma, Zhenyu Wang, <strong>Ting Liang</strong>, Yunpeng Su, Junhong Li, Yimin Yao, Xiangliang Zeng, Yunsong Pang, Meng Han, Xiaoliang Zeng, Jianbin Xu, Linlin Ren, Rong Sun",
+      "venue": "Composites Part A: Applied Science and Manufacturing 157, 106904",
+      "year": 2022,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 48,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:mVmsd5A6BfQC"
+      }
+    },
+    {
+      "id": "pub-thermally-conductive-stretchable-thermal-interface-materials-prepared-vertical-2021",
+      "title": "Thermally conductive and stretchable thermal interface materials prepared via vertical orientation of flake graphite",
+      "authors": "H He, Y Zhang, X Zeng, Z Ye, C Zhang, <strong>T. Liang</strong>, J Li, Q Hu, P Zhang",
+      "venue": "Composites Communications 27, 100795, 2021",
+      "year": 2021,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 43,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:zYLM7Y9cAGgC"
+      }
+    },
+    {
+      "id": "pub-liquid-bridge-liquid-metal-bridging-spherical-bn-largely-2022",
+      "title": "Liquid bridge: liquid metal bridging spherical BN largely enhances the thermal conductivity and mechanical properties of thermal interface materials",
+      "authors": "J Li, Q Ma, S Gao, <strong>T. Liang</strong>, Y Pang, X Zeng, Y Li, X Zeng, R Sun, L Ren",
+      "venue": "Journal of Materials Chemistry C 10 (17), 6736-6743, 2022",
+      "year": 2022,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 39,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:9ZlFYXVOiuMC"
+      }
+    },
+    {
+      "id": "pub-grain-boundary-misorientation-angle-dependent-thermal-transport-single-2022",
+      "title": "Grain boundary and misorientation angle-dependent thermal transport in single-layer MoS",
+      "authors": "K Xu, <strong>T. Liang</strong>, Z Zhang, X Cao, M Han, N Wei, J Wu",
+      "venue": "Nanoscale 14 (4), 1241-1249, 2022",
+      "year": 2022,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 38,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:LkGwnXOMwfcC"
+      }
+    },
+    {
+      "id": "pub-efficient-mechanical-modulation-phonon-thermal-conductivity-mo-s-2022",
+      "title": "Efficient mechanical modulation of the phonon thermal conductivity of Mo S nanowires",
+      "authors": "K Xu, S Deng, <strong>T. Liang</strong>, X Cao, M Han, X Zeng, Z Zhang, N Yang, J Wu",
+      "venue": "Nanoscale, 2022",
+      "year": 2022,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 32,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:UebtZRa9Y70C"
+      }
+    },
+    {
+      "id": "pub-highly-efficient-path-integral-molecular-dynamics-simulations-gpumd-2025",
+      "title": "Highly efficient path-integral molecular dynamics simulations with GPUMD using neuroevolution potentials: Case studies on thermal properties of materials",
+      "authors": "Penghua Ying, Wenjiang Zhou, Lucas Svensson, Esmee Berger, Erik Fransson, Fredrik Eriksson, Ke Xu, <strong>Ting Liang</strong>, Jianbin Xu, Bai Song, Shunda Chen, Paul Erhart, Zheyong Fan",
+      "venue": "The Journal of Chemical Physics 162 (6)",
+      "year": 2025,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 31,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:rO6llkc54NcC"
+      }
+    },
+    {
+      "id": "pub-phonon-transport-antisite-substituted-hexagonal-boron-nitride-nanosheets-2020",
+      "title": "Phonon transport in antisite-substituted hexagonal boron nitride nanosheets: A molecular dynamics study",
+      "authors": "M Zhou, <strong>T. Liang</strong>, B Wu, J Liu, P Zhang",
+      "venue": "Journal of Applied Physics 128 (23), 2020",
+      "year": 2020,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 30,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:IjCSPb-OGe4C"
+      }
+    },
+    {
+      "id": "pub-thermal-conduction-mechanism-ferroelastic-zr-y-yb-ta-2022",
+      "title": "Thermal conduction mechanism of ferroelastic Zr-Y-Yb-Ta-Nb-O high-entropy oxides with glass-like thermal conductivity",
+      "authors": "Y Yao, G Ren, Y Yu, J Che, <strong>T. Liang</strong>, L Li, Y Liu, F Yang, X Zhao",
+      "venue": "Journal of the American Ceramic Society, 2022",
+      "year": 2022,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 29,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:4DMP91E08xMC"
+      }
+    },
+    {
+      "id": "pub-mechanical-thermal-properties-graphyne-coated-carbon-nanotubes-molecular-2023",
+      "title": "Mechanical and thermal properties of graphyne-coated carbon nanotubes: a molecular dynamics simulation on one-dimensional all-carbon van der Waals heterostructures",
+      "authors": "J Li, P Ying, <strong>T. Liang</strong>, Y Du, J Zhou, J Zhang",
+      "venue": "Physical Chemistry Chemical Physics 25 (12), 8651-8663, 2023",
+      "year": 2023,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 28,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:HDshCWvjkbEC"
+      }
+    },
+    {
+      "id": "pub-plasma-assisted-self-assembled-monolayers-reducing-thermal-resistance-2022",
+      "title": "Plasma-assisted self-assembled monolayers for reducing thermal resistance across graphite films/polymer interfaces",
+      "authors": "Y Zhang<sup>#</sup>, <strong>T. Liang</strong><sup>#</sup>, Z Ye, S Gao, M Han, X Zeng, P Zhang",
+      "venue": "Composites Science and Technology, 109690, 2022",
+      "year": 2022,
+      "role": "co-first-author",
+      "roles": [
+        "co-first-author"
+      ],
+      "selected": false,
+      "citations": 19,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:ZeXyd9-uunAC"
+      }
+    },
+    {
+      "id": "pub-stretchable-thermal-interface-materials-tailoring-chain-relaxation-at-2022",
+      "title": "Stretchable thermal interface materials by tailoring the Chain relaxation at the filler/polymer interface",
+      "authors": "W Ye, Z Ye, <strong>T. Liang</strong>, X Zeng, Z Wen, L Ren, R Sun, X Zeng",
+      "venue": "ACS Applied Polymer Materials 4 (7), 4653-4663, 2022",
+      "year": 2022,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 19,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:dhFuZR0502QC"
+      }
+    },
+    {
+      "id": "pub-thermally-conductive-self-healable-liquid-metal-elastomer-composites-2025",
+      "title": "Thermally conductive and self-healable liquid metal elastomer composites based on poly (ionic liquid) s",
+      "authors": "J Zeng, X Li, <strong>T. Liang</strong>, T Rao, Z Zheng, Y Yao, JB Xu, R Sun, L Li",
+      "venue": "Composites Part A: Applied Science and Manufacturing 194, 108922, 2025",
+      "year": 2025,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 14,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:cFHS6HbyZ2cC"
+      }
+    },
+    {
+      "id": "pub-facile-strategy-densify-aligned-cnt-films-significantly-enhanced-2022",
+      "title": "A facile strategy to densify aligned CNT films with significantly enhanced thermal conductivity and mechanical strength",
+      "authors": "Y Wu, Q Ma, <strong>T. Liang</strong>, Y Yao, J Li, X Zeng, JB Xu, R Sun",
+      "venue": "Advanced Materials Technologies 7 (12), 2200623, 2022",
+      "year": 2022,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 13,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:L8Ckcad2t8MC"
+      }
+    },
+    {
+      "id": "pub-ultra-soft-thermal-diode-2024",
+      "title": "An ultra-soft thermal diode",
+      "authors": "Yunsong Pang, Junhong Li, Zhibin Wen, <strong>Ting Liang</strong>, Shan Gao, Min Yang, Dezhao Huang, Jianbin Xu, Tengfei Luo, Xiaoliang Zeng, Rong Sun",
+      "venue": "Materials Today Physics 44, 101450",
+      "year": 2024,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 12,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:ns9cj8rnVeAC"
+      }
+    },
+    {
+      "id": "pub-lattice-distortion-leads-glassy-thermal-transport-crystalline-cs-2025",
+      "title": "Lattice distortion leads to glassy thermal transport in crystalline Cs 3 Bi 2 I 6 Cl 3",
+      "authors": "Zezhu Zeng, Zheyong Fan, Michele Simoncelli, Chen Chen, <strong>Ting Liang</strong>, Yue Chen, Geoff Thornton, Bingqing Cheng",
+      "venue": "Proceedings of the National Academy of Sciences 122 (41), e2415664122",
+      "year": 2025,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 9,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:p2g8aNsByqUC"
+      }
+    },
+    {
+      "id": "pub-modular-hybrid-machine-learning-physics-based-potentials-scalable-2025",
+      "title": "Modular hybrid machine learning and physics-based potentials for scalable modeling of van der Waals heterostructures",
+      "authors": "H Bu, W Jiang, P Ying, <strong>T. Liang</strong>, Z Fan, W Ouyang",
+      "venue": "arXiv preprint arXiv:2504.12985, 2025",
+      "year": 2025,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 8,
+      "source": "Google Scholar / DOI",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:4fKUyHm3Qg0C",
+        "journal": "https://arxiv.org/abs/2504.12985",
+        "doi": "https://doi.org/10.48550/arXiv.2504.12985"
+      }
+    },
+    {
+      "id": "pub-studys-adhesion-contact-thermal-resistance-tim1-2021",
+      "title": "The studys of adhesion and contact thermal resistance of TIM1",
+      "authors": "Yunsong Pang, Meng Han, <strong>Ting Liang</strong>, Xue Bai, Liang Li, Yonglun Xu, Bin He, Daifeng Ai, Liuxin Wang, Linlin Ren, Xiaoliang Zeng, Rong Sun",
+      "venue": "2021 22nd International Conference on Electronic Packaging Technology (ICEPT)",
+      "year": 2021,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 7,
+      "source": "Google Scholar / DOI",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:ufrVoPGSRksC",
+        "doi": "https://doi.org/10.1109/ICEPT52650.2021.9567907"
+      }
+    },
+    {
+      "id": "pub-strong-correlation-between-electrical-thermal-transport-properties-graphene-2022",
+      "title": "Strong Correlation between Electrical and Thermal Transport Properties in Graphene/Graphite Films Beyond the Wiedemann-Franz Law",
+      "authors": "M Han, D Mao, <strong>T. Liang</strong>, E Gao, X Bai, X Zeng, R Sun, J Xu",
+      "venue": "Carbon, 2022",
+      "year": 2022,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 5,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:Wp0gIr-vW9MC"
+      }
+    },
+    {
+      "id": "pub-interfacial-thermal-conductance-thermal-rectification-across-plane-graphene-2019",
+      "title": "Interfacial Thermal Conductance and Thermal Rectification Across In-Plane Graphene/h-BN Heterostructures With Different Bonding Types",
+      "authors": "<strong>T. Liang</strong>, P Zhang, P Yuan, M Zhou, S Zhai",
+      "venue": "International Conference on Micro/Nanoscale Heat Transfer 58905, V001T03A005, 2019",
+      "year": 2019,
+      "role": "first-author",
+      "roles": [
+        "first-author"
+      ],
+      "selected": false,
+      "citations": 3,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:9yKSN-GCB0IC"
+      }
+    },
+    {
+      "id": "pub-close-space-fast-nucleation-strategy-toward-high-efficiency-2025",
+      "title": "A Close-Space Fast Nucleation Strategy toward High-Efficiency Perovskite Light-Emitting Diodes",
+      "authors": "X Sun, D Ding, Z Nie, B Wu, PWK Fong, S Qiu, <strong>T. Liang</strong>, G Li, J Xu, M Long",
+      "venue": "Nano Letters 25 (13), 5258-5264, 2025",
+      "year": 2025,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 2,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:dfsIfKJdRG4C"
+      }
+    },
+    {
+      "id": "pub-anisotropic-mechanical-properties-monolayer-fullerene-network-interplay-between-2022",
+      "title": "Anisotropic mechanical properties of monolayer fullerene network: An interplay between two types of interfullerene bonds",
+      "authors": "P Ying, Z Zhong, J Zhang",
+      "venue": "Phys. Chem, 2022",
+      "year": 2022,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 2,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:Tiz5es2fbqcC"
+      }
+    },
+    {
+      "id": "pub-wide-field-quantitative-mapping-thermal-properties-structural-defects-2026",
+      "title": "Wide-field quantitative mapping of thermal properties and structural defects at deeply buried interfaces",
+      "authors": "H Shi, X Li, <strong>T. Liang</strong>, Z Wen, Y Yao, J Xu, R Sun, M Han, X Gu",
+      "venue": "Available at SSRN 6511811, 2026",
+      "year": 2026,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 0,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:K3LRdlH-MEoC",
+        "journal": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6511811"
+      }
+    },
+    {
+      "id": "pub-data-driven-flipping-engineering-high-thermal-anisotropy-janus-2025",
+      "title": "Data-Driven Flipping Engineering for High Thermal Anisotropy in Janus Two-Dimensional Materials",
+      "authors": "X Wu, <strong>T. Liang</strong>, W Wang, J Ma, Z Fan, J Xu, S Volz, M Nomura",
+      "venue": "Available at SSRN 5864374, 2025",
+      "year": 2025,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 0,
+      "source": "Google Scholar",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:SP6oXDckpogC",
+        "journal": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5864374"
+      }
     }
   ]
 }
