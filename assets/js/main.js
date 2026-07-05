@@ -1,5 +1,6 @@
 const PAGE = document.body.dataset.page || "home";
 const BASE_PATH = document.body.dataset.basePath || ".";
+const DATA_VERSION = "20260705-scholar-citations";
 
 function withBase(path) {
   if (!path) {
@@ -595,7 +596,7 @@ function renderLoadError(message) {
 }
 
 async function loadPublicationData() {
-  const dataPath = withBase("data/publications.json");
+  const dataPath = `${withBase("data/publications.json")}?v=${DATA_VERSION}`;
   try {
     const response = await fetch(dataPath, { cache: "no-store" });
     if (!response.ok) {
