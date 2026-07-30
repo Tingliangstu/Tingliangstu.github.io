@@ -75,16 +75,35 @@
   },
   "news": [
     {
-      "date": "2026-02",
-      "text": "Personal website refactored with CV download, software, peer reviews, and publication role annotations (# co-first, * corresponding)."
+      "date": "10/2024",
+      "datetime": "2024-10",
+      "title": "Highly efficient machine learning potential toward thermal transport: from amorphous to heterostructure systems",
+      "detail": "International Joint Seminar on Mechanical Engineering 2024, Japan (Invited speaker; 30 min; Online)"
     },
     {
-      "date": "2025-06",
-      "text": "Invited talk on NEP89 at The 1st GPUMD Developers Conference and Frontier Seminar on AI Molecular Dynamics, Ningbo."
+      "date": "06/2025",
+      "datetime": "2025-06",
+      "title": "NEP89: Universal neuroevolution potential for inorganic and organic materials across 89 elements",
+      "detail": "The 1st GPUMD Developers Conference and Frontier Seminar on AI Molecular Dynamics, Ningbo, China (Invited speaker; 30 min)"
     },
     {
-      "date": "2024-10",
-      "text": "Invited talk on machine-learning potentials for thermal transport at the International Joint Seminar on Mechanical Engineering 2024."
+      "date": "06/2026",
+      "datetime": "2026-06",
+      "title": "Highly Efficient Machine Learning Potentials toward Thermal Transport and Beyond",
+      "detail": "The 2nd GPUMD Developers Conference and Frontier Seminar on AI Molecular Dynamics, Changchun, China (Invited speaker; 25 min)"
+    },
+    {
+      "date": "07/2026",
+      "datetime": "2026-07",
+      "title": "Highly Efficient Machine Learning Potentials toward Thermal Transport and Beyond",
+      "detail": "Joint Conference of The 5th International Conference on Phononics and Thermal Energy Science & The 10th Workshop on Thermal Transport, Harbin, China (Invited speaker; 25 min)"
+    },
+    {
+      "date": "07/2026",
+      "datetime": "2026-07-08",
+      "title": "NEP89 published in Nature Computational Science",
+      "detail": "Our NEP89 article was officially published in Nature Computational Science 6, 789-801 (2026).",
+      "url": "https://www.nature.com/articles/s43588-026-01009-6"
     }
   ],
   "representative_works": [
