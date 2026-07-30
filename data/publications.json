@@ -101,6 +101,7 @@
       "links": {
         "journal": "https://doi.org/10.1038/s43588-026-01009-6",
         "code": "https://github.com/Tingliangstu/GPUMD",
+        "dataset": "https://zenodo.org/records/19536370",
         "doi": "https://doi.org/10.1038/s43588-026-01009-6"
       }
     },
@@ -116,7 +117,8 @@
       "icon": "assets/img/works/Gr-hBN.png",
       "links": {
         "journal": "https://doi.org/10.1038/s41524-025-01885-y",
-        "doi": "https://doi.org/10.1038/s41524-025-01885-y"
+        "doi": "https://doi.org/10.1038/s41524-025-01885-y",
+        "dataset": "https://github.com/Tingliangstu/Paper_Projects/tree/main"
       }
     },
     {
@@ -147,7 +149,8 @@
       "icon": "assets/img/works/a-Sio2.png",
       "links": {
         "journal": "https://doi.org/10.1103/PhysRevB.108.184203",
-        "doi": "https://doi.org/10.1103/PhysRevB.108.184203"
+        "doi": "https://doi.org/10.1103/PhysRevB.108.184203",
+        "dataset": "https://github.com/Tingliangstu/Paper_Projects/tree/main"
       }
     },
     {
@@ -305,6 +308,7 @@
       "links": {
         "journal": "https://doi.org/10.1038/s43588-026-01009-6",
         "code": "https://github.com/Tingliangstu/GPUMD",
+        "dataset": "https://zenodo.org/records/19536370",
         "doi": "https://doi.org/10.1038/s43588-026-01009-6",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&sortby=pubdate&citation_for_view=4ei1O30AAAAJ:a0OBvERweLwC"
       }
@@ -323,6 +327,7 @@
       "links": {
         "journal": "https://doi.org/10.1038/s41524-025-01885-y",
         "doi": "https://doi.org/10.1038/s41524-025-01885-y",
+        "dataset": "https://github.com/Tingliangstu/Paper_Projects/tree/main",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:u_35RYKgDlwC"
       },
       "citations": 9,
@@ -419,6 +424,7 @@
       "links": {
         "journal": "https://doi.org/10.1103/PhysRevB.108.184203",
         "doi": "https://doi.org/10.1103/PhysRevB.108.184203",
+        "dataset": "https://github.com/Tingliangstu/Paper_Projects/tree/main",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:nb7KW1ujOQ8C"
       }
     },

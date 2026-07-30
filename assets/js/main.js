@@ -186,6 +186,9 @@ function renderLinks(item = {}) {
   if (links.code) {
     rows.push(`<a href="${links.code}" target="_blank" rel="noreferrer">Code</a>`);
   }
+  if (links.dataset) {
+    rows.push(`<a href="${links.dataset}" target="_blank" rel="noreferrer">Dataset</a>`);
+  }
   if (links.pdf) {
     rows.push(`<a href="${links.pdf}" target="_blank" rel="noreferrer">PDF</a>`);
   }
