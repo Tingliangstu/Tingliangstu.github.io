@@ -293,7 +293,23 @@ function renderNews(news, limit = news.length) {
     return;
   }
   host.innerHTML = items
-    .map((item) => `<li><time>${escapeHtml(item.date || "")}</time>${escapeHtml(item.text || "")}</li>`)
+    .map((item) => {
+      const title = escapeHtml(item.title || item.text || "");
+      const titleHtml = item.url
+        ? `<a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">${title}</a>`
+        : title;
+      const detailHtml = item.detail
+        ? `<p class="news-detail">${escapeHtml(item.detail)}</p>`
+        : "";
+      return `
+<li>
+  <time datetime="${escapeHtml(item.datetime || "")}">${escapeHtml(item.date || "")}</time>
+  <div class="news-content">
+    <p class="news-title">${titleHtml}</p>
+    ${detailHtml}
+  </div>
+</li>`;
+    })
     .join("");
 }
 
@@ -545,7 +561,7 @@ function renderHome(data = {}) {
   );
   renderTimeline("home-profile-timeline", careerItems);
   renderResearchCards("research-preview-list", profile);
-  renderNews(data.news || [], 3);
+  renderNews(data.news || [], 5);
   renderSoftware(data.software || [], "software-preview", 2);
   renderRepresentativeWorks(data.representative_works || [], 6);
 }
