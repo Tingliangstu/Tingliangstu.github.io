@@ -227,6 +227,17 @@
       "language": "Python",
       "homepage": "https://tingliangstu.github.io/PESMaker/",
       "repository": "https://github.com/Tingliangstu/PESMaker"
+    },
+    {
+      "id": "software-mdtrace",
+      "name": "MDtrace",
+      "tagline": "Reciprocal-space phonon-spectroscopy toolkit for molecular-dynamics trajectories.",
+      "description": "An SED-focused toolkit for extracting and visualizing kinetic-energy-weighted phonon spectra, with peak fitting for frequency-lifetime analysis and planned DSF/EELS extensions.",
+      "logo_text": "MDtrace",
+      "stars": 1,
+      "language": "Python",
+      "homepage": "https://mdtrace.readthedocs.io/en/latest/",
+      "repository": "https://github.com/Tingliangstu/MDtrace"
     }
   ],
   "peer_reviews": [
