@@ -1,6 +1,6 @@
 const PAGE = document.body.dataset.page || "home";
 const BASE_PATH = document.body.dataset.basePath || ".";
-const DATA_VERSION = "20260730-recent-news";
+const DATA_VERSION = "20260809-scholar-citations";
 
 function withBase(path) {
   if (!path) {
