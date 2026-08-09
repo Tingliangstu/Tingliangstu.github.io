@@ -24,10 +24,10 @@
       "AI for Science workflows for functional and complex material systems"
     ],
     "stats": {
-      "publications": 66,
-      "cited_by": 2337,
+      "publications": 64,
+      "cited_by": 2407,
       "h_index": 29,
-      "i10_index": 44
+      "i10_index": 46
     },
     "employment": [
       {
@@ -65,11 +65,11 @@
       "source": "ORCID public record"
     },
     "source_notes": [
-      "Citation metrics and research keywords follow the public Google Scholar profile checked on July 18, 2026.",
+      "Citation metrics and research keywords follow the public Google Scholar profile checked on August 9, 2026.",
       "The local publication library de-duplicates repeated Google Scholar records while retaining Google Scholar profile totals.",
       "Employment and peer-review totals follow the public ORCID record; private ORCID dashboard-only fields are not published here.",
       "2026 publication metadata is cross-checked against Google Scholar, publisher DOI records, ORCID, and arXiv where available.",
-      "Per-paper citation counts on the Publications page follow the public Google Scholar profile checked on July 18, 2026; repeated Google Scholar records for the same title are shown once using the primary Scholar record.",
+      "Per-paper citation counts on the Publications page follow the public Google Scholar profile checked on August 9, 2026; repeated Google Scholar records for the same title are shown once using the primary Scholar record.",
       "Corresponding-author marks were audited against public publisher, DOI, and arXiv source records in July 2026; * marks corresponding authors and # marks co-first authors."
     ]
   },
@@ -322,7 +322,7 @@
         "first-author"
       ],
       "selected": true,
-      "citations": 67,
+      "citations": 77,
       "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1038/s43588-026-01009-6",
@@ -349,7 +349,7 @@
         "dataset": "https://github.com/Tingliangstu/Paper_Projects/tree/main",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:u_35RYKgDlwC"
       },
-      "citations": 9,
+      "citations": 11,
       "source": "Google Scholar / DOI"
     },
     {
@@ -427,7 +427,7 @@
         "code": "https://github.com/Tingliangstu/pySED",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:KxtntwgDAa4C"
       },
-      "citations": 29,
+      "citations": 32,
       "source": "Google Scholar / DOI"
     },
     {
@@ -471,7 +471,7 @@
       "year": 2020,
       "role": "first-author",
       "selected": true,
-      "citations": 232,
+      "citations": 231,
       "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1016/j.ijheatmasstransfer.2020.119395",
@@ -546,7 +546,7 @@
         "doi": "https://doi.org/10.1021/acsami.5c06264",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:f2IySw72cVMC"
       },
-      "citations": 14,
+      "citations": 15,
       "source": "Google Scholar / DOI"
     },
     {
@@ -566,7 +566,7 @@
         "doi": "https://doi.org/10.1021/acs.jctc.5c01950",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:pyW8ca7W8N0C"
       },
-      "citations": 8
+      "citations": 7
     },
     {
       "id": "pub-small-2024",
@@ -581,7 +581,7 @@
         "doi": "https://doi.org/10.1002/smll.202309338",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:k_IJM867U9cC"
       },
-      "citations": 16,
+      "citations": 17,
       "source": "Google Scholar / DOI"
     },
     {
@@ -601,7 +601,7 @@
         "doi": "https://doi.org/10.1021/acs.nanolett.4c01409",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:RGFaLdJalmkC"
       },
-      "citations": 21,
+      "citations": 23,
       "source": "Google Scholar / DOI"
     },
     {
@@ -617,7 +617,7 @@
         "doi": "https://doi.org/10.1021/acsami.4c09914",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:2P1L_qKh6hAC"
       },
-      "citations": 12,
+      "citations": 13,
       "source": "Google Scholar / DOI"
     },
     {
@@ -681,7 +681,7 @@
         "doi": "https://doi.org/10.1021/acsnano.4c12148",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:fPk4N6BV_jEC"
       },
-      "citations": 31,
+      "citations": 32,
       "source": "Google Scholar / DOI"
     },
     {
@@ -697,7 +697,7 @@
         "doi": "https://doi.org/10.1038/s41524-025-01777-1",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:3s1wT3WcHBgC"
       },
-      "citations": 29,
+      "citations": 31,
       "source": "Google Scholar / DOI"
     },
     {
@@ -729,7 +729,7 @@
         "doi": "https://doi.org/10.1016/j.compositesa.2025.109221",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:EUQCXRtRnyEC"
       },
-      "citations": 4,
+      "citations": 5,
       "source": "Google Scholar / DOI"
     },
     {
@@ -761,7 +761,7 @@
         "doi": "https://doi.org/10.48550/arXiv.2511.18915",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:dshw04ExmUIC"
       },
-      "citations": 0,
+      "citations": 1,
       "source": "Google Scholar / DOI"
     },
     {
@@ -777,7 +777,7 @@
         "doi": "https://doi.org/10.1039/d4ta03473b",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:70eg2SAEIzsC"
       },
-      "citations": 9,
+      "citations": 11,
       "source": "Google Scholar / DOI"
     },
     {
@@ -820,7 +820,7 @@
       "year": 2023,
       "role": "co-author",
       "selected": false,
-      "citations": 67,
+      "citations": 66,
       "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1021/acsami.3c07770",
@@ -871,7 +871,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 244,
+      "citations": 258,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:iH-uZ7U-co4C"
@@ -888,7 +888,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 139,
+      "citations": 155,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:abG-DnoFyZgC"
@@ -905,7 +905,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 105,
+      "citations": 109,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:maZDTaKrznsC"
@@ -922,7 +922,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 94,
+      "citations": 95,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:YsMSGLbcyi4C"
@@ -939,7 +939,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 82,
+      "citations": 86,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:_FxGoFyzp5QC"
@@ -956,7 +956,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 80,
+      "citations": 82,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:IWHjjKOFINEC"
@@ -973,7 +973,7 @@
         "co-first-author"
       ],
       "selected": false,
-      "citations": 73,
+      "citations": 72,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:eQOLeE2rZwMC"
@@ -990,7 +990,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 62,
+      "citations": 63,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:UeHWp8X0CEIC"
@@ -1041,7 +1041,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 43,
+      "citations": 42,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:zYLM7Y9cAGgC"
@@ -1109,7 +1109,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 34,
+      "citations": 35,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:rO6llkc54NcC"
@@ -1177,7 +1177,7 @@
         "co-first-author"
       ],
       "selected": false,
-      "citations": 19,
+      "citations": 20,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:ZeXyd9-uunAC"
@@ -1194,7 +1194,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 19,
+      "citations": 20,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:dhFuZR0502QC"
@@ -1211,7 +1211,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 14,
+      "citations": 17,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:cFHS6HbyZ2cC"
@@ -1262,7 +1262,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 11,
+      "citations": 12,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:p2g8aNsByqUC"
@@ -1316,7 +1316,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 5,
+      "citations": 7,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:Wp0gIr-vW9MC"
@@ -1354,23 +1354,6 @@
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:dfsIfKJdRG4C"
-      }
-    },
-    {
-      "id": "pub-anisotropic-mechanical-properties-monolayer-fullerene-network-interplay-between-2022",
-      "title": "Anisotropic mechanical properties of monolayer fullerene network: An interplay between two types of interfullerene bonds",
-      "authors": "P Ying, Z Zhong, J Zhang",
-      "venue": "Phys. Chem, 2022",
-      "year": 2022,
-      "role": "co-author",
-      "roles": [
-        "co-author"
-      ],
-      "selected": false,
-      "citations": 2,
-      "source": "Google Scholar",
-      "links": {
-        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:Tiz5es2fbqcC"
       }
     },
     {
