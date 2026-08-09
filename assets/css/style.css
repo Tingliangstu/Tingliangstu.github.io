@@ -437,6 +437,10 @@ p {
   gap: clamp(1.4rem, 4vw, 3.5rem);
 }
 
+.home-news-software-layout {
+  align-items: start;
+}
+
 .stats-strip {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -687,6 +691,18 @@ p {
   border-radius: 8px;
   background: #ffffff;
   padding: 0.5rem;
+}
+
+.software-logo-wordmark {
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #e8f6f3, #f9fcfd);
+  color: var(--brand-deep);
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  text-align: center;
 }
 
 .software-title {

@@ -1,6 +1,6 @@
 const PAGE = document.body.dataset.page || "home";
 const BASE_PATH = document.body.dataset.basePath || ".";
-const DATA_VERSION = "20260809-scholar-citations";
+const DATA_VERSION = "20260809-mdtrace";
 
 function withBase(path) {
   if (!path) {
@@ -350,10 +350,12 @@ function renderRepresentativeWorks(works, limit = 6) {
 
 function renderSoftwareCard(item = {}) {
   const starText = Number.isFinite(item.stars) ? `${item.stars} stars` : "";
-  const logo = withBase(item.logo || "assets/img/work-placeholder.svg");
+  const logoHtml = item.logo
+    ? `<img class="software-logo" src="${withBase(item.logo)}" alt="${escapeHtml(item.name || "Software")} logo" onerror="this.src='${withBase("assets/img/work-placeholder.svg")}'">`
+    : `<div class="software-logo software-logo-wordmark" role="img" aria-label="${escapeHtml(item.name || "Software")} logo">${escapeHtml(item.logo_text || item.name || "Software")}</div>`;
   return `
 <article class="software-card reveal">
-  <img class="software-logo" src="${logo}" alt="${escapeHtml(item.name || "Software")} logo" onerror="this.src='${withBase("assets/img/work-placeholder.svg")}'">
+  ${logoHtml}
   <div class="software-content">
     <h3 class="software-title">${escapeHtml(item.name || "")}</h3>
     <p class="software-tagline">${escapeHtml(item.tagline || "")}</p>
@@ -562,7 +564,7 @@ function renderHome(data = {}) {
   renderTimeline("home-profile-timeline", careerItems);
   renderResearchCards("research-preview-list", profile);
   renderNews(data.news || [], 5);
-  renderSoftware(data.software || [], "software-preview", 2);
+  renderSoftware(data.software || [], "software-preview", 3);
   renderRepresentativeWorks(data.representative_works || [], 6);
 }
 
