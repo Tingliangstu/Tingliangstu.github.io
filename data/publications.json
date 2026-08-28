@@ -70,7 +70,7 @@
       "Employment and peer-review totals follow the public ORCID record; private ORCID dashboard-only fields are not published here.",
       "2026 publication metadata is cross-checked against Google Scholar, publisher DOI records, ORCID, and arXiv where available.",
       "Per-paper citation counts on the Publications page follow the public Google Scholar profile checked on August 28, 2026; repeated Google Scholar records for the same title are shown once using the primary Scholar record.",
-      "Corresponding-author marks were audited against public publisher, DOI, and arXiv source records in July 2026; * marks corresponding authors and # marks co-first authors."
+      "Corresponding-author marks were audited against public publisher, DOI, and arXiv source records through August 2026; * marks corresponding authors and # marks co-first authors."
     ]
   },
   "news": [
@@ -344,7 +344,7 @@
     {
       "id": "pub-sulfonium-peled-2026",
       "title": "Sulfonium-Ligand-Regulated Crystallization Interfacial Dynamics Enables Near-Infrared Perovskite Light-Emitting Diodes with 27% EQE",
-      "authors": "X. Sun, J. Li, <strong>T. Liang</strong>, D. Liu, W. Tang, Y. Huang, Z. Chen, B. Wu, B. Chen, J. Xu, and M. Long",
+      "authors": "X. Sun, J. Li, <strong>T. Liang</strong>, D. Liu, W. Tang, Y. Huang, Z. Chen, B. Wu, B. Chen<sup>*</sup>, J. Xu<sup>*</sup>, and M. Long<sup>*</sup>",
       "venue": "ACS Energy Letters",
       "year": 2026,
       "role": "co-author",
@@ -1408,7 +1408,7 @@
     {
       "id": "pub-wide-field-quantitative-mapping-thermal-properties-structural-defects-2026",
       "title": "Wide-field quantitative mapping of thermal properties and structural defects at deeply buried interfaces",
-      "authors": "H. Shi, X. Li, <strong>T. Liang</strong>, Z. Wen, Y. Yao, J. Xu, R. Sun, M. Han, and X. Gu",
+      "authors": "H. Shi, X. Li, <strong>T. Liang</strong>, Z. Wen, Y. Yao, J. Xu, R. Sun, M. Han<sup>*</sup>, and X. Gu",
       "venue": "International Journal of Heat and Mass Transfer 271, 129464",
       "year": 2026,
       "role": "co-author",
