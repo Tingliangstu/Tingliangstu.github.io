@@ -24,8 +24,8 @@
       "AI for Science workflows for functional and complex material systems"
     ],
     "stats": {
-      "publications": 64,
-      "cited_by": 2407,
+      "publications": 66,
+      "cited_by": 2469,
       "h_index": 29,
       "i10_index": 46
     },
@@ -65,11 +65,11 @@
       "source": "ORCID public record"
     },
     "source_notes": [
-      "Citation metrics and research keywords follow the public Google Scholar profile checked on August 9, 2026.",
+      "Citation metrics and research keywords follow the public Google Scholar profile checked on August 28, 2026.",
       "The local publication library de-duplicates repeated Google Scholar records while retaining Google Scholar profile totals.",
       "Employment and peer-review totals follow the public ORCID record; private ORCID dashboard-only fields are not published here.",
       "2026 publication metadata is cross-checked against Google Scholar, publisher DOI records, ORCID, and arXiv where available.",
-      "Per-paper citation counts on the Publications page follow the public Google Scholar profile checked on August 9, 2026; repeated Google Scholar records for the same title are shown once using the primary Scholar record.",
+      "Per-paper citation counts on the Publications page follow the public Google Scholar profile checked on August 28, 2026; repeated Google Scholar records for the same title are shown once using the primary Scholar record.",
       "Corresponding-author marks were audited against public publisher, DOI, and arXiv source records in July 2026; * marks corresponding authors and # marks co-first authors."
     ]
   },
@@ -304,6 +304,44 @@
   ],
   "publications": [
     {
+      "id": "pub-nsr-inverse-design-2026",
+      "title": "Multi-objective and cross-scale inverse design of temperature-control materials via physics-constrained machine learning",
+      "authors": "D. Ding<sup>#*</sup>, M. Zou<sup>#*</sup>, R. Huang, <strong>T. Liang</strong>, H. Shi, K. Xu, C. Wong, Y. Chen, M. Han, L. Yu, G. Zhang, Y. Chen, Y. Yao, X. Zhang, Y. Zhou, C. Song, X. Zeng<sup>*</sup>, Y. Peng, T. Deng, J. Xu<sup>*</sup>, and R. Sun",
+      "venue": "National Science Review, nwag503",
+      "year": 2026,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 0,
+      "source": "Google Scholar / DOI",
+      "links": {
+        "journal": "https://doi.org/10.1093/nsr/nwag503",
+        "doi": "https://doi.org/10.1093/nsr/nwag503",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&sortby=pubdate&citation_for_view=4ei1O30AAAAJ:geHnlv5EZngC"
+      }
+    },
+    {
+      "id": "pub-cgnep-mb-pol-2026",
+      "title": "CGNEP-MB-pol: A single-site coarse-grained machine learning potential for water",
+      "authors": "K. Xu, F. Yin, Y. Zhang, <strong>T. Liang</strong>, Z. Chen, C. Zhang, J. Lu, and J. Xu",
+      "venue": "Materials Genome Engineering Advances, e70083",
+      "year": 2026,
+      "role": "co-author",
+      "roles": [
+        "co-author"
+      ],
+      "selected": false,
+      "citations": 0,
+      "source": "Google Scholar / DOI",
+      "links": {
+        "journal": "https://doi.org/10.1002/mgea.70083",
+        "doi": "https://doi.org/10.1002/mgea.70083",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&sortby=pubdate&citation_for_view=4ei1O30AAAAJ:5Ul4iDaHHb8C"
+      }
+    },
+    {
       "id": "pub-sulfonium-peled-2026",
       "title": "Sulfonium-Ligand-Regulated Crystallization Interfacial Dynamics Enables Near-Infrared Perovskite Light-Emitting Diodes with 27% EQE",
       "authors": "X. Sun, J. Li, <strong>T. Liang</strong>, D. Liu, W. Tang, Y. Huang, Z. Chen, B. Wu, B. Chen, J. Xu, and M. Long",
@@ -333,7 +371,7 @@
         "first-author"
       ],
       "selected": true,
-      "citations": 77,
+      "citations": 83,
       "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1038/s43588-026-01009-6",
@@ -360,7 +398,7 @@
         "dataset": "https://github.com/Tingliangstu/Paper_Projects/tree/main",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:u_35RYKgDlwC"
       },
-      "citations": 11,
+      "citations": 12,
       "source": "Google Scholar / DOI"
     },
     {
@@ -438,7 +476,7 @@
         "code": "https://github.com/Tingliangstu/pySED",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:KxtntwgDAa4C"
       },
-      "citations": 32,
+      "citations": 33,
       "source": "Google Scholar / DOI"
     },
     {
@@ -449,7 +487,7 @@
       "year": 2023,
       "role": "first-author",
       "selected": true,
-      "citations": 59,
+      "citations": 62,
       "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1103/PhysRevB.108.184203",
@@ -482,7 +520,7 @@
       "year": 2020,
       "role": "first-author",
       "selected": true,
-      "citations": 231,
+      "citations": 236,
       "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1016/j.ijheatmasstransfer.2020.119395",
@@ -514,7 +552,7 @@
       "year": 2018,
       "role": "first-author",
       "selected": false,
-      "citations": 60,
+      "citations": 61,
       "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1039/c8cp02831a",
@@ -557,7 +595,7 @@
         "doi": "https://doi.org/10.1021/acsami.5c06264",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:f2IySw72cVMC"
       },
-      "citations": 15,
+      "citations": 16,
       "source": "Google Scholar / DOI"
     },
     {
@@ -639,7 +677,7 @@
       "year": 2023,
       "role": "co-first-author",
       "selected": false,
-      "citations": 46,
+      "citations": 48,
       "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1016/j.ijheatmasstransfer.2023.124662",
@@ -676,7 +714,7 @@
         "doi": "https://doi.org/10.1021/acs.jpclett.5c01802",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:NhqRSupF_l8C"
       },
-      "citations": 3,
+      "citations": 5,
       "source": "Google Scholar / DOI"
     },
     {
@@ -692,7 +730,7 @@
         "doi": "https://doi.org/10.1021/acsnano.4c12148",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:fPk4N6BV_jEC"
       },
-      "citations": 32,
+      "citations": 34,
       "source": "Google Scholar / DOI"
     },
     {
@@ -708,7 +746,7 @@
         "doi": "https://doi.org/10.1038/s41524-025-01777-1",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:3s1wT3WcHBgC"
       },
-      "citations": 31,
+      "citations": 35,
       "source": "Google Scholar / DOI"
     },
     {
@@ -820,7 +858,7 @@
         "doi": "https://doi.org/10.1002/adom.202300464",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:R3hNpaxXUhUC"
       },
-      "citations": 8,
+      "citations": 9,
       "source": "Google Scholar / DOI"
     },
     {
@@ -847,7 +885,7 @@
       "year": 2023,
       "role": "co-author",
       "selected": false,
-      "citations": 72,
+      "citations": 75,
       "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1063/5.0147039",
@@ -882,7 +920,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 258,
+      "citations": 264,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:iH-uZ7U-co4C"
@@ -899,7 +937,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 155,
+      "citations": 166,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:abG-DnoFyZgC"
@@ -916,7 +954,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 109,
+      "citations": 113,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:maZDTaKrznsC"
@@ -967,7 +1005,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 82,
+      "citations": 83,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:IWHjjKOFINEC"
@@ -1035,7 +1073,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 49,
+      "citations": 50,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:mVmsd5A6BfQC"
@@ -1069,7 +1107,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 39,
+      "citations": 40,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:9ZlFYXVOiuMC"
@@ -1120,7 +1158,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 35,
+      "citations": 37,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:rO6llkc54NcC"
@@ -1137,7 +1175,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 31,
+      "citations": 32,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:IjCSPb-OGe4C"
@@ -1188,7 +1226,7 @@
         "co-first-author"
       ],
       "selected": false,
-      "citations": 20,
+      "citations": 21,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:ZeXyd9-uunAC"
@@ -1273,7 +1311,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 12,
+      "citations": 13,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:p2g8aNsByqUC"
@@ -1290,7 +1328,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 8,
+      "citations": 9,
       "source": "Google Scholar / DOI",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:4fKUyHm3Qg0C",
@@ -1370,8 +1408,8 @@
     {
       "id": "pub-wide-field-quantitative-mapping-thermal-properties-structural-defects-2026",
       "title": "Wide-field quantitative mapping of thermal properties and structural defects at deeply buried interfaces",
-      "authors": "H Shi, X Li, <strong>T. Liang</strong>, Z Wen, Y Yao, J Xu, R Sun, M Han, X Gu",
-      "venue": "Available at SSRN 6511811, 2026",
+      "authors": "H. Shi, X. Li, <strong>T. Liang</strong>, Z. Wen, Y. Yao, J. Xu, R. Sun, M. Han, and X. Gu",
+      "venue": "International Journal of Heat and Mass Transfer 271, 129464",
       "year": 2026,
       "role": "co-author",
       "roles": [
@@ -1379,10 +1417,11 @@
       ],
       "selected": false,
       "citations": 0,
-      "source": "Google Scholar",
+      "source": "Google Scholar / DOI",
       "links": {
-        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:K3LRdlH-MEoC",
-        "journal": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6511811"
+        "journal": "https://doi.org/10.1016/j.ijheatmasstransfer.2026.129464",
+        "doi": "https://doi.org/10.1016/j.ijheatmasstransfer.2026.129464",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&sortby=pubdate&citation_for_view=4ei1O30AAAAJ:8AbLer7MMksC"
       }
     },
     {
