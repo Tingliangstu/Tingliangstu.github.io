@@ -1,6 +1,6 @@
 const PAGE = document.body.dataset.page || "home";
 const BASE_PATH = document.body.dataset.basePath || ".";
-const DATA_VERSION = "20260930-scholar-sync";
+const DATA_VERSION = "20261026-scholar-sync";
 
 function withBase(path) {
   if (!path) {
