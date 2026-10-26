@@ -25,7 +25,7 @@
     ],
     "stats": {
       "publications": 67,
-      "cited_by": 2608,
+      "cited_by": 2728,
       "h_index": 29,
       "i10_index": 48
     },
@@ -65,11 +65,11 @@
       "source": "ORCID public record"
     },
     "source_notes": [
-      "Citation metrics and research keywords follow the public Google Scholar profile checked on September 30, 2026.",
+      "Citation metrics and research keywords follow the public Google Scholar profile checked on October 26, 2026.",
       "The local publication library de-duplicates repeated Google Scholar records while retaining Google Scholar profile totals.",
       "Employment and peer-review totals follow the public ORCID record; private ORCID dashboard-only fields are not published here.",
       "2026 publication metadata is cross-checked against Google Scholar, publisher DOI records, ORCID, and arXiv where available.",
-      "Per-paper citation counts on the Publications page follow the public Google Scholar profile checked on September 30, 2026; repeated Google Scholar records for the same title are shown once using the primary Scholar record.",
+      "Per-paper citation counts on the Publications page follow the public Google Scholar profile checked on October 26, 2026; repeated Google Scholar records for the same title are shown once using the primary Scholar record.",
       "Corresponding-author marks were audited against public publisher, DOI, and arXiv source records through September 2026; * marks corresponding authors and # marks co-first authors."
     ]
   },
@@ -390,7 +390,7 @@
         "first-author"
       ],
       "selected": true,
-      "citations": 97,
+      "citations": 115,
       "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1038/s43588-026-01009-6",
@@ -417,7 +417,7 @@
         "dataset": "https://github.com/Tingliangstu/Paper_Projects/tree/main",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:u_35RYKgDlwC"
       },
-      "citations": 17,
+      "citations": 21,
       "source": "Google Scholar / DOI"
     },
     {
@@ -437,7 +437,7 @@
         "doi": "https://doi.org/10.48550/arXiv.2604.03783",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:738O_yMBCRsC"
       },
-      "citations": 1
+      "citations": 2
     },
     {
       "id": "pub-afm-phase-change-2026",
@@ -495,7 +495,7 @@
         "code": "https://github.com/Tingliangstu/pySED",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:KxtntwgDAa4C"
       },
-      "citations": 40,
+      "citations": 44,
       "source": "Google Scholar / DOI"
     },
     {
@@ -506,7 +506,7 @@
       "year": 2023,
       "role": "first-author",
       "selected": true,
-      "citations": 63,
+      "citations": 65,
       "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1103/PhysRevB.108.184203",
@@ -539,7 +539,7 @@
       "year": 2020,
       "role": "first-author",
       "selected": true,
-      "citations": 240,
+      "citations": 245,
       "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1016/j.ijheatmasstransfer.2020.119395",
@@ -634,7 +634,7 @@
         "doi": "https://doi.org/10.1021/acs.jctc.5c01950",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:pyW8ca7W8N0C"
       },
-      "citations": 8
+      "citations": 9
     },
     {
       "id": "pub-small-2024",
@@ -649,7 +649,7 @@
         "doi": "https://doi.org/10.1002/smll.202309338",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:k_IJM867U9cC"
       },
-      "citations": 17,
+      "citations": 18,
       "source": "Google Scholar / DOI"
     },
     {
@@ -669,7 +669,7 @@
         "doi": "https://doi.org/10.1021/acs.nanolett.4c01409",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:RGFaLdJalmkC"
       },
-      "citations": 24,
+      "citations": 27,
       "source": "Google Scholar / DOI"
     },
     {
@@ -685,7 +685,7 @@
         "doi": "https://doi.org/10.1021/acsami.4c09914",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:2P1L_qKh6hAC"
       },
-      "citations": 16,
+      "citations": 17,
       "source": "Google Scholar / DOI"
     },
     {
@@ -696,7 +696,7 @@
       "year": 2023,
       "role": "co-first-author",
       "selected": false,
-      "citations": 49,
+      "citations": 51,
       "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1016/j.ijheatmasstransfer.2023.124662",
@@ -733,7 +733,7 @@
         "doi": "https://doi.org/10.1021/acs.jpclett.5c01802",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:NhqRSupF_l8C"
       },
-      "citations": 5,
+      "citations": 6,
       "source": "Google Scholar / DOI"
     },
     {
@@ -749,7 +749,7 @@
         "doi": "https://doi.org/10.1021/acsnano.4c12148",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:fPk4N6BV_jEC"
       },
-      "citations": 36,
+      "citations": 38,
       "source": "Google Scholar / DOI"
     },
     {
@@ -765,7 +765,7 @@
         "doi": "https://doi.org/10.1038/s41524-025-01777-1",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:3s1wT3WcHBgC"
       },
-      "citations": 39,
+      "citations": 43,
       "source": "Google Scholar / DOI"
     },
     {
@@ -781,7 +781,7 @@
         "doi": "https://doi.org/10.1103/PhysRevB.111.085413",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:HoB7MX3m0LUC"
       },
-      "citations": 18,
+      "citations": 19,
       "source": "Google Scholar / DOI"
     },
     {
@@ -813,7 +813,7 @@
         "doi": "https://doi.org/10.1021/acsami.5c20168",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:OU6Ihb5iCvQC"
       },
-      "citations": 4,
+      "citations": 7,
       "source": "Google Scholar / DOI"
     },
     {
@@ -861,7 +861,7 @@
         "doi": "https://doi.org/10.1016/j.ijheatmasstransfer.2022.123681",
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:7PzlFSSx8tAC"
       },
-      "citations": 23,
+      "citations": 24,
       "source": "Google Scholar / DOI"
     },
     {
@@ -888,7 +888,7 @@
       "year": 2023,
       "role": "co-author",
       "selected": false,
-      "citations": 67,
+      "citations": 70,
       "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1021/acsami.3c07770",
@@ -904,7 +904,7 @@
       "year": 2023,
       "role": "co-author",
       "selected": false,
-      "citations": 74,
+      "citations": 78,
       "source": "Google Scholar / DOI",
       "links": {
         "journal": "https://doi.org/10.1063/5.0147039",
@@ -939,7 +939,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 288,
+      "citations": 307,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:iH-uZ7U-co4C"
@@ -956,7 +956,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 191,
+      "citations": 204,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:abG-DnoFyZgC"
@@ -973,7 +973,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 117,
+      "citations": 123,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:maZDTaKrznsC"
@@ -990,7 +990,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 97,
+      "citations": 98,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:YsMSGLbcyi4C"
@@ -1007,7 +1007,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 88,
+      "citations": 89,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:_FxGoFyzp5QC"
@@ -1075,7 +1075,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 53,
+      "citations": 56,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:2osOgNQ5qMEC"
@@ -1092,7 +1092,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 52,
+      "citations": 53,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:mVmsd5A6BfQC"
@@ -1126,7 +1126,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 42,
+      "citations": 44,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:9ZlFYXVOiuMC"
@@ -1160,7 +1160,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 32,
+      "citations": 33,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:UebtZRa9Y70C"
@@ -1177,7 +1177,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 40,
+      "citations": 43,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:rO6llkc54NcC"
@@ -1194,7 +1194,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 34,
+      "citations": 35,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:IjCSPb-OGe4C"
@@ -1211,7 +1211,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 30,
+      "citations": 31,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:4DMP91E08xMC"
@@ -1245,7 +1245,7 @@
         "co-first-author"
       ],
       "selected": false,
-      "citations": 21,
+      "citations": 22,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:ZeXyd9-uunAC"
@@ -1313,7 +1313,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 14,
+      "citations": 15,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:ns9cj8rnVeAC"
@@ -1330,7 +1330,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 14,
+      "citations": 15,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:p2g8aNsByqUC"
@@ -1347,7 +1347,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 11,
+      "citations": 13,
       "source": "Google Scholar / DOI",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:4fKUyHm3Qg0C",
@@ -1418,7 +1418,7 @@
         "co-author"
       ],
       "selected": false,
-      "citations": 3,
+      "citations": 5,
       "source": "Google Scholar",
       "links": {
         "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:dfsIfKJdRG4C"
@@ -1444,21 +1444,22 @@
       }
     },
     {
-      "id": "pub-data-driven-flipping-engineering-high-thermal-anisotropy-janus-2025",
+      "id": "pub-data-driven-flipping-engineering-high-thermal-anisotropy-janus-2026",
       "title": "Data-Driven Flipping Engineering for High Thermal Anisotropy in Janus Two-Dimensional Materials",
       "authors": "X Wu, <strong>T. Liang</strong>, W Wang, J Ma, Z Fan, J Xu, S Volz, M Nomura",
-      "venue": "Available at SSRN 5864374, 2025",
-      "year": 2025,
+      "venue": "ACS Nano",
+      "year": 2026,
       "role": "co-author",
       "roles": [
         "co-author"
       ],
       "selected": false,
       "citations": 0,
-      "source": "Google Scholar",
+      "source": "Google Scholar / DOI",
       "links": {
-        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:SP6oXDckpogC",
-        "journal": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5864374"
+        "journal": "https://doi.org/10.1021/acsnano.6c07922",
+        "doi": "https://doi.org/10.1021/acsnano.6c07922",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=4ei1O30AAAAJ&pagesize=100&citation_for_view=4ei1O30AAAAJ:SP6oXDckpogC"
       }
     }
   ]
