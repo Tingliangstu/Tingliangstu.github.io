@@ -1,0 +1,102 @@
+name: Personal website and PESMaker documentation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    # Keep the original documentation URL current without a cross-repo secret.
+    - cron: "17,47 * * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.event_name == 'pull_request' && github.event.pull_request.number || 'production' }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.source.outputs.changed }}
+    steps:
+      - name: Resolve PESMaker source
+        id: source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          # The repository ID is stable across its transfer to AI4MD-lab.
+          repository=$(gh api repositories/1242157691 --jq .full_name)
+          commit=$(gh api "repos/$repository/commits/main" --jq .sha)
+          echo "repository=$repository" >> "$GITHUB_OUTPUT"
+          echo "commit=$commit" >> "$GITHUB_OUTPUT"
+          changed=true
+          if [[ "$GITHUB_EVENT_NAME" == schedule ]]; then
+            deployed=$(curl --fail --silent --show-error --max-time 30 \
+              https://tingliangstu.github.io/PESMaker/source-commit.txt || true)
+            if [[ "$deployed" == "$commit" ]]; then changed=false; fi
+          fi
+          echo "changed=$changed" >> "$GITHUB_OUTPUT"
+
+      - name: Check out personal website
+        if: steps.source.outputs.changed == 'true'
+        uses: actions/checkout@v5
+        with:
+          path: website
+          persist-credentials: false
+
+      - name: Check out PESMaker documentation source
+        if: steps.source.outputs.changed == 'true'
+        uses: actions/checkout@v5
+        with:
+          repository: ${{ steps.source.outputs.repository }}
+          ref: ${{ steps.source.outputs.commit }}
+          path: pesmaker-source
+          persist-credentials: false
+
+      - name: Set up Python
+        if: steps.source.outputs.changed == 'true'
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Build documentation at its original URL
+        if: steps.source.outputs.changed == 'true'
+        env:
+          SOURCE_COMMIT: ${{ steps.source.outputs.commit }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install './pesmaker-source[docs]'
+          python -m mkdocs build --strict --config-file pesmaker-source/mkdocs.yml \
+            --site-dir "$GITHUB_WORKSPACE/website/PESMaker"
+          printf '%s\n' "$SOURCE_COMMIT" > website/PESMaker/source-commit.txt
+          test -s website/index.html
+          test -s website/PESMaker/index.html
+          test -s website/PESMaker/usage/index.html
+          test -s website/PESMaker/search/search_index.json
+
+      - name: Upload combined site
+        if: steps.source.outputs.changed == 'true'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: website
+
+  deploy:
+    if: github.event_name != 'pull_request' && needs.build.outputs.changed == 'true'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy personal website and documentation
+        id: deployment
+        uses: actions/deploy-pages@v4
